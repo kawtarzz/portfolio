@@ -2,7 +2,9 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import CookiJar1 from "../../../assets/img/portfoliosection/app1.jpg";
+import ColijalaImg1 from "../../../assets/img/colijala/colijala-main-img.jpg";
+import ColijalaImg2 from "../../../assets/img/colijala/colijala2.jpg";
+import ColijalaImg3 from "../../../assets/img/colijala/colijala3.jpg";
 
 class ColijalaImageSlider extends React.Component {
   render() {
@@ -17,10 +19,13 @@ class ColijalaImageSlider extends React.Component {
     return (
       <Slider {...settings} className="main_image_slider">
         <div>
-          <img className="nairobi_img1" src={CookiJar1} alt="Slide 1" />
+          <img className="nairobi_img1" src={ColijalaImg1} alt="Slide 1" />
         </div>
         <div>
-          <img className="nairobi_img1" src={CookiJar1} alt="Slide 3" />
+          <img className="nairobi_img1" src={ColijalaImg2} alt="Slide 2" />
+        </div>
+        <div>
+          <img className="nairobi_img1" src={ColijalaImg3} alt="Slide 3" />
         </div>
       </Slider>
     );

@@ -103,14 +103,14 @@ const SolutionSection = () => {
                 <h4 className="d-none">hidden</h4>
                 <h5 className="d-none">hidden</h5>
                 <h6 className="website-text prev-text m-0">
-                  <a href="/colijala">PREV</a>
+                  <a href="/normalcoffee">PREV</a>
                 </h6>
                 <h4 className="colijala-text">
-                  <a href="/colijala">Moligo</a>
+                  <a href="/normalcoffee">Normal Coffee</a>
                 </h4>
               </div>
               <div className="red">
-                <a href="/projects/shoptheblock">
+                <a href="/projects/normalcoffee">
                   <div className="arrow-pro"></div>
                 </a>
               </div>
@@ -122,7 +122,7 @@ const SolutionSection = () => {
                   <a href="/projects/shoptheblock">NEXT</a>
                 </h6>
                 <h4 className="colijala-text">
-                  <a href="/projects/shoptheblock">Bolmija</a>
+                  <a href="/projects/shoptheblock">Shop the Block</a>
                 </h4>
               </div>
               <div className="red">

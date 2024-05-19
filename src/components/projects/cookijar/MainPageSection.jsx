@@ -62,7 +62,7 @@ const MainPageSection = () => {
           </div>
           <div className="main_text2">
             <h2 className="date">August 2023</h2>
-            <h1 className="nairobi_text colijala-main-text" data-aos="fade-up">
+            <h1 className="project_text colijala-main-text" data-aos="fade-up">
             CookiJar
             </h1>
             <p className="design_text colijala-second-main-text">
@@ -78,7 +78,7 @@ const MainPageSection = () => {
               <li className="sub-list">Bootstrap / Reactstrap</li>
               <li className="sub-list">HTML5</li>
               <li className="sub-list">CSS3</li>
-              <li className="sub-list">Javascript Server</li>
+              <li className="sub-list">Javascript</li>
               </div>
             </p>
     

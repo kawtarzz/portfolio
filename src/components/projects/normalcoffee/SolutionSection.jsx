@@ -7,7 +7,6 @@ import heartSvg from "../../../assets/img/svg/heart-line.svg";
 import heartSvgActive from "../../../assets/img/svg/heart-fill.svg";
 
 
-
 const SolutionSection = () => {
   const [likeCount, setLikeCount] = useState(8); // Initial like count
   const [liked, setLiked] = useState(false);
@@ -34,15 +33,16 @@ const SolutionSection = () => {
               Solution
             </h2>
             <p className="unconventional" data-aos="fade-up">
-            Shop the Block is a full-stack e-commerce site I built as my final 
-            project at Nashville Software School. It has full CRUD functionality, 
-            allowing users to manage items in their shopping cart and place orders. 
-            The app's data structure, designed with DB Diagram, includes multiple 
-            one-to-many and many-to-many relationships. User authentication and 
-            authorization are handled with Firebase. The tech stack includes React, 
-            JavaScript, CSS, HTML, C#, .NET Core, SQL Server, and Bootstrap. 
-            This project enhanced my understanding of the React framework, Firebase
-             authentication, and using ADO.NET for building a web API and SQL Server for database creation.
+            CookiJar meets this challenge by allowing users to define
+            their own rewards and point system. Users can create, view,
+             edit, and delete tasks, earning points for each completed task. 
+             Accumulated points can be redeemed for user-defined rewards. 
+             The application ensures a responsive user experience with Bootstrap 
+             and flexboxes, and provides error handling for form submissions 
+             and deletions. All user data is stored in a JSON server, making 
+             each user's experience unique. This project, my first using React, 
+             enhanced my understanding of the framework, REST APIs, and fetch calls
+              for querying APIs.
             </p>
             <div className="solution-half-circle">
               <img
@@ -57,8 +57,7 @@ const SolutionSection = () => {
               />
             </div>
           </div>
-         
-          {/* <!-- ====================================== Like Button ===================================== --> */}
+        
           <div
             className="like-button-circle position-relative"
             data-aos="fade-up"
@@ -93,7 +92,7 @@ const SolutionSection = () => {
             <span className="open_likes_count">{likeCount}</span>
             <p className="like-text">{liked ? "Liked" : "Liked"}</p>
           </div>
-   
+          {/* <!-- ====================================== Like Button End ===================================== --> */}
           <div className="next-prev-buttons overflow-hidden">
             <div
               className="colijala-text-group colijala-text-group2"
@@ -111,7 +110,7 @@ const SolutionSection = () => {
                 </h4>
               </div>
               <div className="red">
-                <a href="/projects/cookijar">
+                <a href="/projects/shoptheblock">
                   <div className="arrow-pro"></div>
                 </a>
               </div>
@@ -120,14 +119,14 @@ const SolutionSection = () => {
               <div className="right-line">
                 <h5 className="d-none">hidden</h5>
                 <h6 className="website-text m-0">
-                  <a href="/projects/normalCoffee">NEXT</a>
+                  <a href="/projects/shoptheblock">NEXT</a>
                 </h6>
                 <h4 className="colijala-text">
-                  <a href="/projects/cookijar">Normal Coffee</a>
+                  <a href="/projects/shoptheblock">Shop the Block</a>
                 </h4>
               </div>
               <div className="red">
-                <a href="/projects/normalcoffee">
+                <a href="/projects/shoptheblock">
                   <div className="arrow-pro"></div>
                 </a>
               </div>

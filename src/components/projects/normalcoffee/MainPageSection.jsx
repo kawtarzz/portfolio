@@ -5,7 +5,6 @@ import MultiplicationSvg2 from "../../../assets/img/svg/yellow-multiplication.sv
 import HalfCircleSvg1 from "../../../assets/img/svg/half-circle-yellow.svg";
 import HalfCircleSvg2 from "../../../assets/img/svg/half-circle-black.svg";
 
-
 const MainPageSection = () => {
   // circle and multiplication moving functionality
   useEffect(() => {
@@ -64,24 +63,25 @@ const MainPageSection = () => {
           <div className="main_text2">
             <h2 className="date">August 2023</h2>
             <h1 className="project_text colijala-main-text" data-aos="fade-up">
-              shopTheBlock
+            CookiJar
             </h1>
             <p className="design_text colijala-second-main-text">
-            ShopTheBlock is a website that aims to supply local artists and makers 
-           with a platform to connect and sell to their local community. The idea sparked
-           from personal challenges selling through popular marketplaces such as Etsy. Hearing 
-           from other friends and owners of small businesses, I realized I was not alone with my complaints.
-           The demand for a fair marketplace with lower fees and a localized search option was clearly out there. 
-           I built the website as my capstone project for Nashville Software School's Software Development bootcamp. 
+            CookiJar is a productivity tracking application that gamifies
+            task management. Built with React and JSON server, it allows users 
+            to assign point values to tasks and earn rewards upon completion.
+             The application features full CRUD functionality, user authentication, and a responsive design.
             <div className="sub-list">
                 <h6 className="sub-text">Technology Stack:</h6>
 
               <li className="sub-list">React.JS</li> 
-              <li className="sub-list">.NET / C#</li>
-              <li className="sub-list">SQL</li>
+              <li className="sub-list">JSON Server</li>
+              <li className="sub-list">Bootstrap / Reactstrap</li>
+              <li className="sub-list">HTML5</li>
+              <li className="sub-list">CSS3</li>
+              <li className="sub-list">Javascript Server</li>
               </div>
             </p>
-      
+    
           </div>
         </div>
       </div>

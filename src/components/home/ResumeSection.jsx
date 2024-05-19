@@ -4,14 +4,12 @@ import EnvatoIcon from "../../assets/img/svg/envato-icon.svg";
 import AppleIcon from "../../assets/img/svg/apple-icon.svg";
 import TwitterIcon from "../../assets/img/svg/twitter-icon.svg";
 import ResumeProfileImg from "../../assets/img/resumeimg/resume-img.png";
-import FrameSvg from "../../assets/img/svg/s-frame.svg";
 import YellowFrameSvg from "../../assets/img/svg/traingle-yellow-frame.svg";
 import BlackFrameSvg from "../../assets/img/svg/traingle-black-frame.svg";
 import HalfCircleBlack from "../../assets/img/svg/black-half-circal.svg";
 import HalfCircleYellow from "../../assets/img/svg/yellow-half-circle.svg";
 import ProgressScroll from "./ProgressScroll";
 import RevealOnScroll from "./RevealOnScroll";
-import { Link } from "react-router-dom";
 
 const ResumeSection = () => {
   const progressBarRefs = useRef([]);

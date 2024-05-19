@@ -22,7 +22,7 @@ const Marque = () => {
                   </div>
                   <div>
                     <h6 className="client-marquee-txt">Development</h6>
-                    <p className="kobe-txt">React.JS, .NET / C#, SQLServer</p>
+                    <p className="kobe-txt">React.JS + JSON Server</p>
                   </div>
                 </div>
                 <div aria-hidden="true" className="marquee__content">
@@ -40,7 +40,7 @@ const Marque = () => {
                   </div>
                   <div>
                     <h6 className="client-marquee-txt">Development</h6>
-                    <p className="kobe-txt">React.JS, .NET / C#, SQLServer</p>
+                    <p className="kobe-txt">React.JS + JSON Server</p>
                   </div>
                 </div>
               </div>

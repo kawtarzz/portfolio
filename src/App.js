@@ -16,6 +16,7 @@ import "./styles/news.css";
 import "./styles/style.css";
 import CookiJar from "./components/CookiJar.jsx";
 import ShopTheBlock from "./components/ShopTheBlock.jsx";
+import NormalCoffee from "./components/NormalCoffee.jsx";
 
 
 function App() {
@@ -82,6 +83,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projects/cookijar" element={<CookiJar />} />
         <Route path="/projects/shoptheblock" element={<ShopTheBlock />} />
+        <Route path="/projects/normalcoffee" element={<NormalCoffee />} />
+
 
       </Routes>
 

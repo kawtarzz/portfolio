@@ -83,10 +83,10 @@ export default function MainPageSection() {
               <Link to="https://www.instagram.com/RIVER.IN.PARADISE">Ins.</Link>
             </p>
             <p className="fb">
-              <Link to="https://www.behance.net/">Be.</Link>
+              <Link to="https://www.behance.net/kawtarazzouzi/moodboards">Be.</Link>
             </p>
             <p className="fb">
-              <Link to="https://dribbble.com/">Db.</Link>
+              <Link to="https://dribbble.com/kawtar">Db.</Link>
             </p>
           </div>
         </div>

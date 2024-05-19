@@ -1,7 +1,6 @@
 import React from "react";
 import HalfCircleSvg1 from "../../assets/img/svg/half-circle-yellow.svg";
 import HalfCircleSvg2 from "../../assets/img/svg/half-circle-black.svg";
-import PhoneSvg from "../../assets/img/svg/phone.svg";
 import LocationSvg from "../../assets/img/svg/location.svg";
 import FbIcon from "../../assets/img/svg/fb-icon.svg";
 import TwitIcon from "../../assets/img/svg/twit-icon.svg";
