@@ -8,7 +8,8 @@ const FooterSection = () =>
           <div className="all-page-border2 border-bottom-0">
             <p className="reserved">
               {" "}
-            Welcome to the footer. This is the end of my website!
+               All rights reserved. <br></br>
+               &copy; 2024 Kawtar Azzouzi
             </p>
           </div>
         </footer>

@@ -44,7 +44,7 @@ export default function MainPageSection() {
   }, []);
   return (
     <>
-        <div className="main-page container">
+        <div className="main-page">
             <img
               className="black-multiplication object hello-box"
               data-value="-10"

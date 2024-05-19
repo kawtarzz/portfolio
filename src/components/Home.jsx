@@ -33,7 +33,7 @@ const Home = () => {
 
   return (
     <>
-        <div class="container">
+        <div>
           <MenuSection />
           <div className="all-page-border active_menus">
             <MainPageSection />
@@ -64,6 +64,9 @@ const Home = () => {
           <section className="overflow-hidden">
             <ServicesSection />
           </section>
+          <section className="active_menus overflow-hidden" id="portfolio">
+            <PortFolioSection />
+          </section>
           <section className="active_menus overflow-hidden" id="resume">
             <div className="all-page-border2 resume-bg">
 
@@ -77,9 +80,6 @@ const Home = () => {
                 </div>
             </div>
             <ResumeSection />
-          </section>
-          <section className="active_menus overflow-hidden" id="portfolio">
-            <PortFolioSection />
           </section>
          
           <section id="contact">
