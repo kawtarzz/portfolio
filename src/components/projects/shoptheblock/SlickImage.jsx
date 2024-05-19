@@ -2,9 +2,9 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ColijalaImg1 from "../../assets/img/colijala/colijala-main-img.jpg";
-import ColijalaImg2 from "../../assets/img/colijala/colijala2.jpg";
-import ColijalaImg3 from "../../assets/img/colijala/colijala3.jpg";
+import ColijalaImg1 from "../../../assets/img/colijala/colijala-main-img.jpg";
+import ColijalaImg2 from "../../../assets/img/colijala/colijala2.jpg";
+import ColijalaImg3 from "../../../assets/img/colijala/colijala3.jpg";
 
 class ColijalaImageSlider extends React.Component {
   render() {

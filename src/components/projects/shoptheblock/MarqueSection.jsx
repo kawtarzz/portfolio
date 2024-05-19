@@ -10,7 +10,7 @@ const Marque = () => {
                 <div className="marquee__content">
                   <div>
                     <h6 className="client-marquee-txt">CLIENT</h6>
-                    <p className="kobe-txt">Kobe taylor</p>
+                    <p className="kobe-txt">Capstone Project</p>
                   </div>
                   <div>
                     <h6 className="client-marquee-txt">CATEGORY</h6>
@@ -28,7 +28,7 @@ const Marque = () => {
                 <div aria-hidden="true" className="marquee__content">
                   <div>
                     <h6 className="client-marquee-txt">CLIENT</h6>
-                    <p className="kobe-txt">Kobe taylor</p>
+                    <p className="kobe-txt">Capstone Project</p>
                   </div>
                   <div>
                     <h6 className="client-marquee-txt">CATEGORY</h6>
@@ -40,7 +40,7 @@ const Marque = () => {
                   </div>
                   <div>
                     <h6 className="client-marquee-txt">Development</h6>
-                    <p className="kobe-txt">WordPress</p>
+                    <p className="kobe-txt">React.JS, .NET / C#, SQLServer</p>
                   </div>
                 </div>
               </div>

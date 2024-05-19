@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import Home from "./components/Home";
 
+import AnimCursor from "./components/AnimatedCursor.jsx";
 import faArrowUp from "./assets/img/svg/arrow-up-line.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -13,8 +14,8 @@ import "./styles/homeMedia.css";
 import "./styles/news_single.css";
 import "./styles/news.css";
 import "./styles/style.css";
-import AnimCursor from "./components/AnimatedCursor.jsx";
 import CookiJar from "./components/CookiJar.jsx";
+import ShopTheBlock from "./components/ShopTheBlock.jsx";
 
 
 function App() {
@@ -80,6 +81,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects/cookijar" element={<CookiJar />} />
+        <Route path="/projects/shoptheblock" element={<ShopTheBlock />} />
+
       </Routes>
 
       <AnimCursor />

@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import HalfCircleSvg1 from "../../assets/img/svg/half-circle-yellow.svg";
-import HalfCircleSvg2 from "../../assets/img/svg/half-circle-black.svg";
-import HalfCircleBlack from "../../assets/img/svg/black-half-circal.svg";
-import HalfCircleYellow from "../../assets/img/svg/yellow-half-circle.svg";
-import heartSvg from "../../assets/img/svg/heart-line.svg";
-import heartSvgActive from "../../assets/img/svg/heart-fill.svg";
+import HalfCircleSvg1 from "../../../assets/img/svg/half-circle-yellow.svg";
+import HalfCircleSvg2 from "../../../assets/img/svg/half-circle-black.svg";
+import HalfCircleBlack from "../../../assets/img/svg/black-half-circal.svg";
+import HalfCircleYellow from "../../../assets/img/svg/yellow-half-circle.svg";
+import heartSvg from "../../../assets/img/svg/heart-line.svg";
+import heartSvgActive from "../../../assets/img/svg/heart-fill.svg";
+
 
 
 const SolutionSection = () => {

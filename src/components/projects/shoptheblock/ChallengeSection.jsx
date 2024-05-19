@@ -1,10 +1,9 @@
 import React, {useEffect, useRef} from "react";
-import BlackDotSvg from "../../assets/img/svg/black-dots.svg";
-import YellowSquare from "../../assets/img/svg/yellow-square-frame.svg";
-import YellowFrameSvg from "../../assets/img/svg/traingle-yellow-frame.svg";
-import BlackFrameSvg from "../../assets/img/svg/traingle-black-frame.svg";
-import video1 from "../../assets/video/video5.mp4"
-
+import BlackDotSvg from "../../../assets/img/svg/black-dots.svg";
+import YellowSquare from "../../../assets/img/svg/yellow-square-frame.svg";
+import YellowFrameSvg from "../../../assets/img/svg/traingle-yellow-frame.svg";
+import BlackFrameSvg from "../../../assets/img/svg/traingle-black-frame.svg";
+import video1 from "../../../assets/video/video5.mp4"
 const ChallengeSection = () =>
 {
   const vidRef = useRef();
