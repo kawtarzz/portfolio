@@ -3,7 +3,7 @@ import BlackDotSvg from "../../../assets/img/svg/black-dots.svg";
 import YellowSquare from "../../../assets/img/svg/yellow-square-frame.svg";
 import YellowFrameSvg from "../../../assets/img/svg/traingle-yellow-frame.svg";
 import BlackFrameSvg from "../../../assets/img/svg/traingle-black-frame.svg";
-import normalCoffee1 from "../../../assets/img/normalCoffee/Diversity.f02.jpg"
+import normalCoffee1 from "../../../assets/img/portfoliosection/normalCoffee/Diversity.f02.jpg"
 const ChallengeSection = () =>
 {
     return (

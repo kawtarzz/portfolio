@@ -3,7 +3,7 @@ import BlackYellowSvg from "../../assets/img/resumeimg/black-yellow-circle.jpg";
 import EnvatoIcon from "../../assets/img/svg/envato-icon.svg";
 import AppleIcon from "../../assets/img/svg/apple-icon.svg";
 import TwitterIcon from "../../assets/img/svg/twitter-icon.svg";
-import ResumeProfileImg from "../../assets/img/resumeimg/resume-img.png";
+import ResumeProfileImg from "../../assets/img/resumeimg/resume-img.jpg";
 import YellowFrameSvg from "../../assets/img/svg/traingle-yellow-frame.svg";
 import BlackFrameSvg from "../../assets/img/svg/traingle-black-frame.svg";
 import HalfCircleBlack from "../../assets/img/svg/black-half-circal.svg";

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ShopBlock1 from "../../assets/img/portfoliosection/shoptheblock/shoptheblock_sq.jpg";
 import CookiJar1 from "../../assets/img/portfoliosection/cookijar/cookijar_sq.jpg";
-import NormalCoffee1 from "../../assets/img/normalCoffee/Logo_Sq.jpg"
+import NormalCoffee1 from "../../assets/img/portfoliosection/normalCoffee/Logo_Sq.jpg";
 import { Link } from "react-router-dom";
 
 const PortFolioSection = () => {

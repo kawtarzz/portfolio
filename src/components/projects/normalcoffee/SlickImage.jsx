@@ -2,11 +2,11 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import NormalCoffeeImg01 from "../../../assets/img/normalCoffee/Diversity.f01.jpg"
-import NormalCoffeeImg02 from "../../../assets/img/normalCoffee/Diversity.f02.jpg"
-import NormalCoffeeImg03 from "../../../assets/img/normalCoffee/diversity.f03.jpg"
-import NormalCoffeeImg04 from "../../../assets/img/normalCoffee/Diversity.f04.jpg"
-import NormalCoffeeImg05 from "../../../assets/img/normalCoffee/diversity.f05.jpg"
+import NormalCoffeeImg01 from "../../../assets/img/portfoliosection/normalCoffee/Diversity.f01.jpg"
+import NormalCoffeeImg02 from "../../../assets/img/portfoliosection/normalCoffee/Diversity.f02.jpg"
+import NormalCoffeeImg03 from "../../../assets/img/portfoliosection/normalCoffee/diversity.f03.jpg"
+import NormalCoffeeImg04 from "../../../assets/img/portfoliosection/normalCoffee/Diversity.f04.jpg"
+import NormalCoffeeImg05 from "../../../assets/img/portfoliosection/normalCoffee/diversity.f05.jpg"
 
 class ColijalaImageSlider extends React.Component {
   render() {
