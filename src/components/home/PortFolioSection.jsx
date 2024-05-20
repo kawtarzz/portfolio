@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import ShopBlock1 from "../../assets/img/portfoliosection/app2.jpg";
-import CookiJar1 from "../../assets/img/portfoliosection/app1.jpg"
+import ShopBlock1 from "../../assets/img/portfoliosection/shoptheblock/shoptheblock_sq.jpg";
+import CookiJar1 from "../../assets/img/portfoliosection/cookijar/cookijar_sq.jpg";
+import NormalCoffee1 from "../../assets/img/normalCoffee/Logo_Sq.jpg"
 import { Link } from "react-router-dom";
 
 const PortFolioSection = () => {
@@ -123,7 +124,7 @@ const PortFolioSection = () => {
                     <Link to="/projects/normalcoffee">
                       <img
                         className="colijala-img"
-                        src={CookiJar1}
+                        src={NormalCoffee1}
                         alt="bolmija"
                       />
                     </Link>

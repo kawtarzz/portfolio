@@ -63,10 +63,10 @@ const MainPageSection = () => {
           </div>
           <div className="main_text2">
             <h2 className="date">August 2023</h2>
-            <h1 className="project_text colijala-main-text" data-aos="fade-up">
+            <h1 className="project_text project-title" data-aos="fade-up">
               shopTheBlock
             </h1>
-            <p className="design_text colijala-second-main-text">
+            <p className="design_text">
             ShopTheBlock is a website that aims to supply local artists and makers 
            with a platform to connect and sell to their local community. The idea sparked
            from personal challenges selling through popular marketplaces such as Etsy. Hearing 

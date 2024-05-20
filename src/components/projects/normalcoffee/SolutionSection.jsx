@@ -33,16 +33,7 @@ const SolutionSection = () => {
               Solution
             </h2>
             <p className="unconventional" data-aos="fade-up">
-            CookiJar meets this challenge by allowing users to define
-            their own rewards and point system. Users can create, view,
-             edit, and delete tasks, earning points for each completed task. 
-             Accumulated points can be redeemed for user-defined rewards. 
-             The application ensures a responsive user experience with Bootstrap 
-             and flexboxes, and provides error handling for form submissions 
-             and deletions. All user data is stored in a JSON server, making 
-             each user's experience unique. This project, my first using React, 
-             enhanced my understanding of the framework, REST APIs, and fetch calls
-              for querying APIs.
+           The client wanted to show the diversity of their client base. The initial style frames included a male figure and the re-design framed a female minority as our protagonist. The re-design also allowed for diversifying the character poses, as the client was able to extend their budget for a character animator. The action pose brought more emotion and life to the character and communicated the character's newfound energy. 
             </p>
             <div className="solution-half-circle">
               <img

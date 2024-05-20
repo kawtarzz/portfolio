@@ -39,9 +39,8 @@
 }
 
 @media(max-width:1780px) {
-    .nairobi_img1 {
+    .project_img1 {
         max-width: 80% !important;
-        border-radius: 50%;
         position: relative;
         left: 80px !important;
         margin-top: 100px !important;
@@ -49,8 +48,33 @@
     }
 
     .main_text2 {
-        transform: translate(0, 47%);
+        display: block;
+        color: var(--secondary-color);
+        transform: translate(0, 20%);
         margin-top: 0px;
+        padding-bottom: 50px;
+        padding-right:50px;
+        font-size: 40px;
+    }
+
+    .project-title {
+        padding-bottom: 40px !important;
+        font-size: 50px !important;
+        line-height: 80px !important;
+    }
+
+    .design_text {
+        font-size: 22px !important;
+        line-height: 33px !important;
+        margin: 0 !important;
+    }
+
+    .sub-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: 20px;
+        line-height: 10px;
     }
 
     .half2-cricle {
@@ -158,9 +182,9 @@
 }
 
 @media(max-width:1680px) {
-    .nairobi_img1 {
+    .project_img1 {
         max-width: 100% !important;
-        border-radius: 50%;
+        border-radius: 0%;
         position: relative;
         left: 0 !important;
         margin: 100px auto 40px !important;
@@ -222,22 +246,32 @@
 
 
 @media (max-width: 1560px) {
-    .nairobi_img1 {
+    .project_img1 {
         max-width: 80% !important;
-        border-radius: 50%;
         position: relative;
         left: 0 !important;
-        margin: 100px auto 0px !important;
+        margin: 60px auto 0px !important;
     }
 
     .main_text {
         transform: translate(0, 50%) !important;
         margin-top: 10px !important;
     }
-
     .main_text2 {
-        transform: translate(0, 40%);
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        transform: translate(0, 20%);
         margin-top: 0px;
+        min-height: 750px;
+    }
+
+    .sub-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: 18px;
+        line-height: 5px;
     }
 
     .share-list {
@@ -246,10 +280,10 @@
         padding: 60px 12px 0 12px;
     }
 
-    .colijala-main-text {
+    .project-title{
         padding-bottom: 40px !important;
-        font-size: 90px !important;
-        line-height: 100px !important;
+        font-size: 50px !important;
+        line-height: 80px !important;
     }
 
     .main-text-box {
@@ -331,9 +365,8 @@
         line-height: 80px !important;
     }
 
-    .nairobi_img1 {
-        max-width: 80% !important;
-        border-radius: 50%;
+    .project_img1 {
+        max-width: 100% !important;
         position: relative;
         left: 0 !important;
         margin: 120px auto 0px !important;
@@ -389,9 +422,8 @@
         padding: 0 12px 60px;
     }
 
-    .nairobi_img1 {
+    .project_img1 {
         max-width: 87% !important;
-        border-radius: 50% !important;
         position: relative;
         left: 0 !important;
         margin-top: 100px !important;
@@ -404,10 +436,25 @@
     }
 
     .main_text2 {
-        transform: translate(0, 35%);
-        margin-top: 0px;
+        transform: translate(0, 10%);
+        padding-bottom:30px;
+        min-height:fit-content;
     }
 
+    .design_text {
+        font-size: 18px !important;
+        line-height: 33px !important;
+        margin: 0 !important;
+    }
+
+
+    .sub-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    
     .share-list {
         padding: 50px 12px 0 12px;
     }
@@ -513,7 +560,7 @@
 
 @media (max-width: 1400px) {
     .container-preloader .animation-preloader .txt-loading .characters {
-        font-size: 100px !important;
+        font-size: 80px !important;
         line-height: 120px !important;
     }
 
@@ -617,11 +664,13 @@
 
     .design_text {
         color: var(--text-color);
-        font-size: 26px !important;
-        line-height: 36px !important;
+        font-size: 18px !important;
+        line-height: 28px !important;
         margin: 0 !important;
+        padding-bottom: 20px;
     }
 
+   
     .resume-bg {
         background-image: url(../assets/img/svg/shapes-bg.svg) !important;
         height: 100% !important;
@@ -909,10 +958,10 @@
         padding: 20px 12px !important;
     }
 
-    .colijala-main-text {
-        padding-bottom: 30px !important;
-        font-size: 100px !important;
-        line-height: 100px !important;
+    .project-title {
+        padding-bottom: 10px !important;
+        font-size: 40px !important;
+        line-height: 60px !important;
     }
 
     .multiplication-frame-main {
@@ -1074,7 +1123,7 @@
         padding: 0px 0px 0 0 !important;
     }
 
-    .nairobi_img1 {
+    .project_img1 {
         margin-top: 80px !important;
     }
 
@@ -1210,16 +1259,21 @@
         height: 100%;
     }
 
-    .main_text2 {
-        transform: translate(0, 30%);
-        margin-top: 0px;
+    .project-title {
+        color: var(--secondary-color);
+        padding-bottom: 25px !important;
+        font-size: 40px !important;
+        line-height: 60px !important;
     }
 
-    .colijala-main-text {
-        padding-bottom: 25px !important;
-        font-size: 90px !important;
-        line-height: 90px !important;
+    .main_text2 {
+        display: block;
+        transform: translate(0, 10%);
+        margin-top: 0px;
+        padding-bottom: 80px;
+        min-height: 700px;
     }
+
 
     .spacer {
         padding: 70px 0 !important;
@@ -1231,7 +1285,7 @@
         padding-bottom: 20px !important;
     }
 
-    .nairobi_img1 {
+    .project_img1 {
         margin-top: 110px !important;
     }
 
@@ -1849,8 +1903,11 @@
     }
 
     .main_text2 {
-        transform: translate(0, 23%);
+        transform: translate(0, 13%);
         margin-top: 0px;
+        padding-bottom: 80px;
+        min-height: 800px;
+
     }
 
     .share-list {
@@ -1987,8 +2044,9 @@
         height: 315px !important;
     }
 
+   
     .design_text {
-        font-size: 22px !important;
+        font-size: 18px !important;
         line-height: 33px !important;
         margin: 0 !important;
     }
@@ -2273,7 +2331,7 @@
 
     .project_text {
         text-align: center;
-        font-size:large;
+        font-size:26px;
     }
 
     .Typewriter__cursor {
@@ -2293,9 +2351,8 @@
         justify-content: center;
     }
 
-    .nairobi_img1 {
+    .project_img1 {
         max-width: 60% !important;
-        border-radius: 50%;
         position: relative;
         left: 0 !important;
         margin: 50px auto 0px !important;
@@ -2403,7 +2460,7 @@
 
     .design_text {
         color: var(--text-color);
-        font-size: 24px !important;
+        font-size: 22px !important;
         line-height: 36px !important;
         margin: 0 auto !important;
         text-align: center;
@@ -2994,7 +3051,7 @@
     }
 
     .container-preloader .animation-preloader .txt-loading .characters {
-        font-size: 70px !important;
+        font-size: 60px !important;
         line-height: 80px !important;
     }
 
@@ -3038,7 +3095,7 @@
         animation: rotate-animation2 10s infinite linear;
     }
 
-    .nairobi_img1 {
+    .project_img1 {
         margin: 30px auto 0px !important;
     }
 
@@ -3083,10 +3140,10 @@
         justify-content: center;
     }
 
-    .colijala-main-text {
+   .project-title {
         padding-bottom: 15px !important;
-        font-size: 78px !important;
-        line-height: 90px !important;
+        font-size: 40px !important;
+        line-height: 60px !important;
     }
 
     .main-page-space {
@@ -3800,8 +3857,9 @@
         transform: translate(0, 20%) !important;
     }
 
-    .nairobi_img1 {
-        margin: 5px auto 20px !important;
+    .project_img1 {
+        margin: 5px auto 10px !important;
+       
     }
 
     .say-hello-main {
@@ -4437,10 +4495,10 @@
         padding-bottom: 14px !important;
     }
 
-    .colijala-main-text {
+    .project-title {
         padding-bottom: 10px !important;
-        font-size: 65px !important;
-        line-height: 70px !important;
+        font-size: 30px !important;
+        line-height: 50px !important;
     }
 
     .main-page-space {
@@ -4830,7 +4888,7 @@
         padding-bottom: 10px !important;
     }
 
-    .nairobi_img1 {
+    .project_img1 {
         margin: 0px auto 10px !important;
     }
 
@@ -5247,9 +5305,9 @@
 }
 
 @media (max-width: 400px) {
-    .colijala-main-text {
+    .project-title{
         padding-bottom: 10px !important;
-        font-size: 54px !important;
+        font-size: 34px !important;
         line-height: 70px !important;
     }
 
@@ -5264,6 +5322,8 @@
     .main_text2 {
         transform: translate(0, 16%);
         margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .about_top-spacer {

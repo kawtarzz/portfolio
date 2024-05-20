@@ -3,14 +3,11 @@ import BlackDotSvg from "../../../assets/img/svg/black-dots.svg";
 import YellowSquare from "../../../assets/img/svg/yellow-square-frame.svg";
 import YellowFrameSvg from "../../../assets/img/svg/traingle-yellow-frame.svg";
 import BlackFrameSvg from "../../../assets/img/svg/traingle-black-frame.svg";
-import video1 from "../../../assets/video/video5.mp4"
+import cookiJar1 from "../../../assets/img/portfoliosection/cookijar/cookijar2.png"
 
 const ChallengeSection = () =>
 {
-  const vidRef = useRef();
-  useEffect(() => {
-    vidRef.current.play();
-  }, []);
+
     return (
       <>
         <div className="all-page-border2">
@@ -46,13 +43,24 @@ const ChallengeSection = () =>
                   <div className="skill-list">
                     <ul className="skill-list-main">
                       <li>
-                        {" "}Full CRUD functionality
-                       
+                      Use the major libraries and/or frameworks that you learned during the course (e.g. React, etc...).
                       </li>
                       <li>
-                        User Authentication with registration & login. Data is user-specific.
+                      Application must support multiple routes to show different views to the user, and the user must be able to navigate to each route/view.
                       </li>
-                      <li>Responsive Design</li>
+                      <li>
+                      Must show your proficiency with following the Single Responsibility Principle by writing modular code, where each module has a single responsibility (e.g. displays a list of things, displays a single thing, manages application state, etc.).
+                      </li>
+                      <li>
+                      You must have a form that allows a user to create a new resource. Form must include a select, radio or checkbox element.
+                      </li>
+                      <li>
+                      Users must be able to delete their own data, and be prevented from deleting other customers' data.
+                      </li>
+                      <li>
+                        Recommended feature: allow users to edit their data. 
+                      </li>
+                      <li> Implement responsive, flexible layout for the app. </li>
                     </ul>
                   </div>
                 <p className="integer integer1">
@@ -73,19 +81,12 @@ const ChallengeSection = () =>
                 </div>
                 <div className="col-xl-6">
                   <div className="challenge-img-main">
-                    <video
+                    <img
                       className="challenge-img"
-                      src={video1}
-                      ref={vidRef}
-                      width="600"
+                      src={cookiJar1}
                       height="300"
-                      loop
-                      autoPlay
-                      muted
                     />
-                    {/* <video autoplay loop muted className="challenge-img">
-                      <source src={video1} type="video/mp4" />
-                    </video> */}
+               
                   </div>
                 </div>
               </div>

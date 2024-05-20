@@ -5,6 +5,7 @@ import MultiplicationSvg2 from "../../../assets/img/svg/yellow-multiplication.sv
 import HalfCircleSvg1 from "../../../assets/img/svg/half-circle-yellow.svg";
 import HalfCircleSvg2 from "../../../assets/img/svg/half-circle-black.svg";
 
+
 const MainPageSection = () => {
   // circle and multiplication moving functionality
   useEffect(() => {
@@ -62,23 +63,21 @@ const MainPageSection = () => {
           </div>
           <div className="main_text2">
             <h2 className="date">August 2023</h2>
-            <h1 className="project_text colijala-main-text" data-aos="fade-up">
-            CookiJar
+            <h1 className="project_text project-title" data-aos="fade-up">
+            Normal Coffee & Donuts
             </h1>
             <p className="design_text colijala-second-main-text">
-            CookiJar is a productivity tracking application that gamifies
-            task management. Built with React and JSON server, it allows users 
-            to assign point values to tasks and earn rewards upon completion.
-             The application features full CRUD functionality, user authentication, and a responsive design.
+            Style frames for a :15 second ad campaign for a (fictional) boutique coffee and donut shop. The ask required a mid body shot, a close up shot of the characters hand holding the product, a full body shot and a frame featuring the logo. We were also given the option to add an action shot post logo lockup.
             <div className="sub-list">
-                <h6 className="sub-text">Technology Stack:</h6>
 
-              <li className="sub-list">React.JS</li> 
-              <li className="sub-list">JSON Server</li>
-              <li className="sub-list">Bootstrap / Reactstrap</li>
-              <li className="sub-list">HTML5</li>
-              <li className="sub-list">CSS3</li>
-              <li className="sub-list">Javascript Server</li>
+              <h6 className="sub-text">Role:</h6>
+              <li className="sub-list">Art Director</li> 
+              <li className="sub-list">Illustrator</li> 
+              </div>
+            <div className="sub-list">
+                <h6 className="sub-text">Technology:</h6>
+
+              <li className="sub-list">Adobe Photoshop</li> 
               </div>
             </p>
     

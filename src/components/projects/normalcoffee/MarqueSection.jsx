@@ -10,44 +10,37 @@ const Marque = () => {
                 <div className="marquee__content">
                   <div>
                     <h6 className="client-marquee-txt">CLIENT</h6>
-                    <p className="kobe-txt">Capstone Project</p>
+                    <p className="kobe-txt">Normal Coffee & Donuts</p>
                   </div>
                   <div>
                     <h6 className="client-marquee-txt">CATEGORY</h6>
-                    <p className="kobe-txt">Website</p>
+                    <p className="kobe-txt">Illustrate for Motion</p>
                   </div>
                   <div>
                     <h6 className="client-marquee-txt">Design</h6>
-                    <p className="kobe-txt">Figma</p>
+                    <p className="kobe-txt">Adobe Photoshop</p>
                   </div>
-                  <div>
-                    <h6 className="client-marquee-txt">Development</h6>
-                    <p className="kobe-txt">React.JS + JSON Server</p>
-                  </div>
+               
                 </div>
                 <div aria-hidden="true" className="marquee__content">
                   <div>
-                    <h6 className="client-marquee-txt">CLIENT</h6>
-                    <p className="kobe-txt">Capstone Project</p>
+                  <h6 className="client-marquee-txt">CLIENT</h6>
+                    <p className="kobe-txt">Normal Coffee & Donuts</p>
                   </div>
                   <div>
                     <h6 className="client-marquee-txt">CATEGORY</h6>
-                    <p className="kobe-txt">Website</p>
+                    <p className="kobe-txt">Illustrate for Motion</p>
                   </div>
                   <div>
                     <h6 className="client-marquee-txt">Design</h6>
-                    <p className="kobe-txt">Figma</p>
+                    <p className="kobe-txt">Adobe Photoshop</p>
                   </div>
-                  <div>
-                    <h6 className="client-marquee-txt">Development</h6>
-                    <p className="kobe-txt">React.JS + JSON Server</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-    </>
+   </>
   );
 };
 export default Marque;

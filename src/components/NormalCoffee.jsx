@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import MenuSection from "./projects/shoptheblock/MenuSection";
-import MainPageSection from "./projects/shoptheblock/MainPageSection";
+import MenuSection from "./projects/normalcoffee/MenuSection";
+import MainPageSection from "./projects/normalcoffee/MainPageSection";
 import headerLogo from "../assets/img/svg/logo.png";
-import Marque from "./projects/shoptheblock/MarqueSection";
-import ChallengeSection from "./projects/shoptheblock/ChallengeSection";
-import SolutionSection from "./projects/shoptheblock/SolutionSection";
+import Marque from "./projects/normalcoffee/MarqueSection";
+import ChallengeSection from "./projects/normalcoffee/ChallengeSection";
+import SolutionSection from "./projects/normalcoffee/SolutionSection";
 import ServicesSection from "./home/ServicesSection";
 import FormSection from "./home/FormSection";
 import FooterSection from "./FooterSection";

@@ -3,14 +3,9 @@ import BlackDotSvg from "../../../assets/img/svg/black-dots.svg";
 import YellowSquare from "../../../assets/img/svg/yellow-square-frame.svg";
 import YellowFrameSvg from "../../../assets/img/svg/traingle-yellow-frame.svg";
 import BlackFrameSvg from "../../../assets/img/svg/traingle-black-frame.svg";
-import video1 from "../../../assets/video/video5.mp4"
-
+import normalCoffee1 from "../../../assets/img/normalCoffee/Diversity.f02.jpg"
 const ChallengeSection = () =>
 {
-  const vidRef = useRef();
-  useEffect(() => {
-    vidRef.current.play();
-  }, []);
     return (
       <>
         <div className="all-page-border2">
@@ -22,11 +17,7 @@ const ChallengeSection = () =>
                   Challenge
                 </h2>
                 <p className="unconventional" data-aos="fade-up">
-                The challenge was to create an application that allows 
-                users to manage tasks and rewards, with a responsive design 
-                for various media displays. It required a login and registration
-                 page, account-specific resources upon authentication, and 
-                 CRUD operations for tasks and rewards.
+                The challenge was to design a set of style frames to be animated as a promotional ad for fictional coffee shop, "Normal Coffee & Donuts". The creative brief required an establishing shot that would depict our character and the coffee shop facade. The next would be a close-up with our product. Next we'd have a full shot of the character enjoying their coffee shop treats and the final shot would be a results-driven frame showing the positive in the character's mood and energy. 
                 </p>
                 <div className="challenge-dots-square">
                   <img
@@ -46,52 +37,53 @@ const ChallengeSection = () =>
                   <div className="skill-list">
                     <ul className="skill-list-main">
                       <li>
-                        {" "}Full CRUD functionality
+                        Establishing shot of Character & Business
+                      </li>
+                      <li> Product shot</li>
+                      <li>
+                        {" "}Diversity in Character
                        
                       </li>
                       <li>
-                        User Authentication with registration & login. Data is user-specific.
+                        Show emotion in Character
                       </li>
-                      <li>Responsive Design</li>
+                      <li>
+                       Add an action pose to show results
+                      </li>
+                      <li>Logo Lockup</li>
                     </ul>
                   </div>
-                <p className="integer integer1">
-                CookiJar is a productivity tracking application that gamifies task management. Built with React and JSON server, it allows users to assign point values to tasks and earn rewards upon completion. The application features full CRUD functionality, user authentication, and a responsive design.
-                </p>
+   
                   <div className="challenge-traingle-frame">
                     <img
                       className="ch-traingle-yellow-frame"
                       src={YellowFrameSvg}
                       alt="traingle-yellow-frame"
-                    />
+                      />
                     <img
                       className="ch-traingle-black-frame"
                       src={BlackFrameSvg}
                       alt="traingle-black-frame"
-                    />
+                      />
+                      </div>
                   </div>
-                </div>
-                <div className="col-xl-6">
+                  <div className="col-xl-6">
                   <div className="challenge-img-main">
-                    <video
-                      className="challenge-img"
-                      src={video1}
-                      ref={vidRef}
-                      width="600"
-                      height="300"
-                      loop
-                      autoPlay
-                      muted
+
+                    <img src={normalCoffee1}
+                    className="challenge-img"
+                    alt="normalcoffee"
+                    width="300"
                     />
-                    {/* <video autoplay loop muted className="challenge-img">
-                      <source src={video1} type="video/mp4" />
-                    </video> */}
-                  </div>
+                </div>
+
+                </div>
+              
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        
       </>
     );
 };

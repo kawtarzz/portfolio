@@ -4,12 +4,11 @@ import YellowSquare from "../../../assets/img/svg/yellow-square-frame.svg";
 import YellowFrameSvg from "../../../assets/img/svg/traingle-yellow-frame.svg";
 import BlackFrameSvg from "../../../assets/img/svg/traingle-black-frame.svg";
 import video1 from "../../../assets/video/video5.mp4"
+import shopBlock1 from "../../../assets/img/portfoliosection/shoptheblock/shoptheblock_sq.jpg"
+
 const ChallengeSection = () =>
 {
-  const vidRef = useRef();
-  useEffect(() => {
-    vidRef.current.play();
-  }, []);
+
     return (
       <>
         <div className="all-page-border2">
@@ -50,15 +49,18 @@ const ChallengeSection = () =>
                     <ul className="skill-list-main">
                       <li>
                         {" "}
-                        Develop easy-to-find and easy-to-navigate mobile
-                        friendly website
+                      Design an Entity Relationship Diagram with at least one many to many relationship.
                       </li>
                       <li>
-                        Showcase each type of content: interactive books,
-                        animated stories and picture books, audio stories.
-                        Create an experience people want to share with others
+                      A user-related data scheme. This means that different people can authenticate with your application, and the resources that are created must be assigned to individual users.
                       </li>
-                      <li>Persuade to download app and subscribe</li>
+                      <li>Must use major libraries and/or frameworks (e.g. React, etc...)</li>
+                      <li>
+                     Demonstrate proficiency with Single Responsibility Principle through modular code practices.
+                      </li>
+                      <li> Must include at least one form that allows users to create a new resource. The form must include a select, radio or checkbox element.</li>
+                      <li> Full CRUD functionality: users can create, read, update and delete resources.</li>
+                      <li> Implement flexible responsive layout</li>
                     </ul>
                   </div>
                   <p className="integer integer1">
@@ -80,15 +82,10 @@ const ChallengeSection = () =>
                 </div>
                 <div className="col-xl-6">
                   <div className="challenge-img-main">
-                    <video
+                    <img
                       className="challenge-img"
-                      src={video1}
-                      ref={vidRef}
-                      width="600"
+                      src={shopBlock1}
                       height="300"
-                      loop
-                      autoPlay
-                      muted
                     />
                     {/* <video autoplay loop muted className="challenge-img">
                       <source src={video1} type="video/mp4" />
