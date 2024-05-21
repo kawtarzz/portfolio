@@ -105,11 +105,7 @@ const ResumeSection = () => {
                       </h6>
                       <p className="sity">Freelance / 2020 - Current</p>
                     </div>
-                    <img
-                      className="envato-icon"
-                      src={EnvatoIcon}
-                      alt="envato-icon"
-                    />
+                  
                   </div>
                   <p className="nibh">
                    Working in After Effects and Adobe creative suite to bring life and motion into promotional marketing.
@@ -130,11 +126,7 @@ const ResumeSection = () => {
                       </h6>
                       <p className="sity">Apprenticeship / Nashville Software School / February 2023 -  August 2023</p>
                     </div>
-                    <img
-                      className="apple-icon"
-                      src={AppleIcon}
-                      alt="apple-icon"
-                    />
+                 
                   </div>
                   <p className="nibh">
                     Remote collaborative full-stack software development. 
@@ -156,11 +148,7 @@ const ResumeSection = () => {
                       </h6>
                       <p className="sity">Lost Girls / 2019 - 2021</p>
                     </div>
-                    <img
-                      className="twitter-icon"
-                      src={TwitterIcon}
-                      alt="twitter-icon"
-                    />
+             
                   </div>
                   <p className="nibh">
                     E-Commerce website development with maintenance and customer service support. Increased retail sales x3 through online sales and instagram shopping management. 
@@ -243,7 +231,7 @@ const ResumeSection = () => {
               <RevealOnScroll />
               <div
                 className="progress-bar"
-                data-percentage="70%"
+                data-percentage="85%"
                 data-aos="fade-up"
                 ref={(element) =>
                   element && progressBarRefs.current.push(element)
@@ -253,7 +241,7 @@ const ResumeSection = () => {
                   <span className="progress-title">Photoshop/Illustrator</span>
                   <span className="progress-number-wrapper">
                     <span className="progress-number-mark">
-                      <span className="percent-bar">80%</span>
+                      <span className="percent-bar">85%</span>
                       <span className="down-arrow"></span>
                     </span>
                   </span>
