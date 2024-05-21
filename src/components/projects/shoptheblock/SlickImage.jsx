@@ -4,14 +4,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ShopBlock1 from "../../../assets/img/portfoliosection/shoptheblock/app2.jpg";
 
-class ColijalaImageSlider extends React.Component {
+class ImageSlider extends React.Component {
   render() {
     const settings = {
+      dots: true,
       infinite: true,
       speed: 1000,
       fade: true,
       autoplay: true,
-      arrows: false,
+      arrows: true,
     };
 
     return (
@@ -27,4 +28,4 @@ class ColijalaImageSlider extends React.Component {
   }
 }
 
-export default ColijalaImageSlider;
+export default ImageSlider;

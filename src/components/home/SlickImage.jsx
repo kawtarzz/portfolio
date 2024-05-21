@@ -12,7 +12,7 @@ class MainImageSlider extends React.Component {
       speed: 1000,
       fade: true,
       autoplay: true,
-      arrows: false,
+      arrows: true,
     };
 
     return (

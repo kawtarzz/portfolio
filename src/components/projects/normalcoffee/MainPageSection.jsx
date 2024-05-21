@@ -62,7 +62,7 @@ const MainPageSection = () => {
             />
           </div>
           <div className="main_text2">
-            <h2 className="date">August 2023</h2>
+            <h2 className="date">August 2021</h2>
             <h1 className="project_text project-title" data-aos="fade-up">
             Normal Coffee & Donuts
             </h1>

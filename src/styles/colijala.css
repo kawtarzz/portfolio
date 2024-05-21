@@ -90,7 +90,7 @@
 
 /************************* 3.Marquee Section CSS **************************/
 .marquee-bg {
-    background-image: url(../assets/img/svg/resume-bg.svg);
+    background-image: url(../assets/img/svg/resume-bg.png);
     background-size: cover;
     animation: resume 10s linear infinite;
     height: 300px;

@@ -8,14 +8,15 @@ import NormalCoffeeImg03 from "../../../assets/img/portfoliosection/normalCoffee
 import NormalCoffeeImg04 from "../../../assets/img/portfoliosection/normalCoffee/Diversity.f04.jpg"
 import NormalCoffeeImg05 from "../../../assets/img/portfoliosection/normalCoffee/diversity.f05.jpg"
 
-class ColijalaImageSlider extends React.Component {
+class ImageSlider extends React.Component {
   render() {
     const settings = {
+      dots: true,
       infinite: true,
       speed: 1000,
       fade: true,
       autoplay: true,
-      arrows: false,
+      arrows: true,
     };
 
     return (
@@ -40,4 +41,4 @@ class ColijalaImageSlider extends React.Component {
   }
 }
 
-export default ColijalaImageSlider;
+export default ImageSlider;

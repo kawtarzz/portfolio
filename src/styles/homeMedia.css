@@ -545,11 +545,9 @@
     }
 
     .challenge-img {
-        /* border-radius: 100%; */
         width: 100%;
         height: 550px;
-        /* object-fit: cover;
-        max-width: 100%; */
+        max-width: 100%;
     }
 
     .simone-img {
@@ -672,19 +670,19 @@
 
    
     .resume-bg {
-        background-image: url(../assets/img/svg/shapes-bg.svg) !important;
+        background-image: url(../assets/img/svg/resume-bg.png) !important;
         height: 100% !important;
     }
 
     .portfolio-bg {
-        background-image: url(../assets/img/svg/shapes-bg.svg);
+        background-image: url(../assets/img/svg/resume-bg.png);
         background-size: cover;
         height: 100% !important;
     }
 
 
     .email-bg {
-        background-image: url(../assets/img/svg/resume-bg.svg);
+        background-image: url(../assets/img/svg/resume-bg.png);
         background-position: center;
         background-size: cover;
         height: 100% !important;
@@ -1253,7 +1251,7 @@
     }
 
     .marquee-bg {
-        background-image: url(../assets/img/svg/resume-bg.svg);
+        background-image: url(../assets/img/svg/resume-bg.png);
         background-size: cover;
         animation: resume 10s linear infinite;
         height: 100%;
@@ -2426,7 +2424,7 @@
     }
 
     .main_image_slider {
-        padding-top: 80px;
+        padding-top: 60px;
     }
 
     .main_text {
@@ -4506,7 +4504,7 @@
     }
 
     .main_image_slider {
-        padding-top: 65px;
+        padding-top: 55px;
     }
 
     .designer {
@@ -5330,7 +5328,7 @@
     }
 
     .main_image_slider {
-        padding-top: 70px;
+        padding-top: 60px;
         padding-bottom: 20px;
     }
 
@@ -5566,7 +5564,6 @@
     }
 
     .challenge-img {
-        border-radius: 100%;
         width: 270px;
         height: 270px;
     }

@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import ShopBlock1 from "../../assets/img/portfoliosection/shoptheblock/shoptheblock_sq.jpg";
-import CookiJar1 from "../../assets/img/portfoliosection/cookijar/cookijar_sq.jpg";
+import witchesWizards from "../../assets/img/portfoliosection/witchesWizards/witcheswizards_sq.png"
 import NormalCoffee1 from "../../assets/img/portfoliosection/normalCoffee/Logo_Sq.jpg";
+import candyCart1 from "../../assets/img/portfoliosection/candyCart/fr1_v2_dedliveryshere.jpg";
+import cookiJar1 from "../../assets/img/portfoliosection/cookijar/cookijar_sq.jpg"
+
 import { Link } from "react-router-dom";
 
 const PortFolioSection = () => {
@@ -44,7 +47,7 @@ const PortFolioSection = () => {
                 className={activeTab === 3 ? "tab_btn active" : "tab_btn"}
                 onClick={() => handleTabClick(3)}
               >
-                design
+                illustration/design
               </button>
             </div>
           </div>
@@ -58,11 +61,11 @@ const PortFolioSection = () => {
                 <div className="hover01 column">
                   <div>
                     <figure>
-                      <Link to="/projects/cookijar">
+                      <Link to="/projects/witcheswizards">
                         <img
                           className="colijala-img"
-                          src={CookiJar1}
-                          alt="cookijar"
+                          src={witchesWizards}
+                          alt="witcheswizards"
                         />
                       </Link>
                     </figure>
@@ -72,14 +75,14 @@ const PortFolioSection = () => {
               <div className="colijala-text-group" style={{ border: "none" }}>
                 <div className="right-line">
                   <h4 className="website-text">
-                    <Link to="/projects/cookijar">Website</Link>
+                    <Link to="/projects/witcheswizards">Design/Illustration</Link>
                   </h4>
                   <h5 className="colijala-text">
-                    <Link to="/projects/cookijar">cookijar</Link>
+                    <Link to="/projects/witcheswizards">Witches & Wizards</Link>
                   </h5>
                 </div>
                 <div className="red">
-                  <Link to="/projects/cookijar">
+                  <Link to="/projects/witcheswizards">
                     <div className="arrow-pro"></div>
                   </Link>
                 </div>
@@ -134,7 +137,7 @@ const PortFolioSection = () => {
               <div className="colijala-text-group" style={{ border: "none" }}>
                 <div className="right-line">
                   <h4 className="website-text">
-                    <Link to="/projects/normalcoffee">Design / Illustration</Link>
+                    <Link to="/projects/normalcoffee">Design/Illustration</Link>
                   </h4>
                   <h5 className="colijala-text">
                     <Link to="/projects/normalcoffee">Normal Coffee</Link>
@@ -157,10 +160,10 @@ const PortFolioSection = () => {
               <div className="bottom-line">
                 <div className="hover01 column">
                   <figure>
-                    <Link to="/projects/shoptheblock">
+                    <Link to="/projects/candycart">
                       <img
                         className="colijala-img"
-                        src={ShopBlock1}
+                        src={candyCart1}
                         alt="colijala"
                       />
                     </Link>
@@ -170,14 +173,14 @@ const PortFolioSection = () => {
               <div className="colijala-text-group">
                 <div className="right-line">
                   <h4 className="website-text">
-                    <Link to="/projects/shoptheblock">Website</Link>
+                    <Link to="/projects/candycart">Design/Illustration</Link>
                   </h4>
                   <h5 className="colijala-text">
-                    <Link to="/projects/shoptheblock">ShoptheBlock</Link>
+                    <Link to="/projects/candycart">candyCart</Link>
                   </h5>
                 </div>
                 <div className="red">
-                  <Link to="/projects/shoptheblock">
+                  <Link to="/projects/candycart">
                     <div className="arrow-pro"></div>
                   </Link>
                 </div>
@@ -216,7 +219,7 @@ const PortFolioSection = () => {
                     <Link to="/projects/cookijar">
                       <img
                         className="colijala-img"
-                        src={CookiJar1}
+                        src={cookiJar1}
                         alt="bolmija"
                       />
                     </Link>
@@ -302,7 +305,7 @@ const PortFolioSection = () => {
                 <div className="hover01 column">
                   <figure>
                     <Link to="/projects/cookijar">
-                      <img className="colijala-img" src={CookiJar1} alt="app3" />
+                      <img className="colijala-img" src={cookiJar1} alt="app3" />
                     </Link>
                   </figure>
                 </div>
@@ -336,7 +339,7 @@ const PortFolioSection = () => {
                     <Link to="/projects/cookijar">
                       <img
                         className="colijala-img"
-                        src={CookiJar1}
+                        src={cookiJar1}
                         alt="design1"
                       />
                     </Link>
@@ -366,7 +369,7 @@ const PortFolioSection = () => {
                     <Link to="/projects/cookijar">
                       <img
                         className="colijala-img"
-                        src={CookiJar1}
+                        src={cookiJar1}
                         alt="bolmija"
                       />
                     </Link>
@@ -396,7 +399,7 @@ const PortFolioSection = () => {
                     <Link to="/projects/cookijar">
                       <img
                         className="colijala-img"
-                        src={CookiJar1}
+                        src={cookiJar1}
                         alt="design2"
                       />
                     </Link>

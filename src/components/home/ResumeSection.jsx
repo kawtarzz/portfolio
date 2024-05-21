@@ -26,7 +26,7 @@ const ResumeSection = () => {
               <h4 className="d-none">hidden</h4>
               <h5 className="d-none">hidden</h5>
               <p className="dignissim-text" data-aos="fade-up">
-                I'm always looking to expand my skillset and consider myself a lifelong student. 
+                I'm always looking to expand my skill-set and consider myself a lifelong student. 
               </p>
               <div className="left-line">
                 <img
@@ -40,7 +40,7 @@ const ResumeSection = () => {
                   </h6>
                   <p className="sity">Nashville Software School</p>
                   <p className="nibh">
-                    6 month intensive React & Dot Net full-stack software and website development bootcamp. 
+                    6-month intensive React & Dot Net full-stack software and website development bootcamp. 
                   </p>
                 </div>
               </div>
