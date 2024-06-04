@@ -3,16 +3,20 @@ import headerLogo from "../../assets/img/svg/logo.png"
 import { Link } from "react-router-dom";
 
 const MenuSection = () => {
-  useEffect(() => {
+  const [isWrapperClass, setIsWrapperClass] = useState(false);
+  
     const handleScroll = () => {
       const menuButtons = document.querySelectorAll(".menu-btn");
       const sections = document.querySelectorAll(".active_menus");
+    if (sections.length > 0) {
       let len = sections.length;
       while (--len && window.scrollY + 97 < sections[len].offsetTop) {}
       menuButtons.forEach((button) => button.classList.remove("active"));
       menuButtons[len].classList.add("active");
+    }
     };
 
+  useEffect(() => {
     handleScroll();
     window.addEventListener("scroll", handleScroll);
     return () => {
@@ -20,7 +24,6 @@ const MenuSection = () => {
     };
   }, []);
 
-  const [isWrapperClass, setIsWrapperClass] = useState(false);
 
   const handleCheckboxChange = () => {
     setIsWrapperClass(!isWrapperClass);
@@ -52,14 +55,14 @@ const MenuSection = () => {
               </a>
             </li>
             <li className="menu-btn">
-              <a href="#resume">
-                RESUME
+              <a href="#portfolio">
+                PORTFOLIO
                 <span className="yellow-line"></span>
               </a>
             </li>
             <li className="menu-btn">
-              <a href="#portfolio">
-                PORTFOLIO
+              <a href="#resume">
+                RESUME
                 <span className="yellow-line"></span>
               </a>
             </li>

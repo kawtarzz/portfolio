@@ -103,31 +103,25 @@ const SolutionSection = () => {
                 <h3 className="d-none">hidden</h3>
                 <h4 className="d-none">hidden</h4>
                 <h5 className="d-none">hidden</h5>
-                <h6 className="website-text prev-text m-0">
-                  <a href="/cookijar">PREV</a>
-                </h6>
-                <h4 className="colijala-text">
-                  <a href="/cookijar">CookiJar</a>
-                </h4>
               </div>
               <div className="red">
                 <a href="/projects/cookijar">
-                  <div className="arrow-pro"></div>
+                  <div className="arrow-pro left"></div>
                 </a>
+                <h4 className="colijala-text">
+                  <a href="/projects/cookijar">PREV</a>
+                </h4>
               </div>
             </div>
             <div className="colijala-text-group" data-aos="zoom-out-right">
               <div className="right-line">
                 <h5 className="d-none">hidden</h5>
-                <h6 className="website-text m-0">
-                  <a href="/projects/normalCoffee">NEXT</a>
-                </h6>
-                <h4 className="colijala-text">
-                  <a href="/projects/cookijar">Normal Coffee</a>
-                </h4>
               </div>
               <div className="red">
-                <a href="/projects/normalcoffee">
+                <h4 className="colijala-text">
+                  <a href="/projects/witcheswizards">NEXT</a>
+                </h4>
+                <a href="/projects/witcheswizards">
                   <div className="arrow-pro"></div>
                 </a>
               </div>

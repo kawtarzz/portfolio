@@ -2,20 +2,20 @@ import React, { useState, useEffect } from "react";
 import MenuSection from "./projects/shoptheblock/MenuSection";
 import MainPageSection from "./projects/shoptheblock/MainPageSection";
 import headerLogo from "../assets/img/svg/logo.png";
-import Marque from "./projects/shoptheblock/MarqueSection";
-import ChallengeSection from "./projects/shoptheblock/ChallengeSection";
-import SolutionSection from "./projects/shoptheblock/SolutionSection";
-import ServicesSection from "./home/ServicesSection";
-import FormSection from "./home/FormSection";
-import FooterSection from "./FooterSection";
-import Loader from "./home/Loader";
+import Marque from "../components/projects/shoptheblock/MarqueSection";
+import ChallengeSection from "../components/projects/shoptheblock/ChallengeSection";
+import SolutionSection from "../components/projects/shoptheblock/SolutionSection";
+import FooterSection from "../components/FooterSection";
+import Loader from "../components/home/Loader";
 import { Link } from "react-router-dom";
 
 const ShopTheBlock = () => {
   const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     setTimeout(() => setLoading(false), 2000);
   }, []);
+
   if (loading) {
     return <Loader />;
   }
@@ -55,17 +55,10 @@ const ShopTheBlock = () => {
           <SolutionSection />
         </div>
       </section>
-      <ServicesSection />
      
-      <section id="contact">
-        <div className="all-page-border2">
-          <div className="row">
-            <FormSection />
-          </div>
-        </div>
-      </section>
       <FooterSection />
     </>
   );
 };
+
 export default ShopTheBlock;

@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from "react";
+import React from "react";
 import BlackDotSvg from "../../../assets/img/svg/black-dots.svg";
 import YellowSquare from "../../../assets/img/svg/yellow-square-frame.svg";
 import YellowFrameSvg from "../../../assets/img/svg/traingle-yellow-frame.svg";
@@ -80,14 +80,11 @@ const ChallengeSection = () =>
                   </div>
                 </div>
                 <div className="col-xl-6">
-                  <div className="challenge-img-main">
                     <img
-                      className="challenge-img"
+                    className="challenge-img-main"
                       src={cookiJar1}
-                      height="300"
+                    alt="cookijar"
                     />
-               
-                  </div>
                 </div>
               </div>
             </div>

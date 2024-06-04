@@ -1,18 +1,17 @@
 import React, { useState, useEffect } from "react";
-import MenuSection from "./projects/candyCart/MenuSection";
-import MainPageSection from "./projects/candyCart/MainPageSection";
+import MenuSection from "../components/projects/witchesWizards/MenuSection";
+import MainPageSection from "../components/projects/witchesWizards/MainPageSection";
 import headerLogo from "../assets/img/svg/logo.png";
-import Marque from "./projects/candyCart/MarqueSection";
-import ChallengeSection from "./projects/candyCart/ChallengeSection";
-import SolutionSection from "./projects/candyCart/SolutionSection";
-import ServicesSection from "./home/ServicesSection";
-import FormSection from "./home/FormSection";
-import FooterSection from "./FooterSection";
-import Loader from "./home/Loader";
+import Marque from "../components/projects/witchesWizards/MarqueSection";
+import ChallengeSection from "../components/projects/witchesWizards/ChallengeSection";
+import SolutionSection from "../components/projects/witchesWizards/SolutionSection";
+import FooterSection from "../components/FooterSection";
+import Loader from "../components/home/Loader";
 import { Link } from "react-router-dom";
 
 const WitchesWizards = () => {
   const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     setTimeout(() => setLoading(false), 2000);
   }, []);
@@ -55,15 +54,7 @@ const WitchesWizards = () => {
           <SolutionSection />
         </div>
       </section>
-      <ServicesSection />
-     
-      <section id="contact">
-        <div className="all-page-border2">
-          <div className="row">
-            <FormSection />
-          </div>
-        </div>
-      </section>
+    
       <FooterSection />
     </>
   );

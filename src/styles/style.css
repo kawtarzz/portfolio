@@ -8,14 +8,12 @@
 7.Services Section CSS
 8.Resume Section CSS
 9.Portfolio Section CSS
-10.Testimonial Section CSShello-text
-11.News Section CSS
-12.FAQ & Pricing Section CSS
-13.Email Section CSS
-14.Form Section CSS
-15.Footer Section CSS
-16.Preloader CSS
-17.Bottom To Top Button CSS
+10.Blog Section CSS
+11.Email Section CSS
+13.Form Section CSS
+14.Footer Section CSS
+15.Preloader CSS
+16.Bottom To Top Button CSS
 ------------------------------------------------------------------ */
 /************************* 1.Default CSS **************************/
 body {
@@ -122,7 +120,12 @@ ul {
 }
 
 .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .all-page-border {
@@ -136,8 +139,43 @@ ul {
 
 /************************* 2.Menu CSS **************************/
 .main_image_slider {
+    max-width: 1000px;
     position: relative;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
+
+.main_image_slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
 
 .pluse {
     position: relative;
@@ -556,15 +594,18 @@ svg {
 }
 
 .container {
-    box-sizing: border-box;
-    justify-content: center;
+box-sizing: border-box;
+justify-content: center;
  align-items: center;
  margin: 20px auto;
- padding: 0rem 1rem;
+ padding: 1rem 1rem;
  max-width: 1200px;
 }
 
 .hello-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color:#ff3c00;
     font-size: 50px;
     line-height: 80px;
@@ -864,7 +905,7 @@ svg {
 
 .designer {
     color: var(--text-color);
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     margin: 0;
 }
@@ -875,6 +916,7 @@ svg {
 
 .designer2 {
     padding-bottom: 60px;
+    font-size: 16px;
 }
 
 .phone-email-icons {
@@ -1271,7 +1313,7 @@ iframe {
 }
 
 /*  ************************* 7.Services Section CSS ************************** */
-.servies-spacer {
+.services-spacer {
     padding: 100px 0px;
 }
 
@@ -1447,10 +1489,9 @@ body.dark-mode .resume-bg {
 }
 
 .resume-ed-text {
-    color: var(--secondary-color);
+line-height: 30px;
     font-size: 20px;
-    line-height: 30px;
-    text-transform: uppercase;
+    transform: uppercase;
     margin: 0;
     padding-bottom: 10px;
 }
@@ -1796,6 +1837,7 @@ body.dark-mode .black-yellow-circle {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .skill-list2 {
@@ -1816,14 +1858,14 @@ ul li {
 
 .skill-list ul li {
     display: flex;
+    flex-direction: row;
     align-items: center;
     color: var(--text-color);
-    font-size: 20px;
-    font-family: Jost;
-    font-style: normal;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
     line-height: 30px;
     padding-bottom: 15px;
+    padding-right: 50px;
 }
 
 .skill-list ul li:before {
@@ -1938,11 +1980,9 @@ body.dark-mode .portfolio-bg {
 }
 
 .colijala-text-group {
-    padding: 0px 0px 0px 40px;
     height: auto;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: row;
 }
 
 .group-main {
@@ -1950,35 +1990,38 @@ body.dark-mode .portfolio-bg {
 }
 
 .website-text {
-    color:#e4a531;
     font-family: jost;
     font-weight: 500;
     font-size: 16px;
-    line-height: 20px;
+    line-height: auto;
     text-transform: uppercase;
     margin: 0;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    text-decoration: none;
 }
 
 .colijala-text a {
+    display: flex;
     color: var(--secondary-color);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 900;
-    line-height: 64px;
-    margin: 0;
+    line-height: 34px;
     text-decoration: none;
+    padding-block: 10px;
 }
 
 .colijala-text a:hover {
     color:#ff3c00 !important;
 }
 
-.arrow-pro {
+
+
+
+ /*Right arrow animation  */
+
+ .arrow-pro {
+    display: block;
     position: relative;
-    width: 60px;
+    width: 80px;
     height: 60px;
     cursor: pointer;
     transition: 0.5s;
@@ -1992,9 +2035,9 @@ body.dark-mode .portfolio-bg {
     color: var(--secondary-color);
     width: 60px;
     height: 20px;
-    top: 11px;
+    top: 12px;
     right: 9px;
-    border-bottom: solid 3px;
+    border-bottom: solid 4px;
     transform: translatex(4px);
 }
 
@@ -2005,20 +2048,30 @@ body.dark-mode .portfolio-bg {
     color: var(--secondary-color);
     width: 30px;
     height: 30px;
-    border-top: solid 3px;
-    border-left: solid 3px;
-    top: 50%;
+    border-top: solid 5px;
+    border-left: solid 5px;
+    top: 48%;
     right: -28px;
     transform-origin: 0% 0%;
     transform: rotatez(132deg);
 }
 
+.left {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(180deg);
+}
+
+
 .colijala-text-group:hover .arrow-pro::before {
     animation: aniArrow01 1s cubic-bezier(0, 0.5, 1, 0.4) infinite 0.5s;
+    color:#e4a531;
 }
 
 .colijala-text-group:hover .arrow-pro::after {
     animation: aniArrow02 1s cubic-bezier(0, 0.5, 1, 0.4) infinite 0.5s;
+    color:#e4a531;
+
+
 }
 
 @keyframes aniArrow01 {
@@ -2043,10 +2096,11 @@ body.dark-mode .portfolio-bg {
 }
 
 .red {
-    width: fit-content;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     height: auto;
-    padding: 57px;
-    border-left: 1px solid var(--secondary-color);
+    padding: 20px;
 }
 
 .tab_box {
@@ -2118,7 +2172,6 @@ body.dark-mode .portfolio-bg {
 .column div {
     position: relative;
     float: left;
-
     margin: 0 0 0 0px;
     padding: 0;
 }
@@ -2132,123 +2185,9 @@ figure {
     margin: 0;
 }
 
-/*  ************************* 10.Testimonial Section CSS ************************** */
-.prev-arrow,
-.next-arrow {
-    font-size: 32px;
-    filter: var(--svg-color);
-    text-align: center;
-    display: inline-block;
-    cursor: pointer;
-    z-index: 2;
-    width: 40px;
-    height: 40px;
-}
 
-.prev-arrow {
-    position: absolute;
-    bottom: 61%;
-    left: -100px;
-}
 
-.next-arrow {
-    position: absolute;
-    bottom: 61%;
-    right: -80px;
-}
-
-.prev-arrow:hover {
-    filter: invert(43%) sepia(6%) saturate(14%) hue-rotate(332deg) brightness(93%) contrast(101%);
-}
-
-.next-arrow:hover {
-    filter: invert(43%) sepia(6%) saturate(14%) hue-rotate(332deg) brightness(93%) contrast(101%);
-}
-
-.left-right-space {
-    padding: 80px 0px 60px 0px;
-}
-
-.slider-text {
-    color: var(--secondary-color);
-    text-align: center;
-    font-size: 48px;
-    line-height: 72px;
-}
-
-.emoji-img-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.emoji {
-    max-width: 100%;
-    border-radius: 50%;
-}
-
-.requel {
-    color: var(--secondary-color);
-    text-align: center;
-    font-size: 24px;
-    line-height: 24px;
-    text-transform: uppercase;
-    padding-top: 20px;
-    font-family: Jost;
-    font-weight: 500;
-}
-
-.ceo {
-    color: var(--text-color);
-    text-align: center;
-    font-size: 18px;
-    line-height: 18px;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-family: Jost;
-}
-
-.dots-square2 {
-    position: absolute;
-    top: 0px;
-    left: 80px;
-}
-
-.dots-img1 {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    filter: var(--svg-color);
-}
-
-.yellow-square-frame2 {
-    position: absolute;
-    top: 7px;
-    left: -6px;
-}
-
-.single-dots-img {
-    position: absolute;
-    right: 155px;
-    bottom: 50px;
-    filter: var(--svg-color);
-}
-
-@keyframes rotate-animation2 {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    50% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-/*  ************************* 11.News Section CSS ************************** */
+/*  ************************* 10.Blog Section CSS ************************** */
 .news-spacer {
     padding-top: 100px;
     padding-bottom: 80px;
@@ -2466,385 +2405,8 @@ figure {
     color: var(--text-color);
 }
 
-/*  ************************* 12.FAQ & Pricing Section CSS ************************** */
-.traingle-frame2 {
-    position: absolute;
-    left: 70px;
-    top: 120px;
-}
 
-.traingle-yellow-frame2 {
-    position: relative;
-    transform: rotate(330deg);
-}
-
-.traingle-black-frame2 {
-    position: absolute;
-    left: -4px;
-    top: 2px;
-    transform: rotate(330deg);
-    filter: var(--svg-color);
-}
-
-.faq-spacer {
-    padding: 100px 0;
-}
-
-.space {
-    padding-top: 100px;
-}
-
-.line-faq {
-    border-right: 3px solid var(--secondary-color);
-}
-
-.half2-cricle2 {
-    position: absolute;
-    right: 30px;
-    top: 250px;
-}
-
-.black-half-circal2 {
-    position: absolute;
-    right: 70px;
-    top: -11px;
-    filter: var(--svg-color);
-}
-
-.yellow-half-circle2 {
-    position: absolute;
-    right: 20px;
-    top: 0px;
-}
-
-.accordion-main {
-    padding: 20px 40px 100px;
-}
-
-.para-hide {
-    display: none;
-}
-
-.inner-content {
-    background: var(--primary-color);
-    border: 2px solid var(--background-color);
-}
-
-.text-show {
-    padding: 30px;
-    line-height: 25px;
-    font-size: 18px;
-    color: var(--background-color);
-}
-
-.list-acordo li {
-    list-style-type: circle;
-    line-height: 25px;
-    font-size: 18px;
-    color: var(--background-color);
-}
-
-.list-acordo {
-    padding: 0px 30px 30px 50px;
-}
-
-.main-heading-text {
-    font-family: Jost;
-    font-size: 24px;
-    color: var(--secondary-color);
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    padding: 30px 30px;
-    border-bottom: 2px solid var(--background-color);
-}
-
-button i {
-    font-size: 1rem;
-    transition: .3s ease;
-}
-
-.rotate {
-    transform: rotate(180deg);
-}
-
-.accordion {
-    transition: .3s ease;
-}
-
-.accor-text {
-    color: var(--secondary-color);
-    font-family: Jost;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 48px;
-}
-
-.acor-txt-space {
-    padding-top: 0px;
-}
-
-button.btn-toggle-show {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 40px 0 20px 0 !important;
-    transition: .3s ease;
-    border-bottom: 1px solid var(--secondary-color);
-}
-
-button.btn-toggle-show {
-    color: var(--secondary-color);
-    font-size: 1rem;
-    font-weight: 700;
-}
-
-.p-1 {
-    padding: 0rem !important;
-}
-
-.accordion:last-child {
-    margin: 0;
-}
-
-/* Pricing Accor */
-.para-hide2 {
-    display: none;
-}
-
-button {
-    background: transparent;
-    outline: none;
-    border: none;
-    transition: .3s ease;
-    cursor: pointer;
-}
-
-.accoedion2-main {
-    padding: 60px 40px 60px 40px;
-}
-
-button i {
-    font-size: 1rem;
-    transition: .3s ease;
-}
-
-.rotate2 {
-    transform: rotate(180deg);
-}
-
-.text-full-time {
-    color: var(--secondary-color);
-    font-size: 20px;
-    line-height: 20px;
-    text-transform: uppercase;
-    margin: 0;
-    padding-bottom: 10px;
-    text-align: start;
-    transition: all 0.3s;
-    font-family: Jost;
-    font-style: normal;
-    font-weight: 500;
-    display: block;
-}
-
-.text-full-time:hover {
-    color: var(--primary-color);
-}
-
-.btn-toggle-show2:hover .text-full-time {
-    color: var(--primary-color);
-    transition: all 0.3s;
-}
-
-.accordion-sub {
-    padding-bottom: 40px !important;
-}
-
-.fa-solid {
-    font-weight: 600;
-}
-
-.accordion2 {
-    transition: .3s ease;
-}
-
-.degit-dollar {
-    color: var(--secondary-color);
-    font-size: 48px;
-    line-height: 64px;
-    transition: all 0.3s;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-}
-
-.degit-dollar:hover {
-    color: var(--primary-color);
-}
-
-.btn-toggle-show2:hover .degit-dollar {
-    color: var(--primary-color);
-    transition: all 0.3s;
-}
-
-.each-hour-text {
-    color: var(--secondary-color);
-    text-align: center;
-    font-family: Jost;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-.each-hour-text:hover {
-    color: var(--primary-color);
-}
-
-button.btn-toggle-show2:hover .each-hour-text {
-    color: var(--primary-color);
-}
-
-button.btn-toggle-show2 {
-    padding: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    transition: .3s ease;
-    border: 1px solid var(--secondary-color);
-    color: var(--secondary-color);
-}
-
-button.btn-toggle-show2:hover {
-    background-color: var(--background-color);
-    color: var(--primary-color);
-}
-
-.accordion:last-child {
-    margin: 0;
-}
-
-.box {
-    display: flex;
-    flex-direction: column;
-    margin-left: 12px;
-    margin-right: 12px;
-    background: var(--white);
-    border: 2px solid var(--secondary-color);
-}
-
-.plan-top-space {
-    padding-top: 40px;
-}
-
-.title {
-    width: 100%;
-    padding: 10px 0;
-    font-size: 30px;
-    font-weight: lighter;
-    text-align: center;
-    background-color: #ffaa00;
-    color: var(--secondary-color);
-    margin: 0;
-}
-
-.view {
-    display: block;
-    width: 100%;
-    padding: 20px 0 20px;
-    background: #F5F5F4;
-}
-
-.icon {
-    display: flex;
-    justify-content: center;
-}
-
-.icon img {
-    width: 100px;
-}
-
-.cost {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin-top: 10px;
-}
-
-.amount {
-    color: #000;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 64px;
-}
-
-.detail {
-    margin: auto 0 15px 8px;
-    width: 90px;
-    line-height: 15px;
-    color: var(--text-color);
-    font-family: Jost;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.description {
-    margin: 30px auto;
-    font-size: 0.8em;
-    color: #7D7C7C;
-}
-
-ul {
-    list-style: none;
-}
-
-.description-text {
-    margin-top: 10px;
-    font-size: 18px;
-}
-
-.description-text::before {
-    content: "";
-    background-image: url("https://i.postimg.cc/ht7g996V/check.png");
-    background-position: center;
-    background-size: cover;
-    opacity: 0.5;
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-right: 10px;
-}
-
-.sub-btn {
-    margin: 0 auto 30px;
-}
-
-.sub-btn-main {
-    background: transparent;
-    padding: 10px;
-    color: #000;
-    font-family: Jost;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    text-transform: uppercase;
-}
-
-.sub-btn-main:hover {
-    color: var(--secondary-color);
-    transition: 0.5s;
-    background: #FFAF00;
-}
-
-/*  ************************* 13.Email Section CSS ************************** */
+/*  ************************* 11.Email Section CSS ************************** */
 .email-bg {
     background-image: url(../assets/img/portfolio-black-bg.png);
     background-position: 100%;
@@ -2915,7 +2477,7 @@ body.dark-mode .email-bg {
     filter: var(--svg-color);
 }
 
-/*  ************************* 14.Form Section CSS ************************** */
+/*  ************************* 13.Form Section CSS ************************** */
 .form-spacer {
     padding-top: 100px;
     border-right: 3px solid var(--secondary-color);
@@ -3286,7 +2848,7 @@ body.dark-mode .email-bg {
     filter: var(--svg-color);
 }
 
-/************************* 15.Footer Section CSS **************************/
+/************************* 14.Footer Section CSS **************************/
 .reserved {
     color: var(--text-color);
     text-align: center;
@@ -3295,7 +2857,7 @@ body.dark-mode .email-bg {
     padding: 40px 0;
 }
 
-/************************* 16.Preloader CSS **************************/
+/************************* 15.Preloader CSS **************************/
 .container-preloader {
     align-items: center;
     cursor: none;

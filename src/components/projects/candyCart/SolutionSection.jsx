@@ -33,7 +33,7 @@ const SolutionSection = () => {
               Solution
             </h2>
             <p className="unconventional" data-aos="fade-up">
-              With a magical establishing shot, we see a group of witches and wizards entering a magic portal leading to our Witches & Wizards summer camp! Then we break into a montage of the activities that will be availble for the campers. With fun & spooky activities, we get a sense of all the camp has to offer along with a magical atmosphere. 
+              After a couple iterations of the storyboard, we landed on a treatment that lay between the literal and abstract options presented to the client. Keeping the story straight-forward with a little exaggerated humor in the service's amount of candy delivered to our main character. I highlighted the pink in their branding throughout the frames which gave us a consistent, clean style with enough whimsy to demonstrate the fun service being advertised. 
              </p>
             <div className="solution-half-circle">
               <img
@@ -102,7 +102,7 @@ const SolutionSection = () => {
               </div>
               <div className="red">
                 <a href="/projects/normalcoffee">
-                  <div className="arrow-pro"></div>
+                  <div className="arrow-pro left"></div>
                 </a>
               </div>
             </div>

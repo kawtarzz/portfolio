@@ -3,16 +3,18 @@ import headerLogo from "../../../assets/img/svg/logo.png";
 import { Link } from "react-router-dom";
 
 const MenuSection = () => {
-  //Navbar Nav menu onscroll active functionality
+
+  const handleScroll = () => {
+    const menuButtons = document.querySelectorAll(".menu-btn");
+    const sections = document.querySelectorAll(".active_menus");
+    let len = sections.length;
+    if (len > 0) {
+    while (--len && window.scrollY + 97 < sections[len].offsetTop) {}
+    menuButtons.forEach((button) => button.classList.remove("active"));
+    menuButtons[len].classList.add("active");
+    }
+  };
   useEffect(() => {
-    const handleScroll = () => {
-      const menuButtons = document.querySelectorAll(".menu-btn");
-      const sections = document.querySelectorAll(".active_menus");
-      let len = sections.length;
-      while (--len && window.scrollY + 97 < sections[len].offsetTop) {}
-      menuButtons.forEach((button) => button.classList.remove("active"));
-      menuButtons[len].classList.add("active");
-    };
 
     handleScroll();
     window.addEventListener("scroll", handleScroll);

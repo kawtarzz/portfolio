@@ -83,23 +83,23 @@ const SolutionSection = () => {
             <span className="open_likes_count">{likeCount}</span>
             <p className="like-text">{liked ? "Liked" : "Liked"}</p>
           </div>
-          {/* <!-- ====================================== Like Button End ===================================== --> */}
+
           <div className="next-prev-buttons overflow-hidden">
             <div
               className="colijala-text-group colijala-text-group2"
               data-aos="zoom-out-left"
             >
-              <div className="right-line">
-                <h3 className="d-none">hidden</h3>
-                <h4 className="d-none">hidden</h4>
-                <h5 className="d-none">hidden</h5>
-                <h6 className="website-text prev-text m-0">
-                  <a href="/cookijar">PREV</a>
-                </h6>
+            
+              <div className="red">
+                <a href="/projects/candycart">
+                  <div className="arrow-pro left"></div>
+                </a>
                 <h4 className="colijala-text">
-                  <a href="/projects/shoptheblock">ShopTheBlcok</a>
+                  <a href="/projects/candycart">PREV</a>
                 </h4>
               </div>
+         
+
               <div className="red">
                 <a href="/projects/shoptheblock">
                   <div className="arrow-pro"></div>
@@ -113,11 +113,9 @@ const SolutionSection = () => {
                   <a href="/projects/candycart">NEXT</a>
                 </h6>
                 <h4 className="colijala-text">
-                  <a href="/projects/candycart">candyCart</a>
+                  <a href="/projects/cookijar">NEXT</a>
                 </h4>
-              </div>
-              <div className="red">
-                <a href="/projects/candycart">
+                <a href="/projects/cookijar">
                   <div className="arrow-pro"></div>
                 </a>
               </div>
