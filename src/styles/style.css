@@ -122,7 +122,12 @@ ul {
 }
 
 .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .all-page-border {
@@ -136,7 +141,11 @@ ul {
 
 /************************* 2.Menu CSS **************************/
 .main_image_slider {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    margin: 0 auto;
 }
 
 .pluse {
@@ -1796,6 +1805,7 @@ body.dark-mode .black-yellow-circle {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .skill-list2 {
@@ -1816,14 +1826,14 @@ ul li {
 
 .skill-list ul li {
     display: flex;
+    flex-direction: row;
     align-items: center;
     color: var(--text-color);
-    font-size: 20px;
-    font-family: Jost;
-    font-style: normal;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
     line-height: 30px;
     padding-bottom: 15px;
+    padding-right: 50px;
 }
 
 .skill-list ul li:before {
