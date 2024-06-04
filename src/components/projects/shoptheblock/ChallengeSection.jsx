@@ -3,11 +3,15 @@ import BlackDotSvg from "../../../assets/img/svg/black-dots.svg";
 import YellowSquare from "../../../assets/img/svg/yellow-square-frame.svg";
 import YellowFrameSvg from "../../../assets/img/svg/traingle-yellow-frame.svg";
 import BlackFrameSvg from "../../../assets/img/svg/traingle-black-frame.svg";
-import video1 from "../../../assets/video/video5.mp4"
-import shopBlock1 from "../../../assets/img/portfoliosection/shoptheblock/shoptheblock_sq.jpg"
+import video1 from "../../../assets/video/shoptheblock_1.mp4"
+
 
 const ChallengeSection = () =>
 {
+  const vidRef = useRef();
+  useEffect(() => {
+    vidRef.current.play();
+  }, []);
 
     return (
       <>
@@ -19,6 +23,7 @@ const ChallengeSection = () =>
                 <h2 className="about-text" data-aos="fade-up">
                   Challenge
                 </h2>
+                <div className="challenge-description" data-aos="fade-up">
                 <p className="unconventional" data-aos="fade-up">
                 To build a full-stack application with user authentication, 
                 full CRUD functionality, and an SQL database. The application
@@ -30,6 +35,7 @@ const ChallengeSection = () =>
                   application should be responsive, following the Single 
                   Responsibility principle and emphasizing modular code.
                 </p>
+                </div>
                 <div className="challenge-dots-square">
                   <img
                     className="challenge-black-dots"
@@ -63,10 +69,11 @@ const ChallengeSection = () =>
                       <li> Implement flexible responsive layout</li>
                     </ul>
                   </div>
-                  <p className="integer integer1">
+                  <div className="integer integer1">
+                  <p>
                   A comprehensive Full-Stack E-Commerce platform offering personalized user account privileges. Upon registration, users gain the ability to browse and shop by specific categories or utilize a search function to find desired items. The platform features a user-friendly shopping cart where items can be added and stored as users continue to browse. A seamless checkout process culminates in an order confirmation, enhancing the overall shopping experience.
                   </p>
-                 
+                 </div>
                   <div className="challenge-traingle-frame">
                     <img
                       className="ch-traingle-yellow-frame"
@@ -82,14 +89,16 @@ const ChallengeSection = () =>
                 </div>
                 <div className="col-xl-6">
                   <div className="challenge-img-main">
-                    <img
-                      className="challenge-img"
-                      src={shopBlock1}
-                      height="300"
+                
+                    <video
+                      src={video1}
+                      ref={vidRef}
+                      width="600"
+                      height="600"
+                      loop
+                      autoPlay
+                      muted
                     />
-                    {/* <video autoplay loop muted className="challenge-img">
-                      <source src={video1} type="video/mp4" />
-                    </video> */}
                   </div>
                 </div>
               </div>

@@ -102,7 +102,7 @@ const SolutionSection = () => {
               </div>
               <div className="red">
                 <a href="/projects/shoptheblock">
-                  <div className="arrow-pro"></div>
+                  <div className="arrow-pro left"></div>
                 </a>
               </div>
             </div>

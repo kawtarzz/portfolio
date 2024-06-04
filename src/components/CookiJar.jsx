@@ -5,8 +5,6 @@ import headerLogo from "../assets/img/svg/logo.png";
 import Marque from "./projects/cookijar/MarqueSection";
 import ChallengeSection from "./projects/cookijar/ChallengeSection";
 import SolutionSection from "./projects/cookijar/SolutionSection";
-import ServicesSection from "./home/ServicesSection";
-import FormSection from "./home/FormSection";
 import FooterSection from "./FooterSection";
 import Loader from "./home/Loader";
 import { Link } from "react-router-dom";
@@ -55,15 +53,8 @@ const CookiJar = () => {
           <SolutionSection />
         </div>
       </section>
-      <ServicesSection />
      
-      <section id="contact">
-        <div className="all-page-border2">
-          <div className="row">
-            <FormSection />
-          </div>
-        </div>
-      </section>
+
       <FooterSection />
     </>
   );

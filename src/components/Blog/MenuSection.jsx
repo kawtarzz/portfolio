@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 
 const MenuSection = () =>
 {
-useEffect(() => {
-  const handleScroll = () => {
-    const menuButtons = document.querySelectorAll(".menu-btn");
-    const sections = document.querySelectorAll(".active_menus");
-    let len = sections.length;
-    while (len-- && window.scrollY + 97 < sections[len].offsetTop) {}
-    menuButtons.forEach((button) => button.classList.remove("active"));
-    if (menuButtons[len]) {
+  useEffect(() => {
+    const handleScroll = () => {
+      const menuButtons = document.querySelectorAll(".menu-btn");
+      const sections = document.querySelectorAll(".active_menus");
+      let len = sections.length;
+      if (len > 0) {
+      while (--len && window.scrollY + 97 < sections[len].offsetTop) {}
+      menuButtons.forEach((button) => button.classList.remove("active"));
       menuButtons[len].classList.add("active");
-    }
-  };
+      }
+    };
 
   handleScroll();
   window.addEventListener("scroll", handleScroll);

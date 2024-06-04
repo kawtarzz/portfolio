@@ -1,13 +1,12 @@
 import React, { useEffect } from "react";
-import SlickImage from "./SlickImage";
 import MultiplicationSvg1 from "../../../assets/img/svg/black-multipliction.svg";
 import MultiplicationSvg2 from "../../../assets/img/svg/yellow-multiplication.svg";
 import HalfCircleSvg1 from "../../../assets/img/svg/half-circle-yellow.svg";
 import HalfCircleSvg2 from "../../../assets/img/svg/half-circle-black.svg";
+import ShopBlock1 from "../../../assets/img/portfoliosection/shoptheblock/app2.jpg";
 
 
 const MainPageSection = () => {
-  // circle and multiplication moving functionality
   useEffect(() => {
     const parallax = (e) => {
       document.querySelectorAll(".object").forEach((move) => {
@@ -28,9 +27,11 @@ const MainPageSection = () => {
     <>
       <div className="row top-img">
         <div className="col-xl-6 col-lg-6 col-md-12 p-0">
-          <div classNameName="main_image_slider">
-            <SlickImage />
+        <div className="img-container">
+          <img className="project-img1" src={ShopBlock1} alt="main" />
           </div>
+
+       
           <div className="multiplication-frame-main">
             <img
               className="black-multiplication object"
