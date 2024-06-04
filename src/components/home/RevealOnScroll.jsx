@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 const RevealOnScroll = () => {
-  // Progress Bar onScroll functionality
 
   useEffect(() => {
     const reveal = () => {
@@ -25,7 +24,7 @@ const RevealOnScroll = () => {
   }, []);
 
   return null;
-  <></>;
-};
+  };
+
 
 export default RevealOnScroll;

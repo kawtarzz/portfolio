@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import SlickImage from "./SlickImage";
 import MultiplicationSvg1 from "../../../assets/img/svg/black-multipliction.svg";
 import MultiplicationSvg2 from "../../../assets/img/svg/yellow-multiplication.svg";
 import HalfCircleSvg1 from "../../../assets/img/svg/half-circle-yellow.svg";
@@ -8,7 +7,6 @@ import ShopBlock1 from "../../../assets/img/portfoliosection/shoptheblock/app2.j
 
 
 const MainPageSection = () => {
-  // circle and multiplication moving functionality
   useEffect(() => {
     const parallax = (e) => {
       document.querySelectorAll(".object").forEach((move) => {

@@ -1,8 +1,6 @@
 import React, { useRef } from "react";
 import BlackYellowSvg from "../../assets/img/resumeimg/black-yellow-circle.jpg";
-import EnvatoIcon from "../../assets/img/svg/envato-icon.svg";
-import AppleIcon from "../../assets/img/svg/apple-icon.svg";
-import TwitterIcon from "../../assets/img/svg/twitter-icon.svg";
+
 import ResumeProfileImg from "../../assets/img/resumeimg/resume-img.jpg";
 import YellowFrameSvg from "../../assets/img/svg/traingle-yellow-frame.svg";
 import BlackFrameSvg from "../../assets/img/svg/traingle-black-frame.svg";
@@ -17,6 +15,18 @@ const ResumeSection = () => {
   return (
     <>
       <div className="all-page-border2">
+
+        <div className="all-page-border2 portfolio-bg">
+
+          <div className="services-spacer">
+            <h2 className="about-text" data-aos="fade-up">
+              Resume
+            </h2>
+            <p className="design_text creative_text" data-aos="fade-up">
+              Professional Experience, Training & Education
+            </p>
+          </div>
+        </div>
         <div className="row">
           <div className="col-xl-6 col-lg-6 line p-0">
             <div className="resume-main">
@@ -26,7 +36,7 @@ const ResumeSection = () => {
               <h4 className="d-none">hidden</h4>
               <h5 className="d-none">hidden</h5>
               <p className="dignissim-text" data-aos="fade-up">
-                I'm always looking to expand my skill-set and consider myself a lifelong student. 
+                I'm always open to discuss opportunities where creative problem solving and team collaboration are at work.
               </p>
               <div className="left-line">
                 <img

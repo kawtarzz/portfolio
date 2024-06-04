@@ -2,13 +2,11 @@ import React, { useState, useEffect } from "react";
 import MenuSection from "./projects/candyCart/MenuSection";
 import MainPageSection from "./projects/candyCart/MainPageSection";
 import headerLogo from "../assets/img/svg/logo.png";
-import Marque from "./projects/candyCart/MarqueSection";
-import ChallengeSection from "./projects/candyCart/ChallengeSection";
-import SolutionSection from "./projects/candyCart/SolutionSection";
-import ServicesSection from "./home/ServicesSection";
-import FormSection from "./home/FormSection";
-import FooterSection from "./FooterSection";
-import Loader from "./home/Loader";
+import Marque from "../components/projects/candyCart/MarqueSection";
+import ChallengeSection from "../components/projects/candyCart/ChallengeSection";
+import SolutionSection from "../components/projects/candyCart/SolutionSection";
+import FooterSection from "../components/FooterSection";
+import Loader from "../components/home/Loader";
 import { Link } from "react-router-dom";
 
 const CandyCart = () => {
@@ -55,15 +53,8 @@ const CandyCart = () => {
           <SolutionSection />
         </div>
       </section>
-      <ServicesSection />
      
-      <section id="contact">
-        <div className="all-page-border2">
-          <div className="row">
-            <FormSection />
-          </div>
-        </div>
-      </section>
+
       <FooterSection />
     </>
   );

@@ -1,14 +1,13 @@
 import React, { useEffect } from "react";
-import SlickImage from "./SlickImage";
 import MultiplicationSvg1 from "../../../assets/img/svg/black-multipliction.svg";
 import MultiplicationSvg2 from "../../../assets/img/svg/yellow-multiplication.svg";
 import HalfCircleSvg1 from "../../../assets/img/svg/half-circle-yellow.svg";
 import HalfCircleSvg2 from "../../../assets/img/svg/half-circle-black.svg";
+import witchesWizards01 from "../../../assets/img/portfoliosection/witchesWizards/frame01.jpg";
 
 
 const MainPageSection = () => {
-  // circle and multiplication moving functionality
-  useEffect(() => {
+
     const parallax = (e) => {
       document.querySelectorAll(".object").forEach((move) => {
         const movingValue = move.getAttribute("data-value");
@@ -17,20 +16,22 @@ const MainPageSection = () => {
         move.style.transform = `translateX(${x}px) translateY(${y}px)`;
       });
     };
-
+  useEffect(() => {
     document.addEventListener("mousemove", parallax);
-
     return () => {
       document.removeEventListener("mousemove", parallax);
     };
   }, []);
+  
   return (
     <>
       <div className="row top-img">
         <div className="col-xl-6 col-lg-6 col-md-12 p-0">
-          <div classNameName="main_image_slider">
-            <SlickImage />
+        <div>
+          <img className="project-img1" src={witchesWizards01} alt="main" />
           </div>
+
+       
           <div className="multiplication-frame-main">
             <img
               className="black-multiplication object"
@@ -61,14 +62,14 @@ const MainPageSection = () => {
               alt="half-circle-black"
             />
           </div>
+     
           <div className="main_text2">
-            <h2 className="date">August 2023</h2>
+            <h2 className="date">January 2021</h2>
             <h1 className="project_text project-title" data-aos="fade-up">
-            Normal Coffee & Donuts
+            Witches & Wizards
             </h1>
             <p className="design_text colijala-second-main-text">
-            Style frames for a :15 second ad campaign for a (fictional) boutique coffee and donut shop. The ask required a mid body shot, a close up shot of the characters hand holding the product, a full body shot and a frame featuring the logo. We were also given the option to add an action shot post logo lockup.
-            <div className="sub-list">
+            Style frames for a :30 second animated campaign promoting a magical wizard-themed summer camp for adults!          <div className="sub-list">
 
               <h6 className="sub-text">Role:</h6>
               <li className="sub-list">Art Director</li> 

@@ -8,6 +8,10 @@ import video1 from "../../../assets/video/shoptheblock_1.mp4"
 
 const ChallengeSection = () =>
 {
+  const vidRef = useRef();
+  useEffect(() => {
+    vidRef.current.play();
+  }, []);
 
     return (
       <>

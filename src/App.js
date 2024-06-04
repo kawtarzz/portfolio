@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
-import "./styles/colijala.css";
+import "./styles/projects.css";
 import "./styles/homeMedia.css";
 import "./styles/news_single.css";
 import "./styles/news.css";
@@ -25,7 +25,6 @@ function App() {
   const [isVisible, setIsVisible] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
   
-  // Animate on scroll
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -34,23 +33,23 @@ function App() {
     });
   }, []);
 
-
-  useEffect(() => {
     const handleScroll = () => {
       const body = document.body;
-      if (body && window.pageYOffset > 100) {
+    if (body && window.scrollY > 100) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
       }
     };
 
+  useEffect(() => {
     window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   const toggleDarkMode = () => {
     const newDarkModeState = !isDarkMode;
     setIsDarkMode(newDarkModeState);
@@ -88,10 +87,6 @@ function App() {
         <Route path="/projects/normalcoffee" element={<NormalCoffee />} />
         <Route path="/projects/candycart" element={<CandyCart />} />
         <Route path="/projects/witcheswizards" element={<WitchesWizards />} />
-
-
-
-
       </Routes>
 
       <AnimCursor />

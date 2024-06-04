@@ -5,7 +5,6 @@ import BlackDotSvg from "../../assets/img/svg/black-dots.svg";
 import YellowSquare from "../../assets/img/svg/yellow-square-frame.svg";
 
 const AboutSection = () => {
-  // About page 8+ year count functionality
   const [counted, setCounted] = useState(0);
 
   useEffect(() => {
@@ -62,23 +61,21 @@ const AboutSection = () => {
             ABOUT
           </h2>
           <p className="design_text creative_text" data-aos="fade-up">
-           Motion/Graphic/Web Design
+            Motion/Graphic/Web Design
           </p>
           <div className="row modern-techniques">
             <div className="col-xl-6 p-0" data-aos="fade-right">
               <div className="top-space">
                 <h3 className="lobortgs">Full-Stack Designer</h3>
-     
+
                 <p className="designer designer1">
-                  Hello, I’m Kawtar, I'm a multi-media designer, animator and web developer based in
-                  Nashville, Tennssee. 
+                  Hello, I’m Kawtar! I'm a graphic and motion designer/web developer based in Nashville, Tennessee. I love to create visually engaging and interactive experiences that connect with people and tell a story.
                 </p>
                 <p className="designer designer2">
-                  I'm passionate bringing life to ideas through fun graphics, motion, and creative branding.
+
+                  I have a background in design and web development with a Bachelor of Fine Arts in Film, Video & Animation from the School of the Art Institute of Chicago. Whether it's a website, an animation, or a print piece, I'm always looking for new ways to push the boundaries of design, technology and my own creativity.
                 </p>
                 <div className="phone-email-icons">
-                      
-                   
                   <div className="email-icon">
                     <div className="phone-email-svg-main2">
                       <Link to="mailto:hello@kawtar-azzouzi.com">
@@ -88,15 +85,15 @@ const AboutSection = () => {
                           alt="email"
                         />
                       </Link>
-                    <div className="email-section">
-                    <div className="big-yellow-circle">
-                    </div>
-                    <Link to="mailto:hello@kawtar-azzouzi.com?subject=Hi Kawtar">hello@kawtar-azzouzi.com</Link>
-                    </div>
+                      <div className="email-section">
+                        <div className="big-yellow-circle">
+                        </div>
+                        <Link to="mailto:hello@kawtar-azzouzi.com?subject=Hi Kawtar">hello@kawtar-azzouzi.com</Link>
+                      </div>
                     </div>
                   </div>
                 </div>
-           
+
               </div>
             </div>
             <div

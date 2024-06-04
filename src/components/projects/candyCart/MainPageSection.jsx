@@ -27,7 +27,7 @@ const MainPageSection = () => {
     <>
       <div className="row top-img">
         <div className="col-xl-6 col-lg-6 col-md-12 p-0">
-          <div classNameName="main_image_slider">
+          <div className="main_image_slider">
             <SlickImage />
           </div>
           <div className="multiplication-frame-main">

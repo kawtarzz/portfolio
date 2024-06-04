@@ -44,6 +44,8 @@ const SolutionSection = () => {
              enhanced my understanding of the framework, REST APIs, and fetch calls
               for querying APIs.
             </p>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSiwrIiHRyD7Ay2h-2VzjFJsmgVuYvX0qTrLY_nzDH5dFQxPBH-wBslPT1mxmYaAYT0usC7BZp-yGSP/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" 
+            title="cookijar-presentation" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" className="slideshow"></iframe>
             <div className="solution-half-circle">
               <img
                 className="half-circle-yellow-solution"
@@ -92,40 +94,26 @@ const SolutionSection = () => {
             <span className="open_likes_count">{likeCount}</span>
             <p className="like-text">{liked ? "Liked" : "Liked"}</p>
           </div>
-          {/* <!-- ====================================== Like Button End ===================================== --> */}
           <div className="next-prev-buttons overflow-hidden">
             <div
               className="colijala-text-group colijala-text-group2"
               data-aos="zoom-out-left"
             >
-              <div className="right-line">
-                <h3 className="d-none">hidden</h3>
-                <h4 className="d-none">hidden</h4>
-                <h5 className="d-none">hidden</h5>
-                <h6 className="website-text prev-text m-0">
-                  <a href="/normalcoffee">PREV</a>
-                </h6>
-                <h4 className="colijala-text">
-                  <a href="/normalcoffee">Normal Coffee</a>
-                </h4>
-              </div>
+            
               <div className="red">
                 <a href="/projects/normalcoffee">
-                  <div className="arrow-pro"></div>
+                  <div className="arrow-pro left"></div>
                 </a>
-              </div>
-            </div>
-            <div className="colijala-text-group" data-aos="zoom-out-right">
-              <div className="right-line">
-                <h5 className="d-none">hidden</h5>
-                <h6 className="website-text m-0">
-                  <a href="/projects/shoptheblock">NEXT</a>
-                </h6>
                 <h4 className="colijala-text">
-                  <a href="/projects/shoptheblock">Shop the Block</a>
+                  <a href="/projects/normalcoffee">PREV</a>
                 </h4>
               </div>
+         
+
               <div className="red">
+                <h4 className="colijala-text">
+                  <a href="/projects/shoptheblock">NEXT</a>
+                </h4>
                 <a href="/projects/shoptheblock">
                   <div className="arrow-pro"></div>
                 </a>

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import $ from "jquery";
 
 const ProgressScroll = () => {
@@ -47,7 +47,6 @@ const ProgressScroll = () => {
   }, []);
 
   return null;
-  <></>;
 };
 
 export default ProgressScroll;

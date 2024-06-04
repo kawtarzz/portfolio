@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from "react";
+import React from "react";
 import BlackDotSvg from "../../../assets/img/svg/black-dots.svg";
 import YellowSquare from "../../../assets/img/svg/yellow-square-frame.svg";
 import YellowFrameSvg from "../../../assets/img/svg/traingle-yellow-frame.svg";
@@ -19,7 +19,7 @@ const ChallengeSection = () =>
                   Challenge
                 </h2>
                 <p className="unconventional" data-aos="fade-up">
-                Create style frames for an animated video promoting a magical summer camp for adults who are fantasy fanatics! 
+                Create style frames for an animated video promoting a new app for a mobile service called CandyCart. CandyCart is a fun new start-up that delivers home movie snack needs to your door within an hour. Imagine GrubHub, but filled with all of the delicious movie-sized candies and fresh, oozy, cheesy nachos that you could ever want. With their app launching in a month, they wanted to build the hype with a :20-30 second pre-roll ad. 
                 </p>
                 <div className="challenge-dots-square">
                   <img
@@ -39,16 +39,16 @@ const ChallengeSection = () =>
                   <div className="skill-list">
                     <ul className="skill-list-main">
                       <li>
-                        Design style frames that entice viewers with magical interests!
+                        Design style frames that illustrate the brand: playful, fun & lighthearted. 
                       </li>
-                      <li>Using the provided script, create the visual narrative that best interprets the material. </li>
+                      <li>Keeping in mind the branding, the style must remain professional & clean to keep customer trust. </li>
                       <li>
-                        Show the offerings of the summer camp with emotive characters.
+                        Present a few options for the style frames. A literal translation of the given script and a more abstract interpretation. 
                       </li>
                       <li>
-                        Design within brand guidelines.
+                       Create a story that shows the app functionality. 
                       </li>
-                      <li>Create a Logo lock-up to close the animation.</li>
+                      <li>Design within the branding</li>
                     </ul>
                   </div>
    
@@ -69,9 +69,9 @@ const ChallengeSection = () =>
                   <div className="challenge-img-main">
 
                     <img src={candyCart1}
-                   
+                    className="challenge-img"
                     alt="candycart"
-                    width="700"
+                    width="300"
                     />
                 </div>
 

@@ -35,19 +35,19 @@ const PortFolioSection = () => {
                 className={activeTab === 1 ? "tab_btn active" : "tab_btn"}
                 onClick={() => handleTabClick(1)}
               >
-                website
+                App/Web Design
               </button>
               <button
                 className={activeTab === 2 ? "tab_btn active" : "tab_btn"}
                 onClick={() => handleTabClick(2)}
               >
-                app
+                Motion Graphics
               </button>
               <button
                 className={activeTab === 3 ? "tab_btn active" : "tab_btn"}
                 onClick={() => handleTabClick(3)}
               >
-                illustration/design
+                Illustration/Graphic Design
               </button>
             </div>
           </div>
@@ -56,7 +56,8 @@ const PortFolioSection = () => {
       <div className="content_box overflow-hidden">
         <div className={activeTab === 0 ? "content active" : "content"}>
           <div className="row m-0">
-            <div className="col-xl-4 col-lg-4 col-md-6 p-0 center-line">
+
+          <div className="col-xl-4 col-lg-4 col-md-6 p-0 center-line">
               <div className="bottom-line">
                 <div className="hover01 column">
                   <div>
@@ -88,6 +89,7 @@ const PortFolioSection = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-xl-4 col-lg-4 col-md-6 p-0 center-line">
               <div className="bottom-line">
                 <div className="hover01 column">
@@ -160,7 +162,7 @@ const PortFolioSection = () => {
               <div className="bottom-line">
                 <div className="hover01 column">
                   <figure>
-                    <Link to="/projects/candycart">
+                    <Link to="/projects/cookijar">
                       <img
                         className="colijala-img"
                         src={candyCart1}
@@ -173,14 +175,14 @@ const PortFolioSection = () => {
               <div className="colijala-text-group">
                 <div className="right-line">
                   <h4 className="website-text">
-                    <Link to="/projects/candycart">Design/Illustration</Link>
+                    <Link to="/projects/cookijar">App/Website</Link>
                   </h4>
                   <h5 className="colijala-text">
-                    <Link to="/projects/candycart">candyCart</Link>
+                    <Link to="/projects/cookijar">cookijar</Link>
                   </h5>
                 </div>
                 <div className="red">
-                  <Link to="/projects/candycart">
+                  <Link to="/projects/cookijar">
                     <div className="arrow-pro"></div>
                   </Link>
                 </div>
