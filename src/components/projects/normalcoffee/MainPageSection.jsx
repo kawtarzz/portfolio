@@ -26,11 +26,9 @@ const MainPageSection = () => {
   }, []);
   return (
     <>
-      <div className="row top-img">
+       <div className="row top-img">
         <div className="col-xl-6 col-lg-6 col-md-12 p-0">
-          <div classNameName="main_image_slider">
             <SlickImage />
-          </div>
           <div className="multiplication-frame-main">
             <img
               className="black-multiplication object"
@@ -46,7 +44,9 @@ const MainPageSection = () => {
             />
           </div>
         </div>
-        <div className="col-xl-6 col-lg-6 col-md-12 main-text-box">
+        <div className="col-xl-6 col-lg-6 col-md-12 p-0">
+
+        <div className="main-text-box">
           <div className="half-circle-main">
             <img
               className="half-circle-yellow object"
@@ -61,29 +61,39 @@ const MainPageSection = () => {
               alt="half-circle-black"
             />
           </div>
-          <div className="main_text2">
-            <h2 className="date">August 2021</h2>
-            <h1 className="project_text project-title" data-aos="fade-up">
-            Normal Coffee & Donuts
-            </h1>
-            <p className="design_text colijala-second-main-text">
+          <div className="project-page">
+            <h2 className="hello_text date">10 June 2022</h2>
+            <h3 className="project_text project-main-text" data-aos="fade-up">
+              normal coffee & donuts
+            </h3>
+            <p className="design_text project-second-main-text">
             Style frames for a :15 second ad campaign for a (fictional) boutique coffee and donut shop. The ask required a mid body shot, a close up shot of the characters hand holding the product, a full body shot and a frame featuring the logo. We were also given the option to add an action shot post logo lockup.
-            <div className="sub-list">
-
-              <h6 className="sub-text">Role:</h6>
-              <li className="sub-list">Art Director</li> 
-              <li className="sub-list">Illustrator</li> 
-              </div>
-            <div className="sub-list">
-                <h6 className="sub-text">Technology:</h6>
-
-              <li className="sub-list">Adobe Photoshop</li> 
-              </div>
             </p>
-    
+            <div className="share-list">
+              <h2 className="d-none">hidden</h2>
+              <h3 className="d-none">hidden</h3>
+              <h4 className="d-none">hidden</h4>
+              <h5 className="d-none">hidden</h5>
+              <h6 className="share-text">ROLE</h6>
+              <p className="share-list-text">
+                Art Director
+              </p>
+              <p className="share-list-text">
+                Illustrator
+              </p>
+
+              <h6 className="share-text">TECH STACK</h6>
+              <p className="share-list-text">
+              Adobe Photoshop
+              </p>
+              
+            </div>
           </div>
         </div>
       </div>
+      </div>
+
+      
     </>
   );
 };

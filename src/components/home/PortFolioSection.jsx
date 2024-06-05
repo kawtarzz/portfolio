@@ -64,7 +64,7 @@ const PortFolioSection = () => {
                     <figure>
                       <Link to="/projects/witcheswizards">
                         <img
-                          className="colijala-img"
+                          className="project-img"
                           src={witchesWizards}
                           alt="witcheswizards"
                         />
@@ -73,12 +73,12 @@ const PortFolioSection = () => {
                   </div>
                 </div>
               </div>
-              <div className="colijala-text-group" style={{ border: "none" }}>
+              <div className="project-text-group" style={{ border: "none" }}>
                 <div className="right-line">
                   <h4 className="website-text">
                     <Link to="/projects/witcheswizards">Design/Illustration</Link>
                   </h4>
-                  <h5 className="colijala-text">
+                  <h5 className="project-text">
                     <Link to="/projects/witcheswizards">Witches & Wizards</Link>
                   </h5>
                 </div>
@@ -97,7 +97,7 @@ const PortFolioSection = () => {
                     <figure>
                       <Link to="/projects/shoptheblock">
                         <img
-                          className="colijala-img"
+                          className="project-img"
                           src={ShopBlock1}
                           alt="moligo"
                         />
@@ -106,12 +106,12 @@ const PortFolioSection = () => {
                   </div>
                 </div>
               </div>
-              <div className="colijala-text-group" style={{ border: "none" }}>
+              <div className="project-text-group" style={{ border: "none" }}>
                 <div className="right-line">
                   <h4 className="website-text">
                     <Link to="/projects/shoptheblock">Website</Link>
                   </h4>
-                  <h5 className="colijala-text">
+                  <h5 className="project-text">
                     <Link to="/projects/shoptheblock">Shop the Block</Link>
                   </h5>
                 </div>
@@ -128,7 +128,7 @@ const PortFolioSection = () => {
                   <figure>
                     <Link to="/projects/normalcoffee">
                       <img
-                        className="colijala-img"
+                        className="project-img"
                         src={NormalCoffee1}
                         alt="bolmija"
                       />
@@ -136,12 +136,12 @@ const PortFolioSection = () => {
                   </figure>
                 </div>
               </div>
-              <div className="colijala-text-group" style={{ border: "none" }}>
+              <div className="project-text-group" style={{ border: "none" }}>
                 <div className="right-line">
                   <h4 className="website-text">
                     <Link to="/projects/normalcoffee">Design/Illustration</Link>
                   </h4>
-                  <h5 className="colijala-text">
+                  <h5 className="project-text">
                     <Link to="/projects/normalcoffee">Normal Coffee</Link>
                   </h5>
                 </div>
@@ -164,20 +164,20 @@ const PortFolioSection = () => {
                   <figure>
                     <Link to="/projects/cookijar">
                       <img
-                        className="colijala-img"
+                        className="project-img"
                         src={candyCart1}
-                        alt="colijala"
+                        alt="project"
                       />
                     </Link>
                   </figure>
                 </div>
               </div>
-              <div className="colijala-text-group">
+              <div className="project-text-group">
                 <div className="right-line">
                   <h4 className="website-text">
                     <Link to="/projects/cookijar">App/Website</Link>
                   </h4>
-                  <h5 className="colijala-text">
+                  <h5 className="project-text">
                     <Link to="/projects/cookijar">cookijar</Link>
                   </h5>
                 </div>
@@ -193,17 +193,17 @@ const PortFolioSection = () => {
                 <div className="hover01 column">
                   <figure>
                     <Link to="/projects/shoptheblock">
-                      <img className="colijala-img" src={ShopBlock1} alt="moligo" />
+                      <img className="project-img" src={ShopBlock1} alt="moligo" />
                     </Link>
                   </figure>
                 </div>
               </div>
-              <div className="colijala-text-group">
+              <div className="project-text-group">
                 <div className="right-line">
                   <h4 className="website-text">
                     <Link to="/projects/shoptheblock">Website</Link>
                   </h4>
-                  <h5 className="colijala-text">
+                  <h5 className="project-text">
                     <Link to="/projects/shoptheblock">Shop the Block</Link>
                   </h5>
                 </div>
@@ -220,7 +220,7 @@ const PortFolioSection = () => {
                   <figure>
                     <Link to="/projects/cookijar">
                       <img
-                        className="colijala-img"
+                        className="project-img"
                         src={cookiJar1}
                         alt="bolmija"
                       />
@@ -228,12 +228,12 @@ const PortFolioSection = () => {
                   </figure>
                 </div>
               </div>
-              <div className="colijala-text-group">
+              <div className="project-text-group">
                 <div className="right-line">
                   <h4 className="website-text">
                     <Link to="/projects/normalcoffee">Design / Illustration</Link>
                   </h4>
-                  <h5 className="colijala-text">
+                  <h5 className="project-text">
                     <Link to="/projects/normalcoffee">Normal Coffee</Link>
                   </h5>
                 </div>
@@ -255,17 +255,17 @@ const PortFolioSection = () => {
                 <div className="hover01 column">
                   <figure>
                     <Link to="/projects/normalcoffee">
-                      <img className="colijala-img" src={ShopBlock1} alt="app1" />
+                      <img className="project-img" src={ShopBlock1} alt="app1" />
                     </Link>
                   </figure>
                 </div>
               </div>
-              <div className="colijala-text-group">
+              <div className="project-text-group">
                 <div className="right-line">
                   <h4 className="website-text">
                     <Link to="/projects/normalcoffee">Website</Link>
                   </h4>
-                  <h5 className="colijala-text">
+                  <h5 className="project-text">
                     <Link to="/projects/normalcoffee">project </Link>
                   </h5>
                 </div>
@@ -281,17 +281,17 @@ const PortFolioSection = () => {
                 <div className="hover01 column">
                   <figure>
                     <Link to="/projects/normalcoffee">
-                      <img className="colijala-img" src={ShopBlock1} alt="app2" />
+                      <img className="project-img" src={ShopBlock1} alt="app2" />
                     </Link>
                   </figure>
                 </div>
               </div>
-              <div className="colijala-text-group">
+              <div className="project-text-group">
                 <div className="right-line">
                   <h4 className="website-text">
                     <Link to="/projects/cookijar">App</Link>
                   </h4>
-                  <h5 className="colijala-text">
+                  <h5 className="project-text">
                     <Link to="/projects/cookijar">Project 1</Link>
                   </h5>
                 </div>
@@ -307,17 +307,17 @@ const PortFolioSection = () => {
                 <div className="hover01 column">
                   <figure>
                     <Link to="/projects/cookijar">
-                      <img className="colijala-img" src={cookiJar1} alt="app3" />
+                      <img className="project-img" src={cookiJar1} alt="app3" />
                     </Link>
                   </figure>
                 </div>
               </div>
-              <div className="colijala-text-group">
+              <div className="project-text-group">
                 <div className="right-line">
                   <h4 className="website-text">
                     <Link to="/projects/cookijar">Design</Link>
                   </h4>
-                  <h5 className="colijala-text">
+                  <h5 className="project-text">
                     <Link to="/projects/cookijar">project 2</Link>
                   </h5>
                 </div>
@@ -340,7 +340,7 @@ const PortFolioSection = () => {
                   <figure>
                     <Link to="/projects/cookijar">
                       <img
-                        className="colijala-img"
+                        className="project-img"
                         src={cookiJar1}
                         alt="design1"
                       />
@@ -348,12 +348,12 @@ const PortFolioSection = () => {
                   </figure>
                 </div>
               </div>
-              <div className="colijala-text-group">
+              <div className="project-text-group">
                 <div className="right-line">
                   <h4 className="website-text">
                     <Link to="/projects/cookijar">App</Link>
                   </h4>
-                  <h5 className="colijala-text">
+                  <h5 className="project-text">
                     <Link to="/projects/cookijar">CookiJar</Link>
                   </h5>
                 </div>
@@ -370,7 +370,7 @@ const PortFolioSection = () => {
                   <figure>
                     <Link to="/projects/cookijar">
                       <img
-                        className="colijala-img"
+                        className="project-img"
                         src={cookiJar1}
                         alt="bolmija"
                       />
@@ -378,12 +378,12 @@ const PortFolioSection = () => {
                   </figure>
                 </div>
               </div>
-              <div className="colijala-text-group">
+              <div className="project-text-group">
                 <div className="right-line">
                   <h4 className="website-text">
                     <Link to="/projects/cookijar">App</Link>
                   </h4>
-                  <h5 className="colijala-text">
+                  <h5 className="project-text">
                     <Link to="/projects/cookijar">project</Link>
                   </h5>
                 </div>
@@ -400,7 +400,7 @@ const PortFolioSection = () => {
                   <figure>
                     <Link to="/projects/cookijar">
                       <img
-                        className="colijala-img"
+                        className="project-img"
                         src={cookiJar1}
                         alt="design2"
                       />

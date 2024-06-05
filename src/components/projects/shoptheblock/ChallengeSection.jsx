@@ -23,7 +23,7 @@ const ChallengeSection = () =>
                 <h2 className="about-text" data-aos="fade-up">
                   Challenge
                 </h2>
-                <div className="challenge-description" data-aos="fade-up">
+             
                 <p className="unconventional" data-aos="fade-up">
                 To build a full-stack application with user authentication, 
                 full CRUD functionality, and an SQL database. The application
@@ -35,7 +35,7 @@ const ChallengeSection = () =>
                   application should be responsive, following the Single 
                   Responsibility principle and emphasizing modular code.
                 </p>
-                </div>
+                
                 <div className="challenge-dots-square">
                   <img
                     className="challenge-black-dots"
