@@ -13,7 +13,7 @@ import witchesWizards08 from "../../../assets/img/portfoliosection/witchesWizard
 import witchesWizards09 from "../../../assets/img/portfoliosection/witchesWizards/frame07.jpg"
 import witchesWizards10 from "../../../assets/img/portfoliosection/witchesWizards/frame08.jpg"
 
-class ImageSlider extends React.Component {
+class SlickImage extends React.Component {
   render() {
     const settings = {
       arrows: true,
@@ -91,7 +91,7 @@ class ImageSlider extends React.Component {
   }
 }
 
-export default ImageSlider;
+export default SlickImage;
 
 function NextArrow(props) {
   const { className, style, onClick } = props;

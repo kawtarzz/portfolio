@@ -53,7 +53,7 @@ export default function MainPageSection() {
             />
           <div className="hello-box">
          
-        <h2 className="hello-text hello-box">
+        <h2 className="hello-text ">
           Hello, my name is 
           </h2>
           <br></br>

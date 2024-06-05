@@ -33,8 +33,8 @@ const SolutionSection = () => {
               Solution
             </h2>
             <p className="unconventional" data-aos="fade-up">
-              After a couple iterations of the storyboard, we landed on a treatment that lay between the literal and abstract options presented to the client. Keeping the story straight-forward with a little exaggerated humor in the service's amount of candy delivered to our main character. I highlighted the pink in their branding throughout the frames which gave us a consistent, clean style with enough whimsy to demonstrate the fun service being advertised. 
-             </p>
+              After a couple iterations of the storyboard, we landed on a treatment that lay between the literal and abstract options presented to the client. Keeping the story straight-forward with a little exaggerated humor in the service's amount of candy delivered to our main character. I highlighted the pink in their branding throughout the frames which gave us a consistent, clean style with enough whimsy to demonstrate the fun service being advertised.
+            </p>
             <div className="solution-half-circle">
               <img
                 className="half-circle-yellow-solution"
@@ -48,7 +48,7 @@ const SolutionSection = () => {
               />
             </div>
           </div>
-        
+
           <div
             className="like-button-circle position-relative"
             data-aos="fade-up"
@@ -85,39 +85,35 @@ const SolutionSection = () => {
           </div>
           {/* <!-- ====================================== Like Button End ===================================== --> */}
           <div className="next-prev-buttons overflow-hidden">
+
             <div
-              className="colijala-text-group colijala-text-group2"
+              className="project-text-group project-text-group2"
               data-aos="zoom-out-left"
             >
-              <div className="right-line">
-                <h3 className="d-none">hidden</h3>
-                <h4 className="d-none">hidden</h4>
+              <div className="red-left">
                 <h5 className="d-none">hidden</h5>
-                <h6 className="website-text prev-text m-0">
-                  <a href="/cookijar">PREV</a>
-                </h6>
-                <h4 className="colijala-text">
-                  <a href="/projects/normalcoffee">Normal Coffee</a>
-                </h4>
-              </div>
-              <div className="red">
-                <a href="/projects/normalcoffee">
+                <a href="/projects/cookijar">
                   <div className="arrow-pro left"></div>
                 </a>
               </div>
+              <div className="right-line">
+
+                <h4 className="project-text">
+                  <a href="/projects/cookijar">PREV</a>
+                </h4>
+              </div>
             </div>
-            <div className="colijala-text-group" data-aos="zoom-out-right">
+
+            <div className="project-text-group" data-aos="zoom-out-right">
               <div className="right-line">
                 <h5 className="d-none">hidden</h5>
-                <h6 className="website-text m-0">
-                  <a href="/projects/cookijar">NEXT</a>
-                </h6>
-                <h4 className="colijala-text">
-                  <a href="/projects/cookijar">CookiJar</a>
+
+                <h4 className="project-text">
+                  <a href="/projects/witcheswizards">NEXT</a>
                 </h4>
               </div>
               <div className="red">
-                <a href="/projects/cookijar">
+                <a href="/projects/witcheswizards">
                   <div className="arrow-pro"></div>
                 </a>
               </div>

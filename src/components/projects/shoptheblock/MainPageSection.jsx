@@ -4,6 +4,7 @@ import MultiplicationSvg2 from "../../../assets/img/svg/yellow-multiplication.sv
 import HalfCircleSvg1 from "../../../assets/img/svg/half-circle-yellow.svg";
 import HalfCircleSvg2 from "../../../assets/img/svg/half-circle-black.svg";
 import ShopBlock1 from "../../../assets/img/portfoliosection/shoptheblock/app2.jpg";
+import SlickImage from "./SlickImage";
 
 
 const MainPageSection = () => {
@@ -25,13 +26,9 @@ const MainPageSection = () => {
   }, []);
   return (
     <>
-      <div className="row top-img">
+            <div className="row top-img">
         <div className="col-xl-6 col-lg-6 col-md-12 p-0">
-        <div className="img-container">
-          <img className="project-img1" src={ShopBlock1} alt="main" />
-          </div>
-
-       
+          <SlickImage />
           <div className="multiplication-frame-main">
             <img
               className="black-multiplication object"
@@ -47,7 +44,9 @@ const MainPageSection = () => {
             />
           </div>
         </div>
-        <div className="col-xl-6 col-lg-6 col-md-12 main-text-box">
+        <div className="col-xl-6 col-lg-6 col-md-12">
+        <div className="main-text-box">
+
           <div className="half-circle-main">
             <img
               className="half-circle-yellow object"
@@ -62,26 +61,27 @@ const MainPageSection = () => {
               alt="half-circle-black"
             />
           </div>
-          <div className="main_text2">
-            <h2 className="date">August 2023</h2>
-            <h1 className="project_text project-title" data-aos="fade-up">
-              shopTheBlock
-            </h1>
-            <p className="design_text">
+          <div className="project-page">
+            <h2 className="hello_text date">August 2021</h2>
+            <h1 className="project_text project-main-text" data-aos="fade-up">
+              Shop the Block
+              </h1>
+            <p className="design_text project-second-main-text">
             ShopTheBlock is a website that aims to supply local artists and makers 
            with a platform to connect and sell to their local community. The idea sparked
            from personal challenges selling through popular marketplaces such as Etsy. Hearing 
            from other friends and owners of small businesses, I realized I was not alone with my complaints.
            The demand for a fair marketplace with lower fees and a localized search option was clearly out there. 
            I built the website as my capstone project for Nashville Software School's Software Development bootcamp. 
-            <div className="sub-list">
-                <h6 className="sub-text">Technology Stack:</h6>
-
-              <li className="sub-list">React.JS</li> 
-              <li className="sub-list">.NET / C#</li>
-              <li className="sub-list">SQL</li>
-              </div>
             </p>
+            <div className="share-list">
+                <h6 className="share-text">Technology Stack:</h6>
+
+              <li className="share-list-text">React.JS</li> 
+              <li className="share-list-text">.NET / C#</li>
+              <li className="share-list-text">SQL</li>
+              </div>
+              </div>
       
           </div>
         </div>

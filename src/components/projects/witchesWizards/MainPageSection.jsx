@@ -3,8 +3,7 @@ import MultiplicationSvg1 from "../../../assets/img/svg/black-multipliction.svg"
 import MultiplicationSvg2 from "../../../assets/img/svg/yellow-multiplication.svg";
 import HalfCircleSvg1 from "../../../assets/img/svg/half-circle-yellow.svg";
 import HalfCircleSvg2 from "../../../assets/img/svg/half-circle-black.svg";
-import witchesWizards01 from "../../../assets/img/portfoliosection/witchesWizards/frame01.jpg";
-
+import SlickImage2 from "./SlickImage2";
 
 const MainPageSection = () => {
 
@@ -25,13 +24,9 @@ const MainPageSection = () => {
   
   return (
     <>
-      <div className="row top-img">
+       <div className="row top-img">
         <div className="col-xl-6 col-lg-6 col-md-12 p-0">
-        <div>
-          <img className="project-img1" src={witchesWizards01} alt="main" />
-          </div>
-
-       
+            <SlickImage2 />
           <div className="multiplication-frame-main">
             <img
               className="black-multiplication object"
@@ -47,7 +42,9 @@ const MainPageSection = () => {
             />
           </div>
         </div>
-        <div className="col-xl-6 col-lg-6 col-md-12 main-text-box">
+        <div className="col-xl-6 col-lg-6 col-md-12 p-0">
+
+        <div className="main-text-box">
           <div className="half-circle-main">
             <img
               className="half-circle-yellow object"
@@ -62,25 +59,24 @@ const MainPageSection = () => {
               alt="half-circle-black"
             />
           </div>
-     
-          <div className="main_text2">
-            <h2 className="date">January 2021</h2>
-            <h1 className="project_text project-title" data-aos="fade-up">
+          <div className="project-page">
+            <h2 className="hello_text date">January 2021</h2>
+            <h1 className="project_text project-main-text" data-aos="fade-up">
             Witches & Wizards
             </h1>
-            <p className="design_text colijala-second-main-text">
-            Style frames for a :30 second animated campaign promoting a magical wizard-themed summer camp for adults!          <div className="sub-list">
+            <p className="design_text project-second-main-text">
+            Style frames for a :30 second animated campaign promoting a magical wizard-themed summer camp for adults!          
+            <div className="share-list">
 
-              <h6 className="sub-text">Role:</h6>
-              <li className="sub-list">Art Director</li> 
-              <li className="sub-list">Illustrator</li> 
+              <h6 className="share-text">Role:</h6>
+              <li className="share-list-text">Art Director</li> 
+              <li className="share-list-text">Illustrator</li> 
+                <h6 className="share-text">Technology:</h6>
+                <li className="share-list-text">Photoshop</li> 
               </div>
-            <div className="sub-list">
-                <h6 className="sub-text">Technology:</h6>
 
-              <li className="sub-list">Adobe Photoshop</li> 
-              </div>
             </p>
+            </div>
     
           </div>
         </div>

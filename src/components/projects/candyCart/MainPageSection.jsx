@@ -27,9 +27,7 @@ const MainPageSection = () => {
     <>
       <div className="row top-img">
         <div className="col-xl-6 col-lg-6 col-md-12 p-0">
-          <div className="main_image_slider">
             <SlickImage />
-          </div>
           <div className="multiplication-frame-main">
             <img
               className="black-multiplication object"
@@ -45,7 +43,9 @@ const MainPageSection = () => {
             />
           </div>
         </div>
-        <div className="col-xl-6 col-lg-6 col-md-12 main-text-box">
+        <div className="col-xl-6 col-lg-6 col-md-12">
+        <div className="main-text-box">
+
           <div className="half-circle-main">
             <img
               className="half-circle-yellow object"
@@ -60,29 +60,37 @@ const MainPageSection = () => {
               alt="half-circle-black"
             />
           </div>
-          <div className="main_text2">
-            <h2 className="date">January 2021</h2>
-            <h1 className="project_text project-title" data-aos="fade-up">
-            Witches & Wizards
+          <div className="project-page">
+            <h2 className="hello_text date">January 2021</h2>
+            <h1 className="project_text project-main-text" data-aos="fade-up">
+            Candy Cart
             </h1>
-            <p className="design_text colijala-second-main-text">
-            Style frames for a :30 second animated campaign promoting a magical wizard-themed summer camp for adults!          <div className="sub-list">
-
-              <h6 className="sub-text">Role:</h6>
-              <li className="sub-list">Art Director</li> 
-              <li className="sub-list">Illustrator</li> 
-              </div>
-            <div className="sub-list">
-                <h6 className="sub-text">Technology:</h6>
-
-              <li className="sub-list">Adobe Photoshop</li> 
-              </div>
+            <p className="design_text project-second-main-text">
+              Candy Cart is a project that I worked on during my time at the School of Motion. The project was to create a brand identity for a new mobile delivery. I was responsible for developing the art direction, illustrating the storyboard and finalizing the style frames. The project was a great opportunity for me to showcase my skills as an illustrator and art director.
             </p>
-    
+            <div className="share-list">
+              <h2 className="d-none">hidden</h2>
+              <h3 className="d-none">hidden</h3>
+              <h4 className="d-none">hidden</h4>
+              <h5 className="d-none">hidden</h5>
+              <h6 className="share-text">ROLE</h6>
+              <p className="share-list-text">
+                Art Director
+              </p>
+              <p className="share-list-text">
+                Illustrator
+              </p>
+
+              <h6 className="share-text">TECH STACK</h6>
+              <p className="share-list-text">
+              Adobe Photoshop
+              </p>
+              </div>
           </div>
+        </div>
         </div>
       </div>
     </>
   );
-};
+}
 export default MainPageSection;

@@ -55,15 +55,7 @@ const NormalCoffee = () => {
           <SolutionSection />
         </div>
       </section>
-      <ServicesSection />
      
-      <section id="contact">
-        <div className="all-page-border2">
-          <div className="row">
-            <FormSection />
-          </div>
-        </div>
-      </section>
       <FooterSection />
     </>
   );

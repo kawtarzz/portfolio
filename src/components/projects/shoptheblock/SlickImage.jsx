@@ -18,10 +18,10 @@ class ImageSlider extends React.Component {
     return (
       <Slider {...settings} className="main_image_slider">
         <div>
-          <img className="project_img1" src={ShopBlock1} alt="Slide 2" />
+          <img className="project_img1" src={ShopBlock1} alt="Slide 2" style={{ maxWidth: "300px" }} />
         </div>
         <div>
-          <img className="project_img1" src={ShopBlock1} alt="Slide 3" />
+          <img className="project_img1" src={ShopBlock1} alt="Slide 3" style={{ maxWidth: "300px" }} />
         </div>
       </Slider>
     );
