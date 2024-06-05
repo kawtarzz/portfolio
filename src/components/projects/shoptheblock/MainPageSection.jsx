@@ -3,7 +3,6 @@ import MultiplicationSvg1 from "../../../assets/img/svg/black-multipliction.svg"
 import MultiplicationSvg2 from "../../../assets/img/svg/yellow-multiplication.svg";
 import HalfCircleSvg1 from "../../../assets/img/svg/half-circle-yellow.svg";
 import HalfCircleSvg2 from "../../../assets/img/svg/half-circle-black.svg";
-import ShopBlock1 from "../../../assets/img/portfoliosection/shoptheblock/app2.jpg";
 import SlickImage from "./SlickImage";
 
 
