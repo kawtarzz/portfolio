@@ -4,7 +4,6 @@ import MultiplicationSvg1 from "../../../assets/img/svg/black-multipliction.svg"
 import MultiplicationSvg2 from "../../../assets/img/svg/yellow-multiplication.svg";
 import HalfCircleSvg1 from "../../../assets/img/svg/half-circle-yellow.svg";
 import HalfCircleSvg2 from "../../../assets/img/svg/half-circle-black.svg";
-import { Link } from "react-router-dom";
 
 const MainPageSection = () => {
   // circle and multiplication moving functionality
