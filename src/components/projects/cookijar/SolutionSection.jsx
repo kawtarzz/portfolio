@@ -94,26 +94,36 @@ const SolutionSection = () => {
             <span className="open_likes_count">{likeCount}</span>
             <p className="like-text">{liked ? "Liked" : "Liked"}</p>
           </div>
+          
           <div className="next-prev-buttons overflow-hidden">
+
             <div
-              className="colijala-text-group colijala-text-group2"
+              className="project-text-group project-text-group2"
               data-aos="zoom-out-left"
             >
-            
-              <div className="red">
+                <div className="red-left">
+                <h5 className="d-none">hidden</h5>
                 <a href="/projects/normalcoffee">
                   <div className="arrow-pro left"></div>
                 </a>
-                <h4 className="colijala-text">
+              </div>
+              <div className="right-line">
+                
+                <h4 className="project-text">
                   <a href="/projects/normalcoffee">PREV</a>
                 </h4>
               </div>
-         
+            </div>
 
-              <div className="red">
-                <h4 className="colijala-text">
+            <div className="project-text-group" data-aos="zoom-out-right">
+              <div className="right-line">
+                <h5 className="d-none">hidden</h5>
+                
+                <h4 className="project-text">
                   <a href="/projects/shoptheblock">NEXT</a>
                 </h4>
+              </div>
+              <div className="red">
                 <a href="/projects/shoptheblock">
                   <div className="arrow-pro"></div>
                 </a>

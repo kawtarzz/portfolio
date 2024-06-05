@@ -63,9 +63,7 @@ const ChallengeSection = () =>
                       <li> Implement responsive, flexible layout for the app. </li>
                     </ul>
                   </div>
-                <p className="integer integer1">
-                CookiJar is a productivity tracking application that gamifies task management. Built with React and JSON server, it allows users to assign point values to tasks and earn rewards upon completion. The application features full CRUD functionality, user authentication, and a responsive design.
-                </p>
+              
                   <div className="challenge-traingle-frame">
                     <img
                       className="ch-traingle-yellow-frame"

@@ -58,7 +58,6 @@ const SolutionSection = () => {
             </div>
           </div>
          
-          {/* <!-- ====================================== Like Button ===================================== --> */}
           <div
             className="like-button-circle position-relative"
             data-aos="fade-up"
@@ -95,32 +94,34 @@ const SolutionSection = () => {
           </div>
    
           <div className="next-prev-buttons overflow-hidden">
+
             <div
-              className="colijala-text-group colijala-text-group2"
+              className="project-text-group project-text-group2"
               data-aos="zoom-out-left"
             >
-              <div className="right-line">
-                <h3 className="d-none">hidden</h3>
-                <h4 className="d-none">hidden</h4>
+                <div className="red-left">
                 <h5 className="d-none">hidden</h5>
-              </div>
-              <div className="red">
                 <a href="/projects/cookijar">
                   <div className="arrow-pro left"></div>
                 </a>
-                <h4 className="colijala-text">
+              </div>
+              <div className="right-line">
+                
+                <h4 className="project-text">
                   <a href="/projects/cookijar">PREV</a>
                 </h4>
               </div>
             </div>
-            <div className="colijala-text-group" data-aos="zoom-out-right">
+
+            <div className="project-text-group" data-aos="zoom-out-right">
               <div className="right-line">
                 <h5 className="d-none">hidden</h5>
-              </div>
-              <div className="red">
-                <h4 className="colijala-text">
+                
+                <h4 className="project-text">
                   <a href="/projects/witcheswizards">NEXT</a>
                 </h4>
+              </div>
+              <div className="red">
                 <a href="/projects/witcheswizards">
                   <div className="arrow-pro"></div>
                 </a>

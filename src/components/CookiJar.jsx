@@ -9,6 +9,7 @@ import FooterSection from "./FooterSection";
 import Loader from "./home/Loader";
 import { Link } from "react-router-dom";
 
+
 const CookiJar = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {

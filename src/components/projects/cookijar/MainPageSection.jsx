@@ -1,11 +1,13 @@
 import React, { useEffect } from "react";
+import SlickImage from "./SlickImage";
 import MultiplicationSvg1 from "../../../assets/img/svg/black-multipliction.svg";
 import MultiplicationSvg2 from "../../../assets/img/svg/yellow-multiplication.svg";
 import HalfCircleSvg1 from "../../../assets/img/svg/half-circle-yellow.svg";
 import HalfCircleSvg2 from "../../../assets/img/svg/half-circle-black.svg";
-import cookiJar1 from "../../../assets/img/portfoliosection/cookijar/cookijar_sq.jpg";
+import { Link } from "react-router-dom";
 
 const MainPageSection = () => {
+  // circle and multiplication moving functionality
   useEffect(() => {
     const parallax = (e) => {
       document.querySelectorAll(".object").forEach((move) => {
@@ -24,15 +26,9 @@ const MainPageSection = () => {
   }, []);
   return (
     <>
-      <div className="row top-img">
+       <div className="row top-img">
         <div className="col-xl-6 col-lg-6 col-md-12 p-0">
-        <div className="img-container">
-           <img 
-            className="project-img1" 
-            src={cookiJar1} 
-            width={500}
-            alt="main" />
-          </div>
+            <SlickImage />
           <div className="multiplication-frame-main">
             <img
               className="black-multiplication object"
@@ -48,7 +44,9 @@ const MainPageSection = () => {
             />
           </div>
         </div>
-        <div className="col-xl-6 col-lg-6 col-md-12 main-text-box">
+        <div className="col-xl-6 col-lg-6 col-md-12 p-0">
+
+        <div className="main-text-box">
           <div className="half-circle-main">
             <img
               className="half-circle-yellow object"
@@ -63,32 +61,45 @@ const MainPageSection = () => {
               alt="half-circle-black"
             />
           </div>
-          <div className="main_text2">
-            <h2 className="date">August 2023</h2>
-            <h1 className="project_text colijala-main-text" data-aos="fade-up">
-            CookiJar
+          <div className="project-page">
+            <h2 className="hello_text date">10 June 2022</h2>
+            <h1 className="project_text project-main-text" data-aos="fade-up">
+              cookiJar
             </h1>
-            <p className="design_text colijala-second-main-text">
+            <p className="design_text project-second-main-text">
             CookiJar is a productivity tracking application that gamifies
             task management. Built with React and JSON server, it allows users 
             to assign point values to tasks and earn rewards upon completion.
              The application features full CRUD functionality, user authentication, and a responsive design.
-            <div className="sub-list">
-                <h6 className="sub-text">Technology Stack:</h6>
-
-              <li className="sub-list">React.JS</li> 
-              <li className="sub-list">JSON Server</li>
-              <li className="sub-list">Bootstrap / Reactstrap</li>
-              <li className="sub-list">HTML5</li>
-              <li className="sub-list">CSS3</li>
-              <li className="sub-list">Javascript</li>
-              </div>
             </p>
-    
+            <div className="share-list">
+              <h2 className="d-none">hidden</h2>
+              <h3 className="d-none">hidden</h3>
+              <h4 className="d-none">hidden</h4>
+              <h5 className="d-none">hidden</h5>
+              <h6 className="share-text">TECH STACK</h6>
+              <p className="share-list-text">
+               React.js
+              </p>
+              <p className="share-list-text">
+                JSON server
+              </p>
+              <p className="share-list-text">
+                Bootstrap
+              </p>
+              <p className="share-list-text">
+                  HTML5 / CSS3
+              </p>
+              <p className="share-list-text">
+                Javascript
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </>
+      </div>
+      </>
   );
-};
+}
+
 export default MainPageSection;

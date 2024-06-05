@@ -69,9 +69,8 @@ const ChallengeSection = () =>
                   <div className="challenge-img-main">
 
                     <img src={candyCart1}
-                    className="challenge-img"
+                    className="project-img1"
                     alt="candycart"
-                    width="300"
                     />
                 </div>
 
