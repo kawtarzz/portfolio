@@ -5,8 +5,6 @@ import headerLogo from "../assets/img/svg/logo.png";
 import Marque from "./projects/normalcoffee/MarqueSection";
 import ChallengeSection from "./projects/normalcoffee/ChallengeSection";
 import SolutionSection from "./projects/normalcoffee/SolutionSection";
-import ServicesSection from "./home/ServicesSection";
-import FormSection from "./home/FormSection";
 import FooterSection from "./FooterSection";
 import Loader from "./home/Loader";
 import { Link } from "react-router-dom";
