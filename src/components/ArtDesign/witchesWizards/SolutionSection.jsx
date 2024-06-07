@@ -33,7 +33,7 @@ const SolutionSection = () => {
               Solution
             </h2>
             <p className="unconventional" data-aos="fade-up">
-              The client wanted to show the diversity of their client base. The initial style frames included a male figure and the re-design framed a female minority as our protagonist. The re-design also allowed for diversifying the character poses, as the client was able to extend their budget for a character animator. The action pose brought more emotion and life to the character and communicated the character's newfound energy.
+             In the process of creating these style frames, I felt that I had found a distinct character style that was simple enough to replicate with enough detail to emote and convey messages without over complicating the figures. I had a ton of fun creating this project and still feel its some of my best storyboard / style framing work. I had some challenges illustrating the fire beneath the cauldron and finding the balance between simple and detailed, but I'm very happy with how the work turned out. Stay tuned for an animated version! 
             </p>
             <div className="solution-half-circle">
               <img

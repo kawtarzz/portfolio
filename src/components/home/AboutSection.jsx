@@ -88,7 +88,10 @@ const AboutSection = () => {
                       <div className="email-section">
                         <div className="big-yellow-circle">
                         </div>
+                        <p className="email-text">
+
                         <Link to="mailto:hello@kawtar-azzouzi.com?subject=Hi Kawtar">hello@kawtar-azzouzi.com</Link>
+                        </p>
                       </div>
                     </div>
                   </div>
