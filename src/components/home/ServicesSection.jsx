@@ -62,7 +62,7 @@ const ServicesSection = () => {
                 </div>
                 <h3 className="developement-text">Design</h3>
                 <p className="odio-text">
-                  From Graphic Design, Branding to Motion Design. Let's solve your visual communication needs, together. 
+                  From logo design to illustration to full branding packages- I'll help define the visual language for your business or project!
                 </p>
               </div>
             </div>
@@ -76,10 +76,9 @@ const ServicesSection = () => {
                   />
                   <div className="big-yellow-circle-services2"></div>
                 </div>
-                <h3 className="developement-text developement-text2">Marketing</h3>
+                <h3 className="developement-text developement-text2">Motion Graphics</h3>
                 <p className="odio-text">
-                  S.E.O optimization, web accessibility, email marketing and social media is a lot to manage. I can help!
-                </p>
+                  Need an explainer video, animated titles, logos or assistance on a bigger animation project? Let's bring your graphics & idea to life!       </p>
               </div>
             </div>
           </div>

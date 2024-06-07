@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import headerLogo from "../../assets/img/svg/logo.png"
+import headerLogo from "../assets/img/svg/logo.png"
 import { Link } from "react-router-dom";
 
 const MenuSection = () => {
@@ -32,6 +32,8 @@ const MenuSection = () => {
   const handleNavbarItemClick = () => {
     setIsWrapperClass(false);
   };
+
+  
   return (
     <>
       <header className="menu">

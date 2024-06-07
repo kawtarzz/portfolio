@@ -15,9 +15,7 @@ const ResumeSection = () => {
   return (
     <>
       <div className="all-page-border2">
-
         <div className="all-page-border2 portfolio-bg">
-
           <div className="services-spacer">
             <h2 className="about-text" data-aos="fade-up">
               Resume
@@ -36,7 +34,8 @@ const ResumeSection = () => {
               <h4 className="d-none">hidden</h4>
               <h5 className="d-none">hidden</h5>
               <p className="dignissim-text" data-aos="fade-up">
-                I'm always open to discuss opportunities where creative problem solving and team collaboration are at work.
+                With a foundation in design principles and animation production, I hold a Bachelor of Fine Arts from the School of the Art Institute of Chicago. I've furthered this education through courses in motion design and illustration from School of Motion.
+                More recently, I completed a Full-Stack Developer Certificate from Nashville Software School, where I honed my skills in React and Dot Net full-stack software and website development.
               </p>
               <div className="left-line">
                 <img
@@ -46,11 +45,11 @@ const ResumeSection = () => {
                 />
                 <div className="side-space" data-aos="fade-up">
                   <h6 className="resume-ed-text">
-                    Full-Stack Developer Certificiate
+                    Full-Stack Developer Certificate
                   </h6>
                   <p className="sity">Nashville Software School</p>
                   <p className="nibh">
-                    6-month intensive React & Dot Net full-stack software and website development bootcamp. 
+                    6-month intensive React & Dot Net full-stack software and website development bootcamp.
                   </p>
                 </div>
               </div>
@@ -66,7 +65,7 @@ const ResumeSection = () => {
                   </h6>
                   <p className="sity">School of the Art Institute of Chicago</p>
                   <p className="nibh">
-                    Film, Video, New Media & Animation. 
+                    Film, Video, New Media & Animation.
                     Dean's List & Goldman Sachs Scholarship Recipient.
                   </p>
                 </div>
@@ -79,7 +78,7 @@ const ResumeSection = () => {
                 />
                 <div className="side-space" data-aos="fade-up">
                   <h6 className="resume-ed-text">
-                   Motion Design & Illustration
+                    Motion Design & Illustration
                   </h6>
                   <p className="sity">School of Motion / 2016 - 2018</p>
                   <p className="nibh">
@@ -99,7 +98,7 @@ const ResumeSection = () => {
               <h4 className="d-none">hidden</h4>
               <h5 className="d-none">hidden</h5>
               <p className="dignissim-text" data-aos="fade-up">
-                I'm always open to discuss opportunities where creative problem solving and team collaboration are at work. 
+              Whether crafting engaging motion graphics or developing seamless web applications, I am driven by a passion for innovation and excellence. My multifaceted expertise positions me to tackle complex challenges and contribute to dynamic, cross-functional teams effectively.
               </p>
               <div className="left-line">
                 <img
@@ -111,14 +110,13 @@ const ResumeSection = () => {
                   <div className="icons-set">
                     <div>
                       <h6 className="resume-ed-text">
-                        Motion Designer
+                        Motion Graphics Designer
                       </h6>
-                      <p className="sity">Freelance / 2020 - Current</p>
+                      <p className="sity">KGV Studios / March 2024 - Present</p>
                     </div>
-                  
                   </div>
                   <p className="nibh">
-                   Working in After Effects and Adobe creative suite to bring life and motion into promotional marketing.
+                    Conceptualizing art direction, style frames, and executing animations using After Effects. Communicating with clients and design teams to understand design requirements and providing solutions for technical problems.
                   </p>
                 </div>
               </div>
@@ -132,15 +130,13 @@ const ResumeSection = () => {
                   <div className="icons-set">
                     <div>
                       <h6 className="resume-ed-text">
-                        Full-Stack Developer
+                        Art Director Intern
                       </h6>
-                      <p className="sity">Apprenticeship / Nashville Software School / February 2023 -  August 2023</p>
+                      <p className="sity">Rocket Mortgage / February 2021 - August 2021</p>
                     </div>
-                 
                   </div>
                   <p className="nibh">
-                    Remote collaborative full-stack software development. 
-                    Focused in dot net / C# development on the back-end and React.js, Javascript, HTML3, CSS5 on the front-end. 
+                    Developed & executed concepts with accompanying visual strategy for audience touch points; including social media, video, broadcast, digital, and print communications. Collaborated with Copywriters and Creative Directors for cross-channel campaigns.
                   </p>
                 </div>
               </div>
@@ -156,12 +152,12 @@ const ResumeSection = () => {
                       <h6 className="resume-ed-text">
                         Digital Media Manager
                       </h6>
-                      <p className="sity">Lost Girls / 2019 - 2021</p>
+                      <p className="sity">Lost Girls / November 2019 - February 2021</p>
                     </div>
-             
                   </div>
+                  <p className="nibh"></p>
                   <p className="nibh">
-                    E-Commerce website development with maintenance and customer service support. Increased retail sales x3 through online sales and instagram shopping management. 
+                    Art direction for product photography and garment modeling. Developed & launched an E-Commerce site to maintain revenue-streams throughout the pandemic, tripling sales revenue over time.
                   </p>
                 </div>
               </div>
@@ -181,14 +177,11 @@ const ResumeSection = () => {
                     alt="resume-img"
                   />
                 </div>
-                
               </div>
-            
-              
             </div>
             <div className="col-xl-4 col-lg-6 position-relative">
               <h4 className="imagine" data-aos="fade-up">
-              Design & Tech Skills
+                Design & Tech Skills
               </h4>
               <p className="visually-text" data-aos="fade-up">
               </p>
@@ -215,7 +208,6 @@ const ResumeSection = () => {
               </div>
               <ProgressScroll />
               <RevealOnScroll />
-             
               <div
                 className="progress-bar"
                 data-percentage="80%"

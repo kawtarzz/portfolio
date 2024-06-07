@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ShopBlock1 from "../../../assets/img/portfoliosection/shoptheblock/app2.jpg";
+import ShopBlock2 from "../../../assets/img/portfoliosection/shoptheblock/shoptheblock1.png"
 
 class ImageSlider extends React.Component {
   render() {
@@ -21,7 +22,7 @@ class ImageSlider extends React.Component {
           <img className="project_img1" src={ShopBlock1} alt="Slide 2" style={{ maxWidth: "300px" }} />
         </div>
         <div>
-          <img className="project_img1" src={ShopBlock1} alt="Slide 3" style={{ maxWidth: "300px" }} />
+          <img className="project_img1" src={ShopBlock2} alt="Slide 3" style={{ maxWidth: "300px" }} />
         </div>
       </Slider>
     );
