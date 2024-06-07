@@ -19,12 +19,45 @@ import ShopTheBlock from "./components/ShopTheBlock.jsx";
 import NormalCoffee from "./components/NormalCoffee.jsx";
 import CandyCart from "./components/CandyCart.jsx";
 import WitchesWizards from "./components/WitchesWizards.jsx"
-
+import MenuSection from "./components/MenuSection.jsx";
+import FooterSection from "./components/FooterSection.jsx";
+import MinMenuSection from "./components/MinMenuSection.jsx";
+import Loader from "./components/home/Loader";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isHome, setIsHome] = useState(true);
+  const [loading, setLoading] = useState(true);
+  const path = window.location.pathname;
   
+  const toggleDarkMode = () => {
+    const newDarkModeState = !isDarkMode;
+    setIsDarkMode(newDarkModeState);
+    localStorage.setItem("darkmode", newDarkModeState.toString());
+  };
+
+  const handleScroll = () => {
+    const body = document.body;
+  if (body && window.scrollY > 100) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+
+  useEffect(() => {
+    if (path === "/" || path ==="/home") {
+      setIsHome(true);
+      console.log("home")
+    } else {
+      setIsHome(false);
+      console.log("not home")
+    }}, [path]);
+
+
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -33,28 +66,14 @@ function App() {
     });
   }, []);
 
-    const handleScroll = () => {
-      const body = document.body;
-    if (body && window.scrollY > 100) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
-    };
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
-  const toggleDarkMode = () => {
-    const newDarkModeState = !isDarkMode;
-    setIsDarkMode(newDarkModeState);
-    localStorage.setItem("darkmode", newDarkModeState.toString());
-  };
 
   useEffect(() => {
     if (typeof document !== "undefined" && document.body) {
@@ -69,16 +88,31 @@ function App() {
       document.body.classList.toggle("dark-mode", isDarkMode);
     }
   }, [isDarkMode]);
-
  
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 2000);
+  }, []);
+  if (loading) {
+    return <Loader />;
+  }
+
   return (
     <>
+  
     <div className="App section" id="main-div">
+        {
+          isHome ? (
+            <MenuSection />
+          ) : (  <MinMenuSection />
+          )
+        }
+       
+            <div className="container">
       
       <Routes>
         <Route path="/" element={<Home />} />
@@ -107,6 +141,10 @@ function App() {
         > 
         <img src={faArrowUp} alt="" style={{ fontSize: "22px" }} />
       </button>
+    
+      <FooterSection />
+    </div>
+
     </div>
         </>
   );

@@ -102,22 +102,12 @@
 }
 
 @media(max-width:1750px) {
-    .catch-me {
-        color: var(--secondary-color);
-        text-align: center;
-        font-size: 90px !important;
-        line-height: 100px;
-        text-transform: uppercase;
-        padding-top: 40px;
-        padding-left: 10px;
-        padding-right: 10pxt;
-        margin: 0;
-    }
+
 
     .get-in-touch {
-        padding: 40px 10px;
-        font-size: 90px !important;
-        line-height: 100px;
+        padding: 30px 10px;
+        font-size: 45px !important;
+        line-height: 70px;
         text-transform: uppercase;
         text-align: center;
         margin: 0;
@@ -252,9 +242,9 @@
     }
 
     .project-main-text {
-        padding-bottom: 40px !important;
+        padding-bottom: 20px !important;
         font-size: 60px !important;
-        line-height: 80px !important;
+        line-height: 70px !important;
     }
 
     .main-text-box {
@@ -280,26 +270,16 @@
 
 @media (max-width: 1521px) {
     .get-in-touch {
-        padding: 40px 10px;
-        font-size: 80px !important;
-        line-height: 100px;
+        padding: 30px 10px;
+        font-size: 45px !important;
+        line-height: 75px;
         text-transform: uppercase;
         text-align: center;
         margin: 0;
         color: var(--secondary-color);
     }
 
-    .catch-me {
-        color: var(--secondary-color);
-        text-align: center;
-        font-size: 80px !important;
-        line-height: 100px;
-        text-transform: uppercase;
-        padding-top: 40px;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin: 0;
-    }
+   
 
     .imagine {
         color: var(--secondary-color);
@@ -719,19 +699,11 @@
 }
 
 @media (max-width: 1366px) {
-    .catch-me {
-        font-size: 70px !important;
-        line-height: 35px !important;
-        padding-top: 40px;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin: 0;
-    }
 
     .get-in-touch {
         padding: 40px 10px;
-        font-size: 70px !important;
-        line-height: 35px !important;
+        font-size: 45px !important;
+        line-height: 75px !important;
         margin: 0;
     }
 
@@ -925,7 +897,8 @@
     .project-main-text {
         padding-bottom: 30px !important;
         font-size: 45px !important;
-        line-height: 100px !important;
+        line-height: 60px !important;
+
     }
 
     .multiplication-frame-main {
@@ -1143,18 +1116,12 @@
 }
 
 @media (max-width: 1208px) {
-    .catch-me {
-        font-size: 55px !important;
-        padding-top: 40px;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin: 0;
-    }
+  
 
     .get-in-touch {
         padding: 40px 10px;
-        font-size: 55px !important;
-        line-height: 35px !important;
+        font-size: 45px !important;
+        line-height: 75px !important;
         margin: 0;
     }
 
@@ -1231,7 +1198,8 @@
     .project-main-text {
         padding-bottom: 25px !important;
         font-size: 40px !important;
-        line-height: 90px !important;
+        line-height: 60px !important;
+        
     }
 
     .spacer {
@@ -1804,7 +1772,7 @@
 
 @media(max-width:1120px) {
     .email-section a {
-        font-size: 85px;
+        font-size: 28px;
         line-height: 70px;
         margin: 30px 0;
         padding: 0 15px;
@@ -1813,19 +1781,12 @@
 }
 
 @media(max-width:1130px) {
-    .catch-me {
-        font-size: 60px !important;
-        line-height: 70px !important;
-        padding-top: 25px !important;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin: 0;
-    }
+
 
     .get-in-touch {
         padding: 40px 10px;
-        font-size: 60px !important;
-        line-height: 35px !important;
+        font-size: 40px !important;
+        line-height: 75px !important;
         margin: 0;
     }
 
@@ -1961,8 +1922,8 @@
 @media (max-width: 1030px) {
     .get-in-touch {
         padding: 30px 10px !important;
-        font-size: 60px !important;
-        line-height: 40px !important;
+        font-size: 40px !important;
+        line-height: 70px !important;
         margin: 0;
     }
 
@@ -1970,17 +1931,7 @@
         display: none;
     }
 
-    .catch-me {
-        color: var(--secondary-color);
-        text-align: center;
-        font-size: 60px !important;
-        line-height: 70px !important;
-        text-transform: uppercase;
-        padding-top: 29px !important;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin: 0;
-    }
+
 
     .follow-me-text {
         color: var(--secondary-color);
@@ -2683,20 +2634,13 @@
     }
 
     .email-section a {
-        font-size: 85px !important;
+        font-size: 26px !important;
         line-height: 70px !important;
         margin: 50px 0 40px 0 !important;
         padding: 0 15px !important;
     }
 
-    .catch-me {
-        font-size: 70px !important;
-        line-height: 70px !important;
-        padding-top: 29px !important;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin: 0;
-    }
+
 
     .form-spacer {
         padding-top: 50px !important;
@@ -2704,9 +2648,9 @@
     }
 
     .get-in-touch {
-        padding: 40px 12px;
-        font-size: 70px !important;
-        line-height: 35px !important;
+        padding: 30px 12px;
+        font-size: 35px !important;
+        line-height: 65px !important;
         text-transform: uppercase;
         text-align: center;
         margin: 0;
@@ -2847,7 +2791,7 @@
 
 @media (max-width: 960px) {
     .email-section a {
-        font-size: 61px !important;
+        font-size: 26px !important;
         margin: 30px 25px 0 !important;
         padding: 0 15px !important;
     }
@@ -3086,7 +3030,7 @@
     .project-main-text {
         padding-bottom: 15px !important;
         font-size: 36px !important;
-        line-height: 90px !important;
+        line-height: 50px !important;
     }
 
     .main-page-space {
@@ -3279,18 +3223,11 @@
         right: 45px;
     }
 
-    .catch-me {
-        font-size: 60px !important;
-        line-height: 35px !important;
-        padding-top: 29px !important;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin: 0;
-    }
+  
 
     .get-in-touch {
         padding: 25px 12px !important;
-        font-size: 60px !important;
+        font-size: 30px !important;
         line-height: 35px !important;
         text-transform: uppercase;
         text-align: center;
@@ -3533,7 +3470,7 @@
 
 @media (max-width: 700px) {
     .email-section a {
-        font-size: 50px !important;
+        font-size: 24px !important;
         padding: 0 12px !important;
     }
 }
@@ -3832,7 +3769,7 @@
     }
 
     .email-section a {
-        font-size: 47px !important;
+        font-size: 26px !important;
         line-height: 37px !important;
         margin: 25px 0 !important;
         padding: 0 15px !important;
@@ -3972,18 +3909,7 @@
         height: 315px !important;
     }
 
-    .catch-me {
-        color: var(--secondary-color);
-        text-align: center;
-        font-size: 58px !important;
-        line-height: 88px !important;
-        text-transform: uppercase;
-        padding-top: 25px !important;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin: 0;
-    }
-
+ 
     .mobile-view-logo {
         width: 40px;
     }
@@ -4070,14 +3996,7 @@
         line-height: 48px !important;
     }
 
-    .catch-me {
-        font-size: 58px !important;
-        line-height: 60px !important;
-        padding-top: 25px !important;
-        padding-left: 10px;
-        padding-right: 10px;
-
-    }
+ 
 
     .form {
         width: 100%;
@@ -4160,14 +4079,6 @@
         color: var(--primary-color);
     }
 
-    .catch-me {
-        font-size: 55px !important;
-        line-height: 80px !important;
-        padding-top: 20px !important;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin: 0;
-    }
 
 }
 
@@ -4194,7 +4105,7 @@
     }
 
     .email-section a {
-        font-size: 56px !important;
+        font-size: 28px !important;
         line-height: 66px !important;
         margin: 15px 0 !important;
         padding: 0 15px !important;
@@ -4240,14 +4151,6 @@
         line-height: 40px !important;
     }
 
-    .catch-me {
-        font-size: 45px !important;
-        line-height: 50px !important;
-        padding-top: 15px !important;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin: 0;
-    }
 
     .follow-me-text {
         font-size: 45px !important;
@@ -4443,7 +4346,7 @@
     .project-main-text {
         padding-bottom: 10px !important;
         font-size: 30px !important;
-        line-height: 70px !important;
+        line-height: 50px !important;
     }
 
     .main-page-space {
@@ -5253,7 +5156,7 @@
     .project-main-text {
         padding-bottom: 10px !important;
         font-size: 20px !important;
-        line-height: 70px !important;
+        line-height: 50px !important;
     }
 
     .main-page-space {
@@ -5331,13 +5234,7 @@
         justify-content: flex-start !important;
     }
 
-    .catch-me {
-        color: var(--secondary-color);
-        text-align: center;
-        font-size: 38px !important;
-        line-height: 60px !important;
-        text-transform: uppercase;
-    }
+   
 
     .follow-me-text {
         color: var(--secondary-color);
@@ -5360,8 +5257,7 @@
     .email-section a {
         color: var(--secondary-color);
         text-align: center;
-        font-size: 48px !important;
-        font-family: Fascinate;
+        font-size: 28px !important;
         font-style: normal;
         font-weight: 900;
         line-height: 64px !important;

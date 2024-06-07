@@ -1,13 +1,9 @@
 import React, { useState, useEffect } from "react";
-import MenuSection from "./projects/normalcoffee/MenuSection";
-import MainPageSection from "./projects/normalcoffee/MainPageSection";
-import headerLogo from "../assets/img/svg/logo.png";
-import Marque from "./projects/normalcoffee/MarqueSection";
-import ChallengeSection from "./projects/normalcoffee/ChallengeSection";
-import SolutionSection from "./projects/normalcoffee/SolutionSection";
-import FooterSection from "./FooterSection";
+import MainPageSection from "./ArtDesign/normalcoffee/MainPageSection";
+import Marque from "./ArtDesign/normalcoffee/MarqueSection";
+import ChallengeSection from "./ArtDesign/normalcoffee/ChallengeSection";
+import SolutionSection from "./ArtDesign/normalcoffee/SolutionSection";
 import Loader from "./home/Loader";
-import { Link } from "react-router-dom";
 
 const NormalCoffee = () => {
   const [loading, setLoading] = useState(true);
@@ -19,26 +15,6 @@ const NormalCoffee = () => {
   }
   return (
     <>
-      <header className="menu">
-        <div className="logo_main">
-          <Link to="/">
-            <img className="logo" src={headerLogo} alt="logo" />
-          </Link>
-        </div>
-        <nav className="nav_item">
-          <ul className="list">
-            <li className="menu-btn">
-              <Link to="/">
-                HOME
-                <span className="yellow-line"></span>
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <div className="wrapper" id="wrapper">
-        <MenuSection />
-      </div>
       <div className="main-page-space overflow-hidden">
         <MainPageSection />
       </div>
@@ -53,8 +29,6 @@ const NormalCoffee = () => {
           <SolutionSection />
         </div>
       </section>
-     
-      <FooterSection />
     </>
   );
 };

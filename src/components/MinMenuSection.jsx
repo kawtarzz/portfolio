@@ -1,29 +1,9 @@
-import React, { useEffect, useState } from "react";
-import headerLogo from "../../../assets/img/svg/logo.png";
+import React, {  useState } from "react";
+import headerLogo from "../assets/img/svg/logo.png";
 import { Link } from "react-router-dom";
 
-const MenuSection = () => {
-
-  const handleScroll = () => {
-    const menuButtons = document.querySelectorAll(".menu-btn");
-    const sections = document.querySelectorAll(".active_menus");
-    let len = sections.length;
-    if (len > 0) {
-    while (--len && window.scrollY + 97 < sections[len].offsetTop) {}
-    menuButtons.forEach((button) => button.classList.remove("active"));
-    menuButtons[len].classList.add("active");
-    }
-  };
-  useEffect(() => {
-
-    handleScroll();
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  const [isWrapperClass, setIsWrapperClass] = useState(false);
+const MinMenuSection = () => {
+const [isWrapperClass, setIsWrapperClass] = useState(false);
 
   const handleCheckboxChange = () => {
     setIsWrapperClass(!isWrapperClass);
@@ -43,32 +23,12 @@ const MenuSection = () => {
         <nav className="nav_item">
           <ul className="list">
             <li className="menu-btn">
-              <Link to="#home">
+              <Link to="/">
                 HOME
                 <span className="yellow-line"></span>
               </Link>
             </li>
-            <li className="menu-contact">
-              <h1 className="share-text-m">SHARE</h1>
-              <p className="share-list-text-m">
-                <Link to="https://www.facebook.com/">Fb.</Link>
-              </p>
-              <p className="share-list-text-m">
-                <Link to="https://twitter.com/">Tw.</Link>
-              </p>
-              <p className="share-list-text-m">
-                <Link to="https://www.instagram.com/">Ins.</Link>
-              </p>
-              <p className="share-list-text-m">
-                <Link to="https://www.linkedin.com">Li.</Link>
-              </p>
-            </li>
-            <li className="menu-btn">
-              <Link to="#contact">
-                CONTACT
-                <span className="yellow-line"></span>
-              </Link>
-            </li>
+          
           </ul>
         </nav>
       </header>
@@ -161,4 +121,4 @@ const MenuSection = () => {
     </>
   );
 };
-export default MenuSection;
+export default MinMenuSection;

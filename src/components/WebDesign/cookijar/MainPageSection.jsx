@@ -6,7 +6,6 @@ import HalfCircleSvg1 from "../../../assets/img/svg/half-circle-yellow.svg";
 import HalfCircleSvg2 from "../../../assets/img/svg/half-circle-black.svg";
 
 const MainPageSection = () => {
-  // circle and multiplication moving functionality
   useEffect(() => {
     const parallax = (e) => {
       document.querySelectorAll(".object").forEach((move) => {
@@ -61,7 +60,7 @@ const MainPageSection = () => {
             />
           </div>
           <div className="project-page">
-            <h2 className="hello_text date">10 June 2022</h2>
+            <h2 className="hello_text date">June 2021</h2>
             <h1 className="project_text project-main-text" data-aos="fade-up">
               cookiJar
             </h1>
