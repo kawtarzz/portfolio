@@ -8,7 +8,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
 import "./styles/projects.css";
 import "./styles/homeMedia.css";
 import "./styles/news_single.css";
@@ -23,6 +22,7 @@ import MenuSection from "./components/MenuSection.jsx";
 import FooterSection from "./components/FooterSection.jsx";
 import MinMenuSection from "./components/MinMenuSection.jsx";
 import Loader from "./components/home/Loader";
+import GrandmasKitchen from "./components/GrandmasKitchen.jsx";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -30,7 +30,7 @@ function App() {
   const [isHome, setIsHome] = useState(true);
   const [loading, setLoading] = useState(true);
   const path = window.location.pathname;
-  
+
   const toggleDarkMode = () => {
     const newDarkModeState = !isDarkMode;
     setIsDarkMode(newDarkModeState);
@@ -39,7 +39,7 @@ function App() {
 
   const handleScroll = () => {
     const body = document.body;
-  if (body && window.scrollY > 100) {
+    if (body && window.scrollY > 100) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
@@ -48,13 +48,14 @@ function App() {
 
 
   useEffect(() => {
-    if (path === "/" || path ==="/home") {
+    if (path === "/" || path === "/home") {
       setIsHome(true);
       console.log("home")
     } else {
       setIsHome(false);
       console.log("not home")
-    }}, [path]);
+    }
+  }, [path]);
 
 
 
@@ -88,7 +89,7 @@ function App() {
       document.body.classList.toggle("dark-mode", isDarkMode);
     }
   }, [isDarkMode]);
- 
+
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -103,50 +104,49 @@ function App() {
 
   return (
     <>
-  
-    <div className="App section" id="main-div">
+
+      <div className="App section" id="main-div">
         {
           isHome ? (
             <MenuSection />
-          ) : (  <MinMenuSection />
+          ) : (<MinMenuSection />
           )
         }
-       
-            <div className="container">
-      
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects/cookijar" element={<CookiJar />} />
-        <Route path="/projects/shoptheblock" element={<ShopTheBlock />} />
-        <Route path="/projects/normalcoffee" element={<NormalCoffee />} />
-        <Route path="/projects/candycart" element={<CandyCart />} />
-        <Route path="/projects/witcheswizards" element={<WitchesWizards />} />
-      </Routes>
 
-      <AnimCursor />
-      <div className="dark-light-main">
-        <input
-          id="toggle"
-          className="toggle"
-          type="checkbox"
-          aria-checked={isDarkMode}
-          checked={isDarkMode}
-          onChange={toggleDarkMode}
-          />
+        <div className="container">
+
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects/cookijar" element={<CookiJar />} />
+            <Route path="/projects/shoptheblock" element={<ShopTheBlock />} />
+            <Route path="/projects/normalcoffee" element={<NormalCoffee />} />
+            <Route path="/projects/candycart" element={<CandyCart />} />
+            <Route path="/projects/witcheswizards" element={<WitchesWizards />} />
+            <Route path="/projects/grandmasKitchen" element={<GrandmasKitchen />} />
+          </Routes>
+          <AnimCursor />
+          <div className="dark-light-main">
+            <input
+              id="toggle"
+              className="toggle"
+              type="checkbox"
+              aria-checked={isDarkMode}
+              checked={isDarkMode}
+              onChange={toggleDarkMode}
+            />
+          </div>
+          <button
+            className="bottom-top-button"
+            style={{ display: isVisible ? "block" : "none" }}
+            onClick={scrollToTop}
+          >
+            <img src={faArrowUp} alt="" style={{ fontSize: "22px" }} />
+          </button>
+          <FooterSection />
+        </div>
+
       </div>
-      <button
-        className="bottom-top-button"
-        style={{ display: isVisible ? "block" : "none" }}
-        onClick={scrollToTop}
-        > 
-        <img src={faArrowUp} alt="" style={{ fontSize: "22px" }} />
-      </button>
-    
-      <FooterSection />
-    </div>
-
-    </div>
-        </>
+    </>
   );
 }
 

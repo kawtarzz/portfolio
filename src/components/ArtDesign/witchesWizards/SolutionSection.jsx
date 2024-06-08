@@ -5,7 +5,7 @@ import HalfCircleBlack from "../../../assets/img/svg/black-half-circal.svg";
 import HalfCircleYellow from "../../../assets/img/svg/yellow-half-circle.svg";
 import heartSvg from "../../../assets/img/svg/heart-line.svg";
 import heartSvgActive from "../../../assets/img/svg/heart-fill.svg";
-
+import ImageSlider from "./SlickImage";
 
 const SolutionSection = () => {
   const [likeCount, setLikeCount] = useState(8); // Initial like count
@@ -28,6 +28,7 @@ const SolutionSection = () => {
       <div className="container">
         <div className="solution-spacer">
           <div className="position-relative">
+                  <ImageSlider />
             <div className="yellow_circle"></div>
             <h2 className="about-text" data-aos="fade-up">
               Solution

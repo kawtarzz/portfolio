@@ -41,7 +41,6 @@ const Home = () => {
               >
                 <img class="triangle-img" src={SvgIcon} alt="triangle" />
               </button>
-
               <VideoModal isOpen={isModalOpen} onClose={closeModal} />
             </div>
           </div>

@@ -56,8 +56,6 @@ class SlickImage2 extends React.Component {
         <div className="project_img1">
           <img src={witchesWizards05} alt="Slide 3" />
         </div>
-        
-
       </Slider>
     );
   }

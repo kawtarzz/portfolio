@@ -17,21 +17,19 @@ const WitchesWizardsPreview = () => {
   return (
     <>
     {open ? (
-    
     <div className="main-page-space overflow-hidden">
         <button className="close-button" onClick={handleClose}>X</button>
       <MainPageSection />
      <p> 
-      <Link to="/projects/cookijar">
+      <Link to="/projects/witcheswizards">
         <button className="project-button">View Project Details</button>
       </Link>
-
      </p>
 </div>
     ) : (
       <div className="box-content">
         
-        <img className="box-content-img" src={WitchesWizardsImg} alt="cookijar" style={{ "width":"400px"}}
+        <img className="box-content-img" src={WitchesWizardsImg} alt="witcheswizards" style={{ "width":"400px"}}
         onClick={handleOpen}
         />
         <Link onClick={handleOpen} className="project-title">
