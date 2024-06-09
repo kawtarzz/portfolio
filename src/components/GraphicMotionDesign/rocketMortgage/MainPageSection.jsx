@@ -61,14 +61,13 @@ const MainPageSection = () => {
             />
           </div>
           <div className="project-page">
-            <h2 className="hello_text date">January 2021</h2>
+            <h2 className="hello_text date">February-August 2021</h2>
             <h1 className="project_text project-main-text" data-aos="fade-up">
             Rocket Mortgage
             </h1>
             <p className="design_text project-second-main-text">
-              A series of art direction and illustrations for Rocket Mortgage's social media campaign. The designs were used in the company's collaborative campaign with the NCAA football season in 2021. The concepts were created to be used in various social media platforms, including Instagram, Twitter, and Facebook, as well as in print and digital ads. All work was created during my time as an Art Director intern at Rocket Mortgage.
+              I had the opportunity to contribute to various marketing campaigns for Rocket Mortgage, including their partnership with NCAA Football and PGA Tour. As an Art Director intern on the marketing team, I worked on a variety of projects, including social media content, email campaigns, and digital ads. I also had the opportunity to work on the Rocket Mortgage / NCAA Football broadcast commercial shoot in Franklin, Tennessee with celebrity spokespersons, Kirk Herbstreit as well as the mascots from the participating schools.
             </p>
-            
           </div>
         </div>
         </div>

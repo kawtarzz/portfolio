@@ -275,8 +275,8 @@ const ResumeSection = () => {
                   Knowledge
                 </h4>
                 <div className="skill-list skill-list2" data-aos="fade-up">
-                  <ul className="skill-list-main">
-                    <li className="">Web/Graphic Design</li>
+                  <ul className="skill-list-main" id="design_text">
+                    <li>Web/Graphic Design</li>
                     <li>React Development</li>
                     <li>Brand & Corporate Identity</li>
                     <li>Custom Website Development</li>

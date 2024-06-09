@@ -17,7 +17,7 @@ import emailjs from '@emailjs/browser';
 const FormSection = () => {
 
   const [templateParams, setTemplateParams] = useState({
-    name: '',
+    from_name: '',
     email: '',
     subject: '',
     message: '',
@@ -80,8 +80,9 @@ const FormSection = () => {
                   <input
                     placeholder="Name"
                     type="text"
-                    name="name"
-                    value={templateParams.name}
+                    name="from_name"
+                    id="from_name"
+                    value={templateParams.from_name}
                     onChange={handleInputChange}
                     required
                     />
@@ -91,6 +92,7 @@ const FormSection = () => {
                     placeholder="Email"
                     type="email"
                     name="email"
+                    id="email"
                     value={templateParams.email}
                     onChange={handleInputChange}
                     required
@@ -107,14 +109,13 @@ const FormSection = () => {
                     />
                 </li>
                 <li className="form">
-                  <textarea
+                  <input
                     placeholder="Hi Kawtar, I'd like to talk about..."
                     name="message"
-                    className="form"
                     value={templateParams.message}
                     onChange={handleInputChange}
                     required
-                    ></textarea>
+                    ></input>
                 </li>
                 <li>
                   <input type="submit" className="send-btn" value="SEND" />
