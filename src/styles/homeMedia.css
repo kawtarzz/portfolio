@@ -715,7 +715,7 @@
 @media (max-width: 1362px) {
     .accordion-button {
         font-size: 30px;
-        font-family: Jost;
+        font-family: 'QuickSand', sans-serif;
         font-style: normal;
         font-weight: 400;
         line-height: 48px;
@@ -826,7 +826,6 @@
 
     .project-text a {
         color: var(--secondary-color);
-        font-family: Fascinate;
         font-size: 48px !important;
         line-height: 64px !important;
         margin: 0;
@@ -4181,16 +4180,7 @@
         line-height: 30px;
     }
 
-    .skill-list_news {
-        padding-top: 0px !important;
-    }
 
-    .skill-list_news ul li:before {
-        content: "•";
-        font-size: 30pt;
-        color: var(--text-color);
-        padding-right: 10px !important;
-    }
 
     .nextprev {
         padding-top: 30px !important;
@@ -4315,6 +4305,7 @@
 
     .skill-list ul li {
         font-size: 18px !important;
+
     }
 
     .unconventional {
@@ -4490,6 +4481,7 @@
     }
 
     .tab_box .tab_btn {
+        font-family: 'QuickSand', sans-serif;
         font-size: 18px !important;
         padding: 0 18px !important;
         cursor: pointer;
@@ -5189,11 +5181,13 @@
 
     .skill-list-main {
         padding-left: 0px;
+        font-size: 28px;
+        background-color: #FFAF00;
     }
 
     .skill-list ul li:before {
         content: "•";
-        font-size: 30pt;
+        font-size: 20pt;
         color: var(--text-color);
         padding-right: 10px;
     }

@@ -20,10 +20,10 @@ class ImageSlider extends React.Component {
     return (
       <Slider {...settings} className="main_image_slider">
         <div>
-          <img className="project_img1" src={Image01} alt="Slide 1"  />
+          <img className="project_img1" src={Image02} alt="Slide 2"  />
         </div>
         <div>
-          <img className="project_img1" src={Image02} alt="Slide 2"  />
+          <img className="project_img1" src={Image01} alt="Slide 1"  />
         </div>
         <div>
           <img className="project_img1" src={Image03} alt="Slide 3"  />
