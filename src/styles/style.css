@@ -127,7 +127,7 @@ ul {
 }
 
 .row {
-    margin: 0;
+    margin: 0 auto;
 }
 
 .all-page-border {
@@ -601,12 +601,12 @@ svg {
     align-items: center;
     justify-content: center;
     color: #ff3c00;
-    font-size: 50px;
+    font-size: 60px;
     line-height: 80px;
     text-transform: none;
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 
@@ -654,7 +654,7 @@ svg {
 
 .hello_text {
     color: var(--secondary-color);
-    font-size: 20px;
+    font-size: 40px;
     line-height: 20px;
     text-transform: uppercase;
     margin: 0;
@@ -685,7 +685,7 @@ svg {
     color: var(--secondary-color);
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-size: 90px;
+    font-size: 100px;
     font-weight: 900;
     line-height: 100px;
     margin: 0;
@@ -771,27 +771,6 @@ svg {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
-    font-style: normal;
-  }
-  .josefin-sans-light {
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  .josefin-sans-regular {
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-  }
-
-  
-  .josefin-sans-regular {
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
     font-style: normal;
   }
 
@@ -1351,8 +1330,8 @@ iframe {
 .box1 {
     border: 1px solid #000;
     border: 1px solid var(--secondary-color);
-    padding: 30px;
-    margin: 80px 14px 0;
+    padding: 50px;
+    margin: 50px 30px 0;
     transition: all 1s;
 }
 
@@ -1394,12 +1373,12 @@ iframe {
     top: -36px;
 }
 
-.dev-iocns {
+.serv-icons {
     position: relative;
     display: inline-block;
 }
 
-.dev-iocns::before {
+.serv-icons::before {
     content: '';
     position: absolute;
     width: 85px;
@@ -1419,15 +1398,14 @@ iframe {
 }
 
 .pc-icon {
-    position: relative;
     filter: var(--svg-color);
 }
 
-.light-icon {
+.design-icon {
     filter: var(--svg-color);
 }
 
-.marketing-icon {
+.motion-icon {
     filter: var(--svg-color);
 }
 
@@ -1456,10 +1434,10 @@ iframe {
 .developement-text {
     color: #000;
     font-size: 40px;
-    line-height: 80px;
+    line-height: 60px;
     color: var(--secondary-color);
     margin: 0;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
     transition: all 1s;
 }
@@ -1520,6 +1498,7 @@ body.dark-mode .resume-bg {
 }
 
 .resume-ed-text {
+    color: var(--secondary-color);
     line-height: 30px;
     font-size: 20px;
     transform: uppercase;
@@ -1537,42 +1516,12 @@ body.dark-mode .resume-bg {
     padding-bottom: 20px;
 }
 
-.dignissim-text {
-    color: var(--text-color);
-    font-size: 20px;
-    line-height: 30px;
-}
 
-.sity {
-    color: var(--text-color);
-    font-size: 20px;
-    line-height: 20px;
-    margin: 0;
-    padding-bottom: 20px;
-}
-
-.nibh {
-    color: var(--text-color);
-    font-size: 18px;
-    line-height: 30px;
-}
 
 .left-line {
     border-left: 2px solid var(--secondary-color);
     margin-top: 40px;
     position: relative;
-}
-
-.envato-icon {
-    filter: var(--svg-color);
-}
-
-.apple-icon {
-    filter: var(--svg-color);
-}
-
-.twitter-icon {
-    filter: var(--svg-color);
 }
 
 .black-yellow-circle {
@@ -2088,15 +2037,6 @@ body.dark-mode .portfolio-bg {
     display: flex;
 }
 
-.website-text {
-    font-family: jost;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: auto;
-    text-transform: uppercase;
-    margin: 0;
-}
-
 .project-text a {
     display: flex;
     color: var(--secondary-color);
@@ -2545,7 +2485,7 @@ body.dark-mode .email-bg {
 .email-section a:hover {
     transition: all 0.5s ease-in-out;
     color: fuchsia;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 
