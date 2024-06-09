@@ -33,7 +33,7 @@ const ResumeSection = () => {
               </h3>
               <h4 className="d-none">hidden</h4>
               <h5 className="d-none">hidden</h5>
-              <p className="dignissim-text" data-aos="fade-up">
+              <p className="resume-text" data-aos="fade-up">
                 With a foundation in design principles and animation production, I hold a Bachelor of Fine Arts from the School of the Art Institute of Chicago. I've furthered this education through courses in motion design and illustration from School of Motion.
                 More recently, I completed a Full-Stack Developer Certificate from Nashville Software School, where I honed my skills in React and Dot Net full-stack software and website development.
               </p>
@@ -47,8 +47,8 @@ const ResumeSection = () => {
                   <h6 className="resume-ed-text">
                     Full-Stack Developer Certificate
                   </h6>
-                  <p className="sity">Nashville Software School</p>
-                  <p className="nibh">
+                  <p className="sub-heading">Nashville Software School</p>
+                  <p className="resume-text2">
                     6-month intensive React & Dot Net full-stack software and website development bootcamp.
                   </p>
                 </div>
@@ -63,8 +63,8 @@ const ResumeSection = () => {
                   <h6 className="resume-ed-text">
                     Bachelor of Fine Arts
                   </h6>
-                  <p className="sity">School of the Art Institute of Chicago</p>
-                  <p className="nibh">
+                  <p className="sub-heading">School of the Art Institute of Chicago</p>
+                  <p className="resume-text2">
                     Film, Video, New Media & Animation.
                     Dean's List & Goldman Sachs Scholarship Recipient.
                   </p>
@@ -80,8 +80,8 @@ const ResumeSection = () => {
                   <h6 className="resume-ed-text">
                     Motion Design & Illustration
                   </h6>
-                  <p className="sity">School of Motion / 2016 - 2018</p>
-                  <p className="nibh">
+                  <p className="sub-heading">School of Motion / 2016 - 2018</p>
+                  <p className="resume-text2">
                     Illustrate for Motion.
                     Animation BootCamp.
                     Character Rigging.
@@ -97,7 +97,7 @@ const ResumeSection = () => {
               </h3>
               <h4 className="d-none">hidden</h4>
               <h5 className="d-none">hidden</h5>
-              <p className="dignissim-text" data-aos="fade-up">
+              <p className="resume-text" data-aos="fade-up">
               Whether crafting engaging motion graphics or developing seamless web applications, I am driven by a passion for innovation and excellence. My multifaceted expertise positions me to tackle complex challenges and contribute to dynamic, cross-functional teams effectively.
               </p>
               <div className="left-line">
@@ -112,10 +112,10 @@ const ResumeSection = () => {
                       <h6 className="resume-ed-text">
                         Motion Graphics Designer
                       </h6>
-                      <p className="sity">KGV Studios / March 2024 - Present</p>
+                      <p className="sub-heading">KGV Studios / March 2024 - Present</p>
                     </div>
                   </div>
-                  <p className="nibh">
+                  <p className="resume-text2">
                     Conceptualizing art direction, style frames, and executing animations using After Effects. Communicating with clients and design teams to understand design requirements and providing solutions for technical problems.
                   </p>
                 </div>
@@ -132,10 +132,10 @@ const ResumeSection = () => {
                       <h6 className="resume-ed-text">
                         Art Director Intern
                       </h6>
-                      <p className="sity">Rocket Mortgage / February 2021 - August 2021</p>
+                      <p className="sub-heading">Rocket Mortgage / February 2021 - August 2021</p>
                     </div>
                   </div>
-                  <p className="nibh">
+                  <p className="resume-text2">
                     Developed & executed concepts with accompanying visual strategy for audience touch points; including social media, video, broadcast, digital, and print communications. Collaborated with Copywriters and Creative Directors for cross-channel campaigns.
                   </p>
                 </div>
@@ -152,11 +152,11 @@ const ResumeSection = () => {
                       <h6 className="resume-ed-text">
                         Digital Media Manager
                       </h6>
-                      <p className="sity">Lost Girls / November 2019 - February 2021</p>
+                      <p className="sub-heading">Lost Girls / November 2019 - February 2021</p>
                     </div>
                   </div>
-                  <p className="nibh"></p>
-                  <p className="nibh">
+                  <p className="resume-text2"></p>
+                  <p className="resume-text2">
                     Art direction for product photography and garment modeling. Developed & launched an E-Commerce site to maintain revenue-streams throughout the pandemic, tripling sales revenue over time.
                   </p>
                 </div>

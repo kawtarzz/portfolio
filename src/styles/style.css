@@ -18,11 +18,14 @@
 /************************* 1.Default CSS **************************/
 body {
     background: var(--primary-color);
+    --secondary-color: #001ecb;
+    --secondary-color2: #FFAF00;
 }
 
 body:not(.dark-mode) {
     --primary-color: #ffffff;
     --secondary-color: #001ecb;
+    --secondary-color2: hotpink;
     --background-color: #000;
     --skill_bar-bg: #F3F3F3;
     --tab-btn: #001ecb;
@@ -1497,6 +1500,29 @@ body.dark-mode .resume-bg {
     padding: 40px;
 }
 
+.sub-heading {
+    color:var(--secondary-color2);
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-weight:700px;
+}
+
+.resume-text {
+    color: var(--text-color);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.resume-text2 {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 26px;
+}
+
 .resume-ed-text {
     color: var(--secondary-color);
     line-height: 30px;
@@ -1507,7 +1533,6 @@ body.dark-mode .resume-bg {
 }
 
 .education-text {
-    color: #000;
     font-size: 64px;
     line-height: 80px;
     color: var(--secondary-color);
