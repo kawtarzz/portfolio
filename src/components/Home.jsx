@@ -27,6 +27,12 @@ const Home = () => {
       <section className="active_menus overflow-hidden" id="about">
         <AboutSection />
       </section>
+      <section className="active_menus overflow-hidden" id="portfolio">
+        <PortFolioSection />
+      </section>
+      <section className="active_menus overflow-hidden" id="resume">
+        <ResumeSection />
+      </section>
       <div className="shapes-bg all-page-border2 overflow-hidden">
         <div className="video-section-text-main container">
           <h1 className="video-section-text" data-aos="fade-up">
@@ -48,12 +54,6 @@ const Home = () => {
       </div>
       <section className="overflow-hidden">
         <ServicesSection />
-      </section>
-      <section className="active_menus overflow-hidden" id="portfolio">
-        <PortFolioSection />
-      </section>
-      <section className="active_menus overflow-hidden" id="resume">
-        <ResumeSection />
       </section>
       <section id="contact">
         <div className="all-page-border2">
