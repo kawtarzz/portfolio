@@ -53,7 +53,7 @@ export default function MainPageSection() {
             />
           <div className="hello-box">
          
-        <h2 className="hello-text ">
+        <h2 className="hello-text lato-light">
           Hello, my name is 
           </h2>
           <br></br>
@@ -72,26 +72,7 @@ export default function MainPageSection() {
             </div>
           </Link>
         </div>
-        <div>
-          <h6 className="follow_us_text follow_us_text2">FOLLOW ME</h6>
-          <div className="media-text">
-            
-            <p className="fb">
-              <Link to="https://twitter.com/KAWTARAZZOUZI">Tw.</Link>
-            </p>
-            <p className="fb">
-              <Link to="https://www.instagram.com/RIVER.IN.PARADISE">Ins.</Link>
-            </p>
-            <p className="fb">
-              <Link to="https://www.behance.net/kawtarazzouzi/moodboards">Be.</Link>
-            </p>
-            <p className="fb">
-              <Link to="https://dribbble.com/kawtar">Db.</Link>
-            </p>
-          </div>
         </div>
-        </div>
-      
     </>
   );
 };

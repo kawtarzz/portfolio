@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Image from "../../assets/img/mainpageimg/nairobi_img1.png"
 
 
-const NewProject = () => {
+const AnimBootcampPreview = () => {
   const [open, setOpen] = useState(false);
 
     const handleOpen = () => {
@@ -23,7 +23,7 @@ const NewProject = () => {
         <button className="close-button" onClick={handleClose}>X</button>
       <MainPageSection />
      <p> 
-      <Link to="/projects/newproject">
+      <Link to="/projects/animationbootcamp">
         <button className="project-button">View Project Details</button>
       </Link>
 
@@ -36,7 +36,7 @@ const NewProject = () => {
         onClick={handleOpen}
         />
         <Link onClick={handleOpen} className="project-title">
-          New Project
+          Animation Bootcamp
         </Link>
       </div>
     )}
@@ -44,4 +44,4 @@ const NewProject = () => {
   );
 }
 
-export default NewProject;
+export default AnimBootcampPreview;

@@ -64,11 +64,11 @@ const FormSection = () => {
         </div>
 
         <h3 className="get-in-touch get-touch" id="send" data-aos="fade-up">
-          GET IN TOUCH
+          Say Hello!
         </h3>
         <p className="design_text creative_text touch" data-aos="fade-up">
             I'm currently available for freelance work and open to new opportunities.
-          Fill out my form below or send me an email <br></br>   <h3 className="email-section" data-aos="fade-up">
+         <h3 className="email-section" data-aos="fade-up">
             <Link to="mailto:hello@kawtar-azzouzi.com">hello@kawtar-azzouzi.com</Link>
             </h3>
 
@@ -128,9 +128,7 @@ const FormSection = () => {
         id="active_menus"
         >
         <div className="yellow_circle" id="spacing-circle"></div>
-        <h3 className="get-in-touch" data-aos="fade-up">
-          CATCH ME HERE
-        </h3>
+       <h3 className="get-in-touch get-touch" data-aos="fade-up"> Based in...</h3>
         <div className="email-phone" data-aos="fade-up">
     
     <div className="contact-box2">
@@ -155,11 +153,7 @@ const FormSection = () => {
               <img className="social-icons" src={GitHubSvg} alt="gh-icon" />
             </Link>
           </div>
-          <div className="circle-border">
-            <Link to="https://www.instagram.com/river.in.paradise">
-              <img className="social-icons" src={InstaIcon} alt="insta-icon" />
-            </Link>
-          </div>
+         
           <div className="circle-border">
             <Link to="https://www.behance.net/Kawtar-a">
               <img className="social-icons" src={BeIcon} alt="be-icon" />

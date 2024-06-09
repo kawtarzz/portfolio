@@ -3,7 +3,7 @@ import BlackDotSvg from "../../../assets/img/svg/black-dots.svg";
 import YellowSquare from "../../../assets/img/svg/yellow-square-frame.svg";
 import YellowFrameSvg from "../../../assets/img/svg/traingle-yellow-frame.svg";
 import BlackFrameSvg from "../../../assets/img/svg/traingle-black-frame.svg";
-import ImageSlider from "./SlickImage";
+import witchesWizardsImg from "../../../assets/img/portfoliosection/witchesWizards/frame08.jpg";
 
 const ChallengeSection = () => {
 
@@ -16,10 +16,20 @@ const ChallengeSection = () => {
             <div className="position-relative">
               <div className="yellow_circle"></div>
               <h2 className="about-text" data-aos="fade-up">
-                Challenge
+                Client Breif
               </h2>
               <p className="unconventional" data-aos="fade-up">
-              The challenge was to create style frames and assets in preparation for an animated campaign that would be used to promote a witch & wizard themed summer camp for adults. The client wanted to see a variety of characters and scenes that would be used to create the animated advertisement. The client provided a script that outlined the key points that needed to be included in the animation. The client also provided a logo that needed to be included in the animation. The client wanted the animation to be fun and engaging, and to appeal to adults who are interested in magic and fantasy.
+                Every year, Camp Cloakwood hosts the Annual Wizards
+                and Witches Mountain Retreat. It’s a place for tortured
+                souls and fantastical beings to gather in a safe space
+                and learn to hone their supernatural skills. In reality, this
+                is a fun overnight camp environment in which adults
+                can indulge in their most exciting childhood fantasies.
+                Camp counselors teach the dark arts of spell book
+                binding, broom maintenance and more.
+
+                With a provided script, you are tasked with created 6-8 styleframes in 16:9 format.
+
               </p>
               <div className="challenge-dots-square">
                 <img
@@ -38,21 +48,37 @@ const ChallengeSection = () => {
               <div className="col-xl-6" data-aos="fade-up">
                 <div className="skill-list">
                   <ul className="skill-list-main">
-                  <li>
-                    Design style frames that entice viewers with magical interests!
-                  </li>
-                  <li>Using the provided script, create the visual narrative that best interprets the material. </li>
-                  <li>
-                    Show the offerings of the summer camp with emotive characters.
-                  </li>
-                  <li>
-                    Design within brand guidelines.
-                  </li>
-                  <li>Create a Logo lock-up to close the animation.</li>
-                </ul>
-                  
+                    <h3>
+                      Client goals for this project:
+                    </h3>
+                    <li> Create style frames and assets in preparation
+                      for an animated video that would be used to promote a witch & wizard themed summer camp for adults.</li>
+                    <li>
+                      Set the concept & style that evokes an eerie, yet lighthearted mood. Feel free to include some mischief, but the overall ton should be fun and avoid sinister undertones.
+                    </li>
+                    <li>
+                      The age range for the target audience is 25-40.
+                    </li>
+                    <ul>
+                      <h3>
+                        Personal goals for this project:
+                      </h3>
+                      <li>
+                        Play with perspective and create a sense of depth in the illustrations.
+                      </li>
+                      <li>
+                        Experiment with color and lighting to create a magical atmosphere.
+                      </li>
+                      <li>
+                        Create fluid & strong transitions that provide the animator with a clear direction.
+                      </li>
+                      <li>
+                        Simplify the design to make it easy to animate and avoid small details that could be lost in the animation.
+                      </li>
+                    </ul>
+                  </ul>
                 </div>
-        
+
                 <div className="challenge-traingle-frame">
                   <img
                     className="ch-traingle-yellow-frame"
@@ -67,10 +93,9 @@ const ChallengeSection = () => {
                 </div>
               </div>
               <div className="col-xl-6">
-                 <div className="main_image_slider">
-                  <ImageSlider />
-                  </div>
-              </div>
+              <img src={witchesWizardsImg} alt="Witches & Wizards" style={{maxWidth:"700px", display:"flex"}} />
+            </div>
+
             </div>
           </div>
         </div>

@@ -65,7 +65,7 @@ const MainPageSection = () => {
             Witches & Wizards
             </h1>
             <p className="design_text project-second-main-text">
-            Style frames for a :30 second animated campaign promoting a magical wizard-themed summer camp for adults!          
+            Style frames for a :30 second animated video promoting a magical wizard-themed summer camp for adults, called "Wizards & Witches Mountain Retreat"!          
             <div className="share-list">
 
               <h6 className="share-text">Role:</h6>
