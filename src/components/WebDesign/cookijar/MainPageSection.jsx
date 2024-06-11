@@ -65,10 +65,7 @@ const MainPageSection = () => {
               cookiJar
             </h1>
             <p className="design_text project-second-main-text">
-            CookiJar is a productivity tracking application that gamifies
-            task management. Built with React and JSON server, it allows users 
-            to assign point values to tasks and earn rewards upon completion.
-             The application features full CRUD functionality, user authentication, and a responsive design.
+            CookiJar is an innovative productivity tracking application that transforms task management into a fun and engaging experience through gamification. Developed using React and a JSON server, CookiJar enables users to assign point values to their tasks and earn rewards upon completion. The application supports full CRUD functionality, ensures user authentication, and features a responsive design for seamless use across devices.
             </p>
             <div className="share-list">
               <h2 className="d-none">hidden</h2>

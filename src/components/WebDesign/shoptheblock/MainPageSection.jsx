@@ -66,12 +66,7 @@ const MainPageSection = () => {
                 Shop the Block
               </h1>
               <p className="design_text project-second-main-text">
-                ShopTheBlock is a website that aims to supply local artists and makers
-                with a platform to connect and sell to their local community. The idea sparked
-                from personal challenges selling through popular marketplaces such as Etsy. Hearing
-                from other friends and owners of small businesses, I realized I was not alone with my complaints.
-                The demand for a fair marketplace with lower fees and a localized search option was clearly out there.
-                I built the website as my capstone project for Nashville Software School's Software Development bootcamp.
+              ShopTheBlock is a comprehensive e-commerce platform designed to empower local artists and makers by providing a dedicated space to connect with and sell directly to their community. Inspired by personal experiences and feedback from fellow small business owners, the idea was born out of frustrations with existing marketplaces like Etsy. Many users, including myself, faced challenges with high fees and the lack of localized search options. Recognizing the demand for a fairer, community-focused marketplace, I developed ShopTheBlock as my capstone project at the Nashville Software School's Software Development bootcamp. This platform aims to offer lower fees and a robust localized search feature, fostering a supportive environment for local talent to thrive.
               </p>
               <div className="share-list">
                 <h6 className="share-text">Technology Stack:</h6>
