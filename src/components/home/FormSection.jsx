@@ -3,7 +3,6 @@ import HalfCircleSvg1 from "../../assets/img/svg/half-circle-yellow.svg";
 import HalfCircleSvg2 from "../../assets/img/svg/half-circle-black.svg";
 import LocationSvg from "../../assets/img/svg/location.svg";
 import GitHubSvg from "../../assets/img/svg/github-outline-svgrepo-com.svg";
-import InstaIcon from "../../assets/img/svg/insta-icon.svg";
 import BeIcon from "../../assets/img/svg/be-icon.svg";
 import DribbleIcon from "../../assets/img/svg/dribble-icon.svg";
 import FbIcon from "../../assets/img/svg/fb-icon.svg";

@@ -27,7 +27,7 @@ const MainPageSection = () => {
     <>
       <div className="row top-img">
         <div className="col-xl-6 col-lg-6 col-md-12 p-0">
-            <SlickImage />
+          <SlickImage />
           <div className="multiplication-frame-main">
             <img
               className="black-multiplication object"
@@ -44,41 +44,44 @@ const MainPageSection = () => {
           </div>
         </div>
         <div className="col-xl-6 col-lg-6 col-md-12">
-        <div className="main-text-box">
-          <div className="half-circle-main">
-            <img
-              className="half-circle-yellow object"
-              data-value="-1"
-              src={HalfCircleSvg1}
-              alt="half-circle-yellow"
-            />
-            <img
-              className="half-circle-black object"
-              data-value="2"
-              src={HalfCircleSvg2}
-              alt="half-circle-black"
-            />
-          </div>
-          <div className="project-page">
-            <h2 className="hello_text date">January 2021</h2>
-            <h1 className="project_text project-main-text" data-aos="fade-up">
-            Chef Antonio's
-            </h1>
-            <p className="design_text project-second-main-text">
-              A fun and playful brand identity for an Italian catering business based in San Luis Obispo, California. The brand identity includes a logo, business card, and menu design. The logo features a custom font and traditional clean design. The business card and menu design incorporate the same color palette and playful design elements. The brand identity is designed to appeal to a wide audience and convey a sense of fun and creativity.
-            </p>
-            <div className="share-list">
-              <h2 className="d-none">hidden</h2>
-              <h3 className="d-none">hidden</h3>
-              <h4 className="d-none">hidden</h4>
-              <h5 className="d-none">hidden</h5>
-              <h6 className="share-text">ROLE</h6>
-              <p className="share-list-text">
-               Logo & Branding Designer
+          <div className="main-text-box">
+            <div className="half-circle-main">
+              <img
+                className="half-circle-yellow object"
+                data-value="-1"
+                src={HalfCircleSvg1}
+                alt="half-circle-yellow"
+              />
+              <img
+                className="half-circle-black object"
+                data-value="2"
+                src={HalfCircleSvg2}
+                alt="half-circle-black"
+              />
+            </div>
+            <div className="project-page">
+              <h2 className="quicksand-subheading2">August 2021</h2>
+              <h1 className="quicksand-heading" data-aos="fade-up">
+                Chef Antonio's
+              </h1>
+              <p className="design_text project-second-main-text">
+                A fun and playful brand identity for an Italian catering business based in San Luis Obispo, California. The brand identity includes a logo, business card, and menu design. The logo features a custom font and traditional clean design. The business card and menu design incorporate the same color palette and playful design elements. The brand identity is designed to appeal to a wide audience and convey a sense of fun and creativity.
               </p>
+              <hr />
+              <div className="description-container">
+
+                <h6 className="quicksand-subheading">ROLE</h6>
+                <li className="quicksand-subheading2">Graphic Designer</li>
+                <li className="quicksand-subheading2">Brand Development</li>
+                <li className="quicksand-subheading2">Web Design</li>
               </div>
+              <div className="description-container">
+
+                <h6 className="quicksand-subheading">TECH</h6>
+                <li className="quicksand-subheading2">Adobe Illustrator</li>
+              </div>
+            </div>
           </div>
-        </div>
         </div>
       </div>
     </>

@@ -27,7 +27,7 @@ const MainPageSection = () => {
     <>
       <div className="row top-img">
         <div className="col-xl-6 col-lg-6 col-md-12 p-0">
-            <SlickImage />
+          <SlickImage />
           <div className="multiplication-frame-main">
             <img
               className="black-multiplication object"
@@ -44,43 +44,49 @@ const MainPageSection = () => {
           </div>
         </div>
         <div className="col-xl-6 col-lg-6 col-md-12">
-        <div className="main-text-box">
+          <div className="main-text-box">
 
-          <div className="half-circle-main">
-            <img
-              className="half-circle-yellow object"
-              data-value="-1"
-              src={HalfCircleSvg1}
-              alt="half-circle-yellow"
-            />
-            <img
-              className="half-circle-black object"
-              data-value="2"
-              src={HalfCircleSvg2}
-              alt="half-circle-black"
-            />
-          </div>
-          <div className="project-page">
-            <h2 className="hello_text date">August 2021</h2>
-            <h1 className="project_text project-main-text" data-aos="fade-up">
-            PetalPushr
-            </h1>
-            <p className="design_text project-second-main-text">
-              Branding & web design for a boutique
-              botanical and floral arrangement designer based in Chicago. 
-            </p>
-            <div className="share-list">
-              <h2 className="d-none">hidden</h2>
-              <h3 className="d-none">hidden</h3>
-              <h4 className="d-none">hidden</h4>
-              <h5 className="d-none">hidden</h5>
-              <h6 className="share-text">ROLE</h6>
-              <p className="share-list-text">
-                Graphic & Web Designer
+            <div className="half-circle-main">
+              <img
+                className="half-circle-yellow object"
+                data-value="-1"
+                src={HalfCircleSvg1}
+                alt="half-circle-yellow"
+              />
+              <img
+                className="half-circle-black object"
+                data-value="2"
+                src={HalfCircleSvg2}
+                alt="half-circle-black"
+              />
+            </div>
+            <div className="project-page">
+              <h2 className="quicksand-subheading2">September 2021</h2>
+              <h1 className="quicksand-heading" data-aos="fade-up">
+                PetalPushr
+              </h1>
+              <p className="design_text project-second-main-text">
+                Branding & web design for a boutique
+                botanical and floral arrangement designer based in Chicago.
               </p>
+              <hr />
+              <div className="description-container">
+
+                <h6 className="quicksand-subheading">ROLE</h6>
+                <li className="quicksand-subheading2">Graphic Designer</li>
+                <li className="quicksand-subheading2">Brand Development</li>
+                <li className="quicksand-subheading2">Web Developer</li>
               </div>
+              <div className="description-container">
+                <h6 className="quicksand-subheading">TECH</h6>
+                <li className="quicksand-subheading2">Shopify</li>
+                <li className="quicksand-subheading2">HTML/CSS</li>
+                <li className="quicksand-subheading2">Adobe Illustrator</li>
+                <li className="quicksand-subheading2">Adobe Photoshop</li>
+
+              </div>
+            </div>
           </div>
-        </div>
         </div>
       </div>
     </>

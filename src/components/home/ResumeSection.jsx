@@ -17,13 +17,13 @@ const ResumeSection = () => {
       <div className="all-page-border2">
         <div className="all-page-border2 portfolio-bg">
           <div className="services-spacer">
-            <h2 className="about-text" data-aos="fade-up">
+            <h1 className="page-heading quicksand-heading" data-aos="fade-up">
               Resume
-            </h2>
-            <p className="design_text creative_text" data-aos="fade-up">
+            </h1>
+          </div>
+            <p className="quicksand-subheading creative_text" data-aos="fade-up">
               Professional Experience, Training & Education
             </p>
-          </div>
         </div>
         <div className="row">
           <div className="col-xl-6 col-lg-6 line p-0">
@@ -82,9 +82,9 @@ const ResumeSection = () => {
                   </h6>
                   <p className="sub-heading">School of Motion / 2016 - 2018</p>
                   <p className="resume-text2">
-                    Illustrate for Motion.
-                    Animation BootCamp.
-                    Character Rigging.
+                    Illustrate for Motion
+                    Animation BootCamp
+                    Character Rigging
                   </p>
                 </div>
               </div>

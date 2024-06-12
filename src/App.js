@@ -123,6 +123,7 @@ function App() {
             <Route path="/projects/candycart" element={<CandyCart />} />
             <Route path="/projects/witcheswizards" element={<WitchesWizards />} />
             <Route path="/projects/grandmasKitchen" element={<GrandmasKitchen />} />
+            
           </Routes>
           <AnimCursor />
           <div className="dark-light-main">

@@ -61,30 +61,31 @@ const MainPageSection = () => {
             />
           </div>
           <div className="project-page">
-            <h2 className="hello_text date">January 2021</h2>
-            <h1 className="project_text project-main-text" data-aos="fade-up">
+            <h2 className="quicksand-subheading2">January 2021</h2>
+            <h1 className="quicksand-heading" data-aos="fade-up">
             Candy Cart
             </h1>
             <p className="design_text project-second-main-text">
               Candy Cart is a project that I worked on during my time at the School of Motion. The project was to create a brand identity for a new mobile delivery. I was responsible for developing the art direction, illustrating the storyboard and finalizing the style frames. The project was a great opportunity for me to showcase my skills as an illustrator and art director.
             </p>
-            <div className="share-list">
-              <h2 className="d-none">hidden</h2>
-              <h3 className="d-none">hidden</h3>
-              <h4 className="d-none">hidden</h4>
-              <h5 className="d-none">hidden</h5>
-              <h6 className="share-text">ROLE</h6>
-              <p className="share-list-text">
-                Art Director
-              </p>
-              <p className="share-list-text">
-                Illustrator
-              </p>
+            <hr />
 
-              <h6 className="share-text">TECH STACK</h6>
-              <p className="share-list-text">
+            <div className="description-container">
+              <h6 className="quicksand-subheading">ROLE</h6>
+              <li className="quicksand-subheading2">
+                Art Director
+              </li>
+              <li className="quicksand-subheading2">
+                Illustrator
+              </li>
+              </div>
+
+              <div className="description-container">
+
+              <h6 className="quicksand-subheading">TECH</h6>
+              <li className="quicksand-subheading2">
               Adobe Photoshop
-              </p>
+              </li>
               </div>
           </div>
         </div>

@@ -18,10 +18,10 @@ class ImageSlider extends React.Component {
     return (
       <Slider {...settings} className="main_image_slider">
         <div>
-          <img className="project_img1" src={ShopBlock1} alt="Slide 2" style={{ maxWidth: "300px" }} />
+          <img className="project_img1" src={ShopBlock1} alt="Slide 2" style={{ maxWidth: "600px" }} />
         </div>
         <div>
-          <img className="project_img1" src={ShopBlock2} alt="Slide 3" style={{ maxWidth: "300px" }} />
+          <img className="project_img1" src={ShopBlock2} alt="Slide 3" style={{ maxWidth: "600px" }} />
         </div>
       </Slider>
     );
@@ -29,24 +29,3 @@ class ImageSlider extends React.Component {
 }
 
 export default ImageSlider;
-
-
-function NextArrow() {
-  return (
-    <div>
-    <div className="slick-next">
-        <svg xmlns="http://www.w3.org/2000/svg" stroke="black" height="24" viewBox="0 -960 960 960" width="24"><path d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"/></svg>
-    </div>
-  </div>
-  );
-}
-
-function PrevArrow() {
-  return (
-    <div>
-        <div className="slick-prev rotate-180">
-          <svg xmlns="http://www.w3.org/2000/svg" stroke="black" height="24" viewBox="0 -960 960 960" width="24"><path d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"/></svg>
-        </div>
-      </div>
-  );
-}
