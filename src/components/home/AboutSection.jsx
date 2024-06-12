@@ -60,13 +60,13 @@ const AboutSection = () => {
           <h2 className="about-text" data-aos="fade-up">
             ABOUT
           </h2>
-          <p className="design_text creative_text" data-aos="fade-up">
+          <p className="quicksand-heading creative_text" data-aos="fade-up">
             Motion/Graphic/Web Design
           </p>
           <div className="row modern-techniques">
             <div className="col-xl-6 p-0" data-aos="fade-right">
               <div className="top-space">
-                <h3 className="lobortgs">Full-Stack Designer</h3>
+                <h1 className="lato-heading">Full-Stack Designer</h1>
 
                 <p className="designer designer1">
                   Hello, I’m Kawtar! I'm a graphic and motion designer/web developer based in Nashville, Tennessee. I love to create visually engaging and interactive experiences that connect with people and tell a story.
@@ -90,7 +90,7 @@ const AboutSection = () => {
                         </div>
                         <p className="email-text">
 
-                        <Link to="mailto:hello@kawtar-azzouzi.com?subject=Hi Kawtar">hello@kawtar-azzouzi.com</Link>
+                        <Link to="mailto:hello@kawtar-azzouzi.com?subject=Hi Kawtar">HELLO@kawtar-azzouzi.com</Link>
                         </p>
                       </div>
                     </div>

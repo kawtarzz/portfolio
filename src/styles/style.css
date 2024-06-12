@@ -33,8 +33,8 @@ body:not(.dark-mode) {
     --burger-bg: #fff;
     --box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
     --secondary-box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
-    --text-color: #322f49;
-    --text-hover: #2f3aa0;
+    --text-color: #362f68;
+    --text-hover: #b32594;
 }
 
 img.logo {
@@ -145,8 +145,9 @@ ul {
 /************************* 2.Menu CSS **************************/
 .main_image_slider {
     position: relative;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    padding: 20px 20px;
 }
 
 .main_image_slider img {
@@ -158,9 +159,11 @@ ul {
 .project_img1 {
     max-width: 1200px;
     position: relative;
-    margin: 0 auto;
+    margin: auto;
     justify-content: center;
     align-items: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 
 .rotate-180 {
@@ -334,27 +337,6 @@ ul {
     margin-top: 50px;
 }
 
-.share-text-m {
-    color: var(--secondary-color);
-    font-family: Jost;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    text-transform: uppercase;
-    padding-right: 15px;
-    margin: 0;
-}
-
-li .share-list-text-m a {
-    color: var(--text-color) !important;
-    font-family: Jost !important;
-    font-size: 20px !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    line-height: 20px !important;
-    text-decoration: none !important;
-}
 
 .sub-icon-menu {
     margin-top: 50px;
@@ -657,14 +639,15 @@ svg {
 
 .hello_text {
     color: var(--secondary-color);
-    font-size: 40px;
+    font-size: 26px;
     line-height: 20px;
     text-transform: uppercase;
-    margin: 0;
+    margin: 0 auto;
     padding-bottom: 20px;
-    font-family: Jost;
+    font-family: 'QuickSand', sans-serif;
     font-style: normal;
     font-weight: 500;
+    padding-left: 20px;
 }
 
 .single-text {
@@ -752,30 +735,57 @@ svg {
 }
 
 .design_text {
-    color:#ffa600;
+    font-family: 'Quicksand', sans-serif;
     display: block;
-    font-size: 32px;
+    font-size: 24px;
     text-shadow: 2px 2px var(--primary-color);
     line-height: 40px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 40px;
     margin: 0 auto;
-    padding: 5px 12px;
+    padding: 20px 0px;
+}
+
+.lato-heading {
+    color: #e4a531;
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
 }
 
 .quicksand-heading {
     font-family: "Quicksand", sans-serif;
+    color: var(--secondary-color);
+    font-size: 44px;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-  }
-  
-  .quicksand-subheading {
+    padding: 10px 0px;
+}
+
+.quicksand-subheading {
     font-family: "Quicksand", sans-serif;
+    color: var(--secondary-color2);
+    font-size: 24px;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
-  }
+    padding: 0px 5px;
+}
+
+.quicksand-subheading2 {
+    font-family: "Quicksand", sans-serif;
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    padding-left: 5px;
+    padding-right: 10px;
+}
 
 .main_text {
     transform: translate(0, 50%);
@@ -890,25 +900,40 @@ svg {
 .about-text {
     padding: 40px 10px;
     font-size: 70px;
-    line-height: 100px;
+    line-height: 80px;
     text-transform: uppercase;
     text-align: center;
     margin: 0;
     color: var(--secondary-color);
 }
 
+.page-heading {
+    padding: 120px 10px 10px 20px;
+    text-align: center;
+    font-size: 70px;
+    line-height: 80px;
+    text-transform: uppercase;
+    margin: 0 auto;
+
+
+
+}
+
 .creative_text {
     text-align: center;
     margin: 0;
     line-height: 50px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #ff3c00;
 }
 
-.lobortgs {
+.email-text {
     font-size: 44px;
     line-height: 80px;
     margin: 0;
     padding-bottom: 40px;
-    color: var(--secondary-color);
+    color: #e4a531;
 }
 
 .top-space {
@@ -1501,14 +1526,14 @@ body.dark-mode .resume-bg {
 }
 
 .sub-heading {
-    color:var(--secondary-color2);
+    color: var(--secondary-color2);
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     line-height: 20px;
     text-transform: uppercase;
     margin: 0 auto;
     padding-bottom: 20px;
-    font-weight:700px;
+    font-weight: 700px;
 }
 
 .resume-text {
@@ -2497,20 +2522,16 @@ body.dark-mode .email-bg {
 
 .email-section a {
     display: flex;
-    flex-direction: row;
-    color: #ff3c00;
     font-size: 26px;
-    font-family: 'Lato', sans-serif;
-    font-style: italic;
+    font-family: 'QuickSand', sans-serif;
     font-weight: 900;
     text-decoration: none;
     padding: .5rem .5rem;
 }
 
 .email-section a:hover {
-    transition: all 0.5s ease-in-out;
-    color: fuchsia;
-    font-size: 28px;
+    color: #e4a531;
+    font-style: italic;
 }
 
 
@@ -2530,9 +2551,6 @@ body.dark-mode .email-bg {
     position: absolute;
     right: -32px;
     top: -75px;
-    /* position: relative;
-    right: -31%;
-    top: -77px; */
     filter: var(--svg-color);
 }
 
@@ -2561,7 +2579,7 @@ body.dark-mode .email-bg {
     text-align: center;
     font-size: 22px;
     align-content: center;
-    
+
 }
 
 
@@ -2658,7 +2676,7 @@ body.dark-mode .email-bg {
 .send-btn:hover {
     color: #ffaa00;
     background-color: transparent;
-    border:#001ecb solid 2px;
+    border: #001ecb solid 2px;
 }
 
 .send-btn:before {
@@ -2759,8 +2777,9 @@ body.dark-mode .email-bg {
 }
 
 .form-contact a:hover {
-    color:#ff83ef;
+    color: #ff83ef;
 }
+
 .get-in-touch {
     padding: 30px 10px;
     font-size: 55px;

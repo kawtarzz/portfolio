@@ -27,7 +27,7 @@ const MainPageSection = () => {
     <>
       <div className="row top-img">
         <div className="col-xl-6 col-lg-6 col-md-12 p-0">
-            <SlickImage />
+          <SlickImage />
           <div className="multiplication-frame-main">
             <img
               className="black-multiplication object"
@@ -44,32 +44,47 @@ const MainPageSection = () => {
           </div>
         </div>
         <div className="col-xl-6 col-lg-6 col-md-12">
-        <div className="main-text-box">
+          <div className="main-text-box">
 
-          <div className="half-circle-main">
-            <img
-              className="half-circle-yellow object"
-              data-value="-1"
-              src={HalfCircleSvg1}
-              alt="half-circle-yellow"
-            />
-            <img
-              className="half-circle-black object"
-              data-value="2"
-              src={HalfCircleSvg2}
-              alt="half-circle-black"
-            />
+            <div className="half-circle-main">
+              <img
+                className="half-circle-yellow object"
+                data-value="-1"
+                src={HalfCircleSvg1}
+                alt="half-circle-yellow"
+              />
+              <img
+                className="half-circle-black object"
+                data-value="2"
+                src={HalfCircleSvg2}
+                alt="half-circle-black"
+              />
+            </div>
+            <div className="project-page">
+              <h2 className="quicksand-subheading2">February-August 2021</h2>
+              <h1 className="quicksand-heading" data-aos="fade-up">
+                Rocket Mortgage
+              </h1>
+              <p className="design_text project-second-main-text">
+                I had the opportunity to contribute to various marketing campaigns for Rocket Mortgage, including their partnership with NCAA Football and PGA Tour. As an Art Director intern on the marketing team, I worked on a variety of projects, including social media content, email campaigns, and digital ads. I also had the opportunity to work on the Rocket Mortgage / NCAA Football broadcast commercial shoot in Franklin, Tennessee with celebrity spokespersons, Kirk Herbstreit as well as the mascots from the participating schools.
+              </p>
+              <hr />
+              <div className="description-container">
+
+                <h6 className="quicksand-subheading">ROLE</h6>
+                <li className="quicksand-subheading2">Art Director</li>
+                <li className="quicksand-subheading2">Illustrator</li>
+              </div>
+              <div className="description-container">
+
+                <h6 className="quicksand-subheading">TECH</h6>
+                <li className="quicksand-subheading2">Adobe Photoshop</li>
+                <li className="quicksand-subheading2">Adobe Illustrator</li>
+                <li className="quicksand-subheading2"> After Effects</li>
+
+              </div>
+            </div>
           </div>
-          <div className="project-page">
-            <h2 className="hello_text date">February-August 2021</h2>
-            <h1 className="project_text project-main-text" data-aos="fade-up">
-            Rocket Mortgage
-            </h1>
-            <p className="design_text project-second-main-text">
-              I had the opportunity to contribute to various marketing campaigns for Rocket Mortgage, including their partnership with NCAA Football and PGA Tour. As an Art Director intern on the marketing team, I worked on a variety of projects, including social media content, email campaigns, and digital ads. I also had the opportunity to work on the Rocket Mortgage / NCAA Football broadcast commercial shoot in Franklin, Tennessee with celebrity spokespersons, Kirk Herbstreit as well as the mascots from the participating schools.
-            </p>
-          </div>
-        </div>
         </div>
       </div>
     </>

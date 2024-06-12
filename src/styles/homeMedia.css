@@ -243,8 +243,8 @@
 
     .project-main-text {
         padding-bottom: 20px !important;
-        font-size: 60px !important;
-        line-height: 70px !important;
+        font-size: 36px !important;
+        line-height: 50px !important;
     }
 
     .main-text-box {
@@ -888,10 +888,9 @@
     }
 
     .project-main-text {
-        padding-bottom: 30px !important;
-        font-size: 45px !important;
-        line-height: 60px !important;
-
+        padding-bottom: 20px !important;
+        font-size: 34px !important;
+        line-height: 50px !important;
     }
 
     .multiplication-frame-main {
@@ -1189,10 +1188,9 @@
     }
 
     .project-main-text {
-        padding-bottom: 25px !important;
-        font-size: 40px !important;
-        line-height: 60px !important;
-        
+        padding-bottom: 20px !important;
+        font-size: 36px !important;
+        line-height: 50px !important;
     }
 
     .spacer {
@@ -2996,8 +2994,8 @@
     }
 
     .project-main-text {
-        padding-bottom: 15px !important;
-        font-size: 36px !important;
+        padding-bottom: 20px !important;
+        font-size: 32px !important;
         line-height: 50px !important;
     }
 
@@ -4298,11 +4296,10 @@
     }
 
     .project-main-text {
-        padding-bottom: 10px !important;
+        padding-bottom: 20px !important;
         font-size: 30px !important;
         line-height: 50px !important;
     }
-
     .main-page-space {
         padding-bottom: 30px;
     }
@@ -5102,8 +5099,8 @@
 
 @media (max-width: 400px) {
     .project-main-text {
-        padding-bottom: 10px !important;
-        font-size: 20px !important;
+        padding-bottom: 20px !important;
+        font-size: 28px !important;
         line-height: 50px !important;
     }
 

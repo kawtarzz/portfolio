@@ -60,34 +60,33 @@ const MainPageSection = () => {
             />
           </div>
           <div className="project-page">
-            <h2 className="hello_text date">June 2021</h2>
-            <h1 className="project_text project-main-text" data-aos="fade-up">
+            <h2 className="quicksand-subheading2">June 2021</h2>
+            <h1 className="quicksand-heading" data-aos="fade-up">
               cookiJar
             </h1>
             <p className="design_text project-second-main-text">
             CookiJar is an innovative productivity tracking application that transforms task management into a fun and engaging experience through gamification. Developed using React and a JSON server, CookiJar enables users to assign point values to their tasks and earn rewards upon completion. The application supports full CRUD functionality, ensures user authentication, and features a responsive design for seamless use across devices.
             </p>
-            <div className="share-list">
-              <h2 className="d-none">hidden</h2>
-              <h3 className="d-none">hidden</h3>
-              <h4 className="d-none">hidden</h4>
-              <h5 className="d-none">hidden</h5>
-              <h6 className="share-text">TECH STACK</h6>
-              <p className="share-list-text">
+            <hr />
+
+              
+              <div className="description-container">
+              <h6 className="quicksand-subheading">TECH STACK</h6>
+              <li className="quicksand-subheading2">
                React.js
-              </p>
-              <p className="share-list-text">
+              </li>
+              <li className="quicksand-subheading2">
                 JSON server
-              </p>
-              <p className="share-list-text">
+              </li>
+              <li className="quicksand-subheading2">
                 Bootstrap
-              </p>
-              <p className="share-list-text">
-                  HTML5 / CSS3
-              </p>
-              <p className="share-list-text">
+              </li>
+              <li className="quicksand-subheading2">
+                  HTML5/CSS3
+              </li>
+              <li className="quicksand-subheading2">
                 Javascript
-              </p>
+              </li>
             </div>
           </div>
         </div>

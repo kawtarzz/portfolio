@@ -10,30 +10,30 @@ const Marque = () => {
                 <div className="marquee__content">
                   <div>
                     <h6 className="client-marquee-txt">CLIENT</h6>
-                    <p className="kobe-txt">CandyCart</p>
+                    <p className="client-txt">Chef Antonios</p>
                   </div>
                   <div>
                     <h6 className="client-marquee-txt">CATEGORY</h6>
-                    <p className="kobe-txt">Illustrate for Motion</p>
+                    <p className="client-txt">Graphic Design & Branding</p>
                   </div>
                   <div>
                     <h6 className="client-marquee-txt">Design</h6>
-                    <p className="kobe-txt">Adobe Photoshop</p>
+                    <p className="client-txt">Adobe Photoshop & Illustrator</p>
                   </div>
                
                 </div>
                 <div aria-hidden="true" className="marquee__content">
                 <div>
-                    <h6 className="client-marquee-txt">CLIENT</h6>
-                    <p className="kobe-txt">CandyCart</p>
+                <h6 className="client-marquee-txt">CLIENT</h6>
+                    <p className="client-txt">Chef Antonios</p>
                   </div>
                   <div>
                     <h6 className="client-marquee-txt">CATEGORY</h6>
-                    <p className="kobe-txt">Illustrate for Motion</p>
+                    <p className="client-txt">Graphic Design & Branding</p>
                   </div>
                   <div>
                     <h6 className="client-marquee-txt">Design</h6>
-                    <p className="kobe-txt">Adobe Photoshop</p>
+                    <p className="client-txt">Adobe Photoshop & Illustrator</p>
                   </div>
                   </div>
                 </div>
