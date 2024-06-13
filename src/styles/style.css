@@ -69,6 +69,16 @@ img.logo {
     margin: 0 auto;
 }
 
+.gallery-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+
 .project-page {
     padding: 2rem 1rem;
     margin: 0 auto;
@@ -157,7 +167,7 @@ ul {
 }
 
 .project_img1 {
-    max-width: 1200px;
+    max-width: 1000px;
     position: relative;
     margin: auto;
     justify-content: center;

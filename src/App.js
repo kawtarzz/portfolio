@@ -23,6 +23,8 @@ import FooterSection from "./components/FooterSection.jsx";
 import MinMenuSection from "./components/MinMenuSection.jsx";
 import Loader from "./components/home/Loader";
 import GrandmasKitchen from "./components/GrandmasKitchen.jsx";
+import PortfolioSection from "./components/PortFolioSection.jsx";
+import RiverinParadise from "./components/RiverinParadise.jsx";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -56,7 +58,6 @@ function App() {
       console.log("not home")
     }
   }, [path]);
-
 
 
   useEffect(() => {
@@ -123,7 +124,10 @@ function App() {
             <Route path="/projects/candycart" element={<CandyCart />} />
             <Route path="/projects/witcheswizards" element={<WitchesWizards />} />
             <Route path="/projects/grandmasKitchen" element={<GrandmasKitchen />} />
-            
+            <Route path="/projects" element={
+              <PortfolioSection />
+              } />
+            <Route path="/projects/riverinparadise" element={<RiverinParadise />} />
           </Routes>
           <AnimCursor />
           <div className="dark-light-main">

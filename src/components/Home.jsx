@@ -7,6 +7,7 @@ import PortFolioSection from "./PortFolioSection";
 import SvgIcon from "../assets/img/svg/traingle-btn.svg";
 import FormSection from "./home/FormSection";
 import VideoModal from "./VideoModal";
+import GallerySection from "./ArtDesign/riverInParadise/Gallery";
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -54,6 +55,9 @@ const Home = () => {
       </div>
       <section className="overflow-hidden">
         <ServicesSection />
+      </section>
+      <section className="gallery-section">
+        <GallerySection rowHeight={350}/>
       </section>
       <section id="contact">
         <div className="all-page-border2">

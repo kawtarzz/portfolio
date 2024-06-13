@@ -3,7 +3,6 @@ import BlackDotSvg from "../../../assets/img/svg/black-dots.svg";
 import YellowSquare from "../../../assets/img/svg/yellow-square-frame.svg";
 import YellowFrameSvg from "../../../assets/img/svg/traingle-yellow-frame.svg";
 import BlackFrameSvg from "../../../assets/img/svg/traingle-black-frame.svg";
-import candyCart1 from "../../../assets/img/portfoliosection/candyCart/Deliveryshere_Treatment.jpg"
 
 
 const ChallengeSection = () =>
@@ -11,15 +10,20 @@ const ChallengeSection = () =>
     return (
       <>
         <div className="all-page-border2">
-          <div className="container">
             <div className="challenge-spacer">
               <div className="position-relative">
                 <div className="yellow_circle"></div>
                 <h2 className="about-text" data-aos="fade-up">
-                  Challenge
+                ٱلْكَوْثَر 
                 </h2>
+              
                 <p className="unconventional" data-aos="fade-up">
-                  
+             "....What is Al-Kawthar?" The Prophet replied: "It is a river in Paradise which my Lord has given me. It is whiter than milk and sweeter than honey. There are birds in it whose necks are (long) like carrots." Umar said, "O Messenger of Allah! Verily, they (the birds) will be beautiful."</p>
+           <p className="quicksand-subheading">
+           River in Paradise is my personal branding project. I wanted to create a brand that represents me and my work. The name River in Paradise comes from the meaning of my name, Kawtar, or ٱلْكَوْثَر , Al-Kawthar. It is the 108th chapter of the Quran. 
+           </p>           <p className="quicksand-subheading" style={{"color":"var(--secondary-color)"}}>
+
+                  It also represents the flow of creativity, the beauty of nature, and the search for <i>Paradise</i> in one's art practice and self. The logo is a combination of my initials, K and A, and the colors are inspired by the colors of the ocean and the sky. The brand is meant to be clean, modern, and professional, with a touch of creativity and fun.
                 </p>
                 <div className="challenge-dots-square">
                   <img
@@ -36,22 +40,7 @@ const ChallengeSection = () =>
               </div>
               <div className="row challenge-box">
                 <div className="col-xl-6" data-aos="fade-up">
-                  <div className="skill-list">
-                    <ul className="skill-list-main">
-                      <li>
-                        Design style frames that illustrate the brand: playful, fun & lighthearted. 
-                      </li>
-                      <li>Keeping in mind the branding, the style must remain professional & clean to keep customer trust. </li>
-                      <li>
-                        Present a few options for the style frames. A literal translation of the given script and a more abstract interpretation. 
-                      </li>
-                      <li>
-                       Create a story that shows the app functionality. 
-                      </li>
-                      <li>Design within the branding</li>
-                    </ul>
-                  </div>
-   
+                 
                   <div className="challenge-traingle-frame">
                     <img
                       className="ch-traingle-yellow-frame"
@@ -65,21 +54,10 @@ const ChallengeSection = () =>
                       />
                       </div>
                   </div>
-                  <div className="col-xl-6">
-                  <div className="challenge-img-main">
-
-                    <img src={candyCart1}
-                    className="project-img1"
-                    alt="candycart"
-                    />
-                </div>
-
-                </div>
-              
+                  
                 </div>
               </div>
             </div>
-          </div>
         
       </>
     );

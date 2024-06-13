@@ -87,6 +87,15 @@ body.dark-mode .marquee-bg {
     margin: 0;
 }
 
+.client-txt2 {
+    color: var(--secondary-color);
+    text-shadow: 3px 0 0px var(--primary-color);
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0;
+}
+
+
 .logo-group {
     padding: 100px 0;
 }

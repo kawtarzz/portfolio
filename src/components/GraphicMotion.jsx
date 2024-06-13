@@ -3,7 +3,6 @@ import RocketMortgagePreview from './GraphicMotionDesign/RocketMortagePreview';
 import ChefAntoniosPreview from './GraphicMotionDesign/chefAntoniosPreview';
 import PetalPushrPreview from './GraphicMotionDesign/petalPushrPreview';
 
-
 const GraphicMotionDesign = () => {
 
     return (
