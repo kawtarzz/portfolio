@@ -1,5 +1,5 @@
 import { Gallery } from "react-grid-gallery";
-import ripImage2 from "../../../assets/img/portfoliosection/rip/IMG_00 (1).jpg";
+import ripImage2 from "../../../assets/img/portfoliosection/rip/IMG_00 (14).jpg";
 import ripImage3 from "../../../assets/img/portfoliosection/rip/IMG_00 (2).jpg";
 import ripImage4 from "../../../assets/img/portfoliosection/rip/IMG_00 (3).jpg";
 import ripImage5 from "../../../assets/img/portfoliosection/rip/IMG_00 (4).jpg";
@@ -10,6 +10,7 @@ import ripImage9 from "../../../assets/img/portfoliosection/rip/IMG_00 (8).jpg";
 import ripImage11 from "../../../assets/img/portfoliosection/rip/IMG_00 (10).jpg";
 import ripImage13 from "../../../assets/img/portfoliosection/rip/IMG_00 (12).jpg";
 import ripImage14 from "../../../assets/img/portfoliosection/rip/IMG_00 (13).jpg";
+
 
 
 const IMAGES = [
