@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import AboutSection from "./home/AboutSection";
 import MainPageSection from "./home/MainPageSection";
-import ServicesSection from "./home/ServicesSection";
 import ResumeSection from "./home/ResumeSection";
 import PortFolioSection from "./PortFolioSection";
 import SvgIcon from "../assets/img/svg/traingle-btn.svg";
@@ -31,9 +30,6 @@ const Home = () => {
       <section className="active_menus overflow-hidden" id="portfolio">
         <PortFolioSection />
       </section>
-      <section className="active_menus overflow-hidden" id="resume">
-        <ResumeSection />
-      </section>
       <div className="shapes-bg all-page-border2 overflow-hidden">
         <div className="video-section-text-main container">
           <h1 className="video-section-text" data-aos="fade-up">
@@ -53,11 +49,11 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <section className="overflow-hidden">
-        <ServicesSection />
-      </section>
       <section className="gallery-section">
         <GallerySection rowHeight={350}/>
+      </section>
+      <section className="active_menus overflow-hidden" id="resume">
+        <ResumeSection />
       </section>
       <section id="contact">
         <div className="all-page-border2">
