@@ -25,6 +25,7 @@ import Loader from "./components/home/Loader";
 import GrandmasKitchen from "./components/GrandmasKitchen.jsx";
 import PortfolioSection from "./components/PortFolioSection.jsx";
 import RiverinParadise from "./components/RiverinParadise.jsx";
+import PetalPushr from "./components/PetalPushr.jsx";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -125,9 +126,9 @@ function App() {
             <Route path="/projects/witcheswizards" element={<WitchesWizards />} />
             <Route path="/projects/grandmasKitchen" element={<GrandmasKitchen />} />
             <Route path="/projects" element={
-              <PortfolioSection />
-              } />
+              <PortfolioSection />} />
             <Route path="/projects/riverinparadise" element={<RiverinParadise />} />
+            <Route path="/projects/petalpushr" element={<PetalPushr />} />
           </Routes>
           <AnimCursor />
           <div className="dark-light-main">

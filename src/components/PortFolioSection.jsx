@@ -39,14 +39,14 @@ const PortfolioSection = () => {
               <Tab active={activeTab === 0} onClick={() => handleTabClick(0)}>
                 All
               </Tab>
-              <Tab active={activeTab === 1} onClick={() => handleTabClick(1)}>
-                Web Design
-              </Tab>
               <Tab active={activeTab === 2} onClick={() => handleTabClick(2)}>
                 Illustration
               </Tab>
               <Tab active={activeTab === 3} onClick={() => handleTabClick(3)}>
                 Graphic/Motion Design
+              </Tab>
+              <Tab active={activeTab === 1} onClick={() => handleTabClick(1)}>
+                Web Design
               </Tab>
             </div>
       </div>
@@ -55,9 +55,9 @@ const PortfolioSection = () => {
       <div className="content_box">
 
         <TabContent active={activeTab === 0}>
-          <WebDesign />
           <ArtDesign />
           <GraphicMotionDesign />
+          <WebDesign />
         </TabContent>
 
         <TabContent active={activeTab === 1}>

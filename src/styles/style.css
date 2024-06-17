@@ -745,6 +745,7 @@ svg {
 }
 
 .design_text {
+    color: var(--secondary-color2);
     font-family: 'Quicksand', sans-serif;
     display: block;
     font-size: 24px;

@@ -62,7 +62,7 @@ const MainPageSection = () => {
           <div className="project-page">
             <h2 className="quicksand-subheading2">August 2020</h2>
             <h1 className="quicksand-heading" data-aos="fade-up">
-              Animation Bootcamp
+             CookiJar
             </h1>
             <p className="design_text project-second-main-text">
             CookiJar is a productivity tracking application that transforms task management into a fun and engaging experience through gamification. Developed using React and a JSON server, CookiJar enables users to assign point values to their tasks and earn rewards upon completion. The application supports full CRUD functionality, ensures user authentication, and features a responsive design for seamless use across devices.
