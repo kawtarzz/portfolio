@@ -10,7 +10,6 @@ import ripImage9 from "../../../assets/img/portfoliosection/rip/IMG_00 (8).jpg";
 import ripImage11 from "../../../assets/img/portfoliosection/rip/IMG_00 (10).jpg";
 import ripImage13 from "../../../assets/img/portfoliosection/rip/IMG_00 (12).jpg";
 import ripImage14 from "../../../assets/img/portfoliosection/rip/IMG_00 (13).jpg";
-import ripImage15 from "../../../assets/img/portfoliosection/rip/IMG_00 (14).jpg";
 
 
 const IMAGES = [

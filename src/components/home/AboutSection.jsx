@@ -61,19 +61,18 @@ const AboutSection = () => {
             ABOUT
           </h2>
           <p className="quicksand-heading creative_text" data-aos="fade-up">
-            Motion/Graphic/Web Design
+            Visual Arts & Web Development
           </p>
           <div className="row modern-techniques">
             <div className="col-xl-6 p-0" data-aos="fade-right">
               <div className="top-space">
-                <h1 className="lato-heading">Full-Stack Designer</h1>
+                <h1 className="lato-heading"><i>Nice to meet you!</i></h1>
 
                 <p className="designer designer1">
-                  Hello, I’m Kawtar! I'm a graphic and motion designer/web developer based in Nashville, Tennessee. I love to create visually engaging and interactive experiences that connect with people and tell a story.
+                I am a first generation Moroccan-American designer based in Nashville, TN. A life-long artist with a restless curiosity, I've always sought to push the boundaries of my creativity through new mediums & technologies. 
                 </p>
                 <p className="designer designer2">
-
-                  I have a background in design and web development with a Bachelor of Fine Arts in Film, Video & Animation from the School of the Art Institute of Chicago. Whether it's a website, an animation, or a print piece, I'm always looking for new ways to push the boundaries of design, technology and my own creativity.
+                I have worked as a designer for over 6 years, specializing in branding, illustration and animation. More recently, I have expanded my skillset to include web development, allowing me to create fully custom websites for my clients. 
                 </p>
                 <div className="phone-email-icons">
                   <div className="email-icon">
