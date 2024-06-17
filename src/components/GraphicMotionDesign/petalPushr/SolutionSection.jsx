@@ -5,6 +5,8 @@ import HalfCircleBlack from "../../../assets/img/svg/black-half-circal.svg";
 import HalfCircleYellow from "../../../assets/img/svg/yellow-half-circle.svg";
 import heartSvg from "../../../assets/img/svg/heart-line.svg";
 import heartSvgActive from "../../../assets/img/svg/heart-fill.svg";
+import Image01 from "../../../assets/img/portfoliosection/petalpushr/banner_transBG_000.png";
+import ImageSlider from "./SlickImage2";
 
 
 const SolutionSection = () => {
@@ -30,11 +32,38 @@ const SolutionSection = () => {
           <div className="position-relative">
             <div className="yellow_circle"></div>
             <h2 className="about-text" data-aos="fade-up">
-              Solution
+              Outcome
             </h2>
             <p className="unconventional" data-aos="fade-up">
-              After a couple iterations of the storyboard, we landed on a treatment that lay between the literal and abstract options presented to the client. Keeping the story straight-forward with a little exaggerated humor in the service's amount of candy delivered to our main character. I highlighted the pink in their branding throughout the frames which gave us a consistent, clean style with enough whimsy to demonstrate the fun service being advertised.
+              <ul>
+                <h3>Client Collaboration & Feedback</h3>
+                <li>
+                  Collaborated closely with the client to understand her vision and preferences for the website design.
+                </li>
+                <li>
+                  Conducted several rounds of revisions to ensure the final product met the client’s vision and expectations.
+                </li>
+                <li>
+                  We integrated Instagram & Facebook shopping to streamline the purchasing process for customers.
+                </li>
+                <li>
+                  The website successfully showcased her floral arrangements with accurate inventory counts and featured a contact form for custom arrangement inquiries.
+                </li>
+                <li>
+                  The final website was completed with a customized landing page displaying one of the client's favorite glass dome floral pieces.
+                </li>
+              </ul>
             </p>
+            <div className="container" data-aos="fade-up">
+              <center>
+
+                <h3>
+                  Check out the live site at{" "}
+                  <a href="https://www.petalpushr.com">petalpushr.com</a>
+                </h3>
+                <ImageSlider />
+              </center>
+            </div>
             <div className="solution-half-circle">
               <img
                 className="half-circle-yellow-solution"
@@ -92,14 +121,14 @@ const SolutionSection = () => {
             >
               <div className="red-left">
                 <h5 className="d-none">hidden</h5>
-                <a href="/projects/cookijar">
+                <a href="/projects/chefantonios">
                   <div className="arrow-pro left"></div>
                 </a>
               </div>
               <div className="right-line">
 
                 <h4 className="project-text">
-                  <a href="/projects/cookijar">PREV</a>
+                  <a href="/projects/chefantonios">PREV</a>
                 </h4>
               </div>
             </div>
@@ -109,11 +138,11 @@ const SolutionSection = () => {
                 <h5 className="d-none">hidden</h5>
 
                 <h4 className="project-text">
-                  <a href="/projects/witcheswizards">NEXT</a>
+                  <a href="/projects/cookijar">NEXT</a>
                 </h4>
               </div>
               <div className="red">
-                <a href="/projects/witcheswizards">
+                <a href="/projects/cookijar">
                   <div className="arrow-pro"></div>
                 </a>
               </div>

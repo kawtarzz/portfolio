@@ -22,12 +22,10 @@ const PetalPushrPreview = () => {
     <div className="main-page-space overflow-hidden">
         <button className="close-button" onClick={handleClose}>X</button>
       <MainPageSection />
-     <p> 
       <Link to="/projects/petalPushr">
         <button className="project-button">View Project Details</button>
       </Link>
 
-     </p>
 </div>
     ) : (
       <div className="box-content">

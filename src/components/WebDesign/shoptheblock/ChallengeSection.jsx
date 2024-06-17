@@ -23,7 +23,6 @@ const ChallengeSection = () =>
                 <h2 className="about-text" data-aos="fade-up">
                   Challenge
                 </h2>
-             
                 <p className="unconventional" data-aos="fade-up">
                 To build a full-stack application with user authentication, 
                 full CRUD functionality, and an SQL database. The application
