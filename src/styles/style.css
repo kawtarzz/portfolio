@@ -1265,6 +1265,21 @@ body.dark-mode .shapes-bg {
     padding: 2rem;
 }
 
+.video-rectangle {
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    width: 720px;
+    height: 400px;
+    background-color: var(--secondary-color2);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+    
 .video-section-text-main {
     padding: 100px 0 100px;
 }
@@ -1344,8 +1359,9 @@ iframe {
 }
 
 .triangle-img {
+    display:block;
+    position: absolute;
     filter: var(--svg-color);
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -1964,7 +1980,7 @@ ul li {
 
 .portfolio-box {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 0 auto;
     justify-content: center;
@@ -1972,22 +1988,26 @@ ul li {
 
 .box-content .box-content-img {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    border-radius: 30px;
     padding: 1rem 1rem;
     margin: 0 auto;
 }
 
+
 .box-content-img:hover {
-    background-color: rgb(255, 228, 72);
+   scale: 1.1;
 }
 
 
 .project-img {
     max-width: 100%;
     padding: 40px;
+    border-radius: 30px;
 }
+
 
 .project-title {
     display: block;

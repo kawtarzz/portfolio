@@ -66,7 +66,7 @@ const AboutSection = () => {
           <div className="row modern-techniques">
             <div className="col-xl-6 p-0" data-aos="fade-right">
               <div className="top-space">
-                <h1 className="lato-heading"><i>Nice to meet you!</i></h1>
+                <h1 className="lato-heading"><i></i></h1>
 
                 <p className="designer designer1">
                 I am a first generation Moroccan-American designer based in Nashville, TN. A life-long artist with a restless curiosity, I've always sought to push the boundaries of my creativity through new mediums & technologies. 

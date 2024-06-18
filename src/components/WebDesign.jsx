@@ -7,11 +7,11 @@ import PetalPushrPreview from "./GraphicMotionDesign/petalPushrPreview";
 
 const WebDesign = () => {
   return (
-      <div className="portfolio-box">
+    <>
           <CookiJarPreview />
           <ShopTheBlockPreview />
           <PetalPushrPreview />
-        </div>
+    </>
   );
 }
 
