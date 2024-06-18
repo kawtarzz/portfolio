@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import MainPageSection from "./ArtDesign/candyCart/MainPageSection";
-import Marque from "../components/ArtDesign/candyCart/MarqueSection";
-import ChallengeSection from "../components/ArtDesign/candyCart/ChallengeSection";
-import SolutionSection from "../components/ArtDesign/candyCart/SolutionSection";
-import Loader from "./home/Loader";
+import MainPageSection from "./MainPageSection";
+import Marque from "./MarqueSection";
+import ChallengeSection from "./ChallengeSection";
+import SolutionSection from "./SolutionSection";
+import Loader from "../../home/Loader";
 
 const CandyCart = () => {
   const [loading, setLoading] = useState(true);

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import MainPageSection from "./GraphicMotionDesign/petalPushr/MainPageSection.jsx";
-import Marque from "./GraphicMotionDesign/petalPushr/MarqueSection.jsx";
-import ChallengeSection from "./GraphicMotionDesign/petalPushr/ChallengeSection.jsx";
-import SolutionSection from "./GraphicMotionDesign/petalPushr/SolutionSection.jsx";
-import Loader from "./home/Loader";
+import MainPageSection from "./MainPageSection";
+import Marque from "./MarqueSection";
+import ChallengeSection from "./ChallengeSection";
+import SolutionSection from "./SolutionSection";
+import Loader from "../../home/Loader";
 
-const PetalPushr = () => {
+const NormalCoffee = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     setTimeout(() => setLoading(false), 2000);
@@ -15,7 +15,6 @@ const PetalPushr = () => {
   }
   return (
     <>
-     
       <div className="main-page-space overflow-hidden">
         <MainPageSection />
       </div>
@@ -33,4 +32,4 @@ const PetalPushr = () => {
     </>
   );
 };
-export default PetalPushr;
+export default NormalCoffee;

@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
-import MainPageSection from "./ArtDesign/grandmasKitchen/MainPageSection";
-import Marque from "./ArtDesign/grandmasKitchen/MarqueSection";
-import ChallengeSection from "./ArtDesign/grandmasKitchen/ChallengeSection";
-import SolutionSection from "./ArtDesign/grandmasKitchen/SolutionSection";
-import Loader from "./home/Loader";
+import MainPageSection from "./MainPageSection.jsx";
+import Marque from "./MarqueSection.jsx";
+import ChallengeSection from "./ChallengeSection.jsx";
+import SolutionSection from "./SolutionSection.jsx";
+import Loader from "../../home/Loader";
 
-
-const GrandmasKitchen = () => {
+const PetalPushr = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     setTimeout(() => setLoading(false), 2000);
@@ -16,6 +15,7 @@ const GrandmasKitchen = () => {
   }
   return (
     <>
+     
       <div className="main-page-space overflow-hidden">
         <MainPageSection />
       </div>
@@ -33,8 +33,4 @@ const GrandmasKitchen = () => {
     </>
   );
 };
-export default GrandmasKitchen;
-
-
-
-  
+export default PetalPushr;

@@ -1,29 +1,29 @@
 import React from 'react';
-import CandyCartPreview from './ArtDesign/CandyCart_Preview';
-import NormalCoffeePreview from './ArtDesign/NormalCoffee_Preview';
-import WitchesWizardsPreview from './ArtDesign/WitchesWizards_Preview';
-import GrandmasKitchenPreview from './ArtDesign/GrandmasKitchen_Preview';
-import RiverinParadisePreview from './ArtDesign/RiverinParadise_Preview';
-import CookiJarPreview from "./WebDesign/CookiJar_Preview";
-import ShopTheBlockPreview from "./WebDesign/ShoptheBlock_Preview";
-import PetalPushrPreview from "./GraphicMotionDesign/petalPushrPreview";
-import RocketMortgagePreview from "./GraphicMotionDesign/RocketMortagePreview";
-
-
+import CookiJarPreview from './Portfolio/CookiJar_Preview';
+import PetalPushrPreview from './Portfolio/PetalPushr_Preview';
+import RiverinParadisePreview from './Portfolio/RiverinParadise_Preview';
+import ShopTheBlockPreview from './Portfolio/ShoptheBlock_Preview';
+import CandyCartPreview from './Portfolio/CandyCart_Preview';
+import WitchesWizardsPreview from './Portfolio/WitchesWizards_Preview';
+import NormalCoffeePreview from './Portfolio/NormalCoffee_Preview';
+import GrandmasKitchenPreview from './Portfolio/GrandmasKitchen_Preview';
+import RocketMortgagePreview from './Portfolio/RocketMortgagePreview';
+import SpiritualTeensPreview from './Portfolio/SpiritualTeens_Preview';
 
 const ArtDesign = () => {
     return (
         <>
-                <div className="portfolio-box">
-            <CookiJarPreview />
-          <ShopTheBlockPreview />
-          <PetalPushrPreview />
-            <RocketMortgagePreview />
-                <CandyCartPreview />
-                <NormalCoffeePreview />
-                <WitchesWizardsPreview />
+            <div className="portfolio-box">
+                <CookiJarPreview />
+                <PetalPushrPreview />
                 <RiverinParadisePreview />
-                <GrandmasKitchenPreview />
+                <ShopTheBlockPreview />
+                <CandyCartPreview />
+                <WitchesWizardsPreview />
+                <NormalCoffeePreview />
+                <GrandmasKitchenPreview /> 
+                <RocketMortgagePreview />
+                <SpiritualTeensPreview /> 
             </div>
 
         </>

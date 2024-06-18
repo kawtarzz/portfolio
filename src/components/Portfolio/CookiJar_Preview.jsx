@@ -26,7 +26,6 @@ const CookiJarPreview = () => {
       <Link to="/projects/cookijar">
         <button className="project-button">View Project Details</button>
       </Link>
-
      </p>
 </div>
     ) : (

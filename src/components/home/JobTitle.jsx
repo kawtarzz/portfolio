@@ -4,9 +4,10 @@ import { useState, useEffect } from "react";
 export const JobTitle = () => {
   const [currentJobTitleIndex, setCurrentJobTitleIndex] = useState(0);
   const jobTitles = [
-    "Web",
-    "Motion",
-    "Graphic",
+    "Web Developer",
+    "Motion Designer",
+    "Graphic Designer",
+    "Visual Artist",
   ];
 
   const characterAnimation = {
@@ -53,7 +54,7 @@ export const JobTitle = () => {
               },
             }}
           >
-          I'm a {" "} {jobTitles[currentJobTitleIndex]}{" "} Designer
+          I'm a {" "} {jobTitles[currentJobTitleIndex]}{" "} 
           </motion.div> 
         </div>
     </>
