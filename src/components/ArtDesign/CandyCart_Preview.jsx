@@ -16,7 +16,7 @@ const CandyCartPreview = () => {
   return (
     <>
     {open ? (
-        <div className="main-page-space overflow-hidden">
+        <div className="main-page-space overflow-hidden project-img">
           <button className="close-button" onClick={handleClose}>X</button>
           <MainPageSection />
           <p>

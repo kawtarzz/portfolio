@@ -11,6 +11,7 @@ const VideoModal = ({ isOpen, onClose }) => {
       contentLabel="Video Modal"
       className="custom-modal"
     >
+    
       <div
         className="modal-content"
         style={{

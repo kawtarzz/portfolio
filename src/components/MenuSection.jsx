@@ -51,14 +51,14 @@ const MenuSection = () => {
               </a>
             </li>
             <li className="menu-btn">
-              <a href="#about">
-                ABOUT
+              <a href="#portfolio">
+                PORTFOLIO
                 <span className="yellow-line"></span>
               </a>
             </li>
             <li className="menu-btn">
-              <a href="#portfolio">
-                PORTFOLIO
+              <a href="#about">
+                ABOUT
                 <span className="yellow-line"></span>
               </a>
             </li>

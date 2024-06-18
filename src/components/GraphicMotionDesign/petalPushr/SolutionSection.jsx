@@ -5,7 +5,6 @@ import HalfCircleBlack from "../../../assets/img/svg/black-half-circal.svg";
 import HalfCircleYellow from "../../../assets/img/svg/yellow-half-circle.svg";
 import heartSvg from "../../../assets/img/svg/heart-line.svg";
 import heartSvgActive from "../../../assets/img/svg/heart-fill.svg";
-import Image01 from "../../../assets/img/portfoliosection/petalpushr/banner_transBG_000.png";
 import ImageSlider from "./SlickImage2";
 
 
@@ -121,14 +120,14 @@ const SolutionSection = () => {
             >
               <div className="red-left">
                 <h5 className="d-none">hidden</h5>
-                <a href="/projects/chefantonios">
+                <a href="/projects/shoptheblock">
                   <div className="arrow-pro left"></div>
                 </a>
               </div>
               <div className="right-line">
 
                 <h4 className="project-text">
-                  <a href="/projects/chefantonios">PREV</a>
+                  <a href="/projects/shoptheblock">PREV</a>
                 </h4>
               </div>
             </div>
@@ -138,11 +137,11 @@ const SolutionSection = () => {
                 <h5 className="d-none">hidden</h5>
 
                 <h4 className="project-text">
-                  <a href="/projects/cookijar">NEXT</a>
+                  <a href="/projects/candycart">NEXT</a>
                 </h4>
               </div>
               <div className="red">
-                <a href="/projects/cookijar">
+                <a href="/projects/candycart">
                   <div className="arrow-pro"></div>
                 </a>
               </div>

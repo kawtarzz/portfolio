@@ -1639,11 +1639,6 @@
         border-left: 1px solid var(--secondary-color);
     }
 
-    .project-img1 {
-        max-width: 100%;
-        padding: 20px !important;
-    }
-
     .project-text a {
         color: var(--secondary-color);
         font-family: Fascinate;
