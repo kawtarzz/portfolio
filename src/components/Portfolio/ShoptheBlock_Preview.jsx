@@ -21,9 +21,9 @@ const ShopTheBlockPreview = () => {
           <button className="close-button" onClick={handleClose}>X</button>
           <MainPageSection />
           <p>
-            <Link to="/projects/shoptheblock">
+            <a href="/projects/shoptheblock">
               <button className="project-button">View Project Details</button>
-            </Link>
+            </a>
           </p>
         </div>
       ) : (

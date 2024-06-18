@@ -21,9 +21,9 @@ const WitchesWizardsPreview = () => {
         <button className="close-button" onClick={handleClose}>X</button>
       <MainPageSection />
      <p> 
-      <Link to="/projects/witcheswizards">
+      <a href="/projects/witcheswizards" id="witcheswizards">
         <button className="project-button">View Project Details</button>
-      </Link>
+      </a>
      </p>
 </div>
     ) : (

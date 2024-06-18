@@ -25,7 +25,7 @@ const MainPageSection = () => {
 
   return (
     <>
-      <div className="row top-img">
+      <div className="row top-img" id="grandmaskitchen">
         <div className="col-xl-6 col-lg-6 col-md-12 p-0">
           <img className="project_img1" src={GrandmasKitchenImg} alt="grandmasKitchen" style={{ maxWidth: "600px" }} />
           <div className="multiplication-frame-main">

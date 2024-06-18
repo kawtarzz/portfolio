@@ -21,9 +21,9 @@ const GrandmasKitchenPreview = () => {
       <button className="close-button" onClick={handleClose}>X</button>
       <MainPageSection />
      <p> 
-      <Link to="/projects/grandmasKitchen">
+      <a href="/projects/grandmasKitchen" id="grandmaskitchen">
         <button className="project-button">View Project Details</button>
-      </Link>
+      </a>
      </p>
 </div>
     ) : (

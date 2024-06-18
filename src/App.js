@@ -57,10 +57,8 @@ function App() {
   useEffect(() => {
     if (path === "/" || path === "/home") {
       setIsHome(true);
-      console.log("home")
     } else {
       setIsHome(false);
-      console.log("not home")
     }
   }, [path]);
 

@@ -3,6 +3,7 @@ import MainPageSection from "./riverInParadise/MainPageSection"
 import { Link } from "react-router-dom";
 import Image from "../../assets/img/portfoliosection/rip/Asset 12-81.png"
 
+
 const RiverinParadisePreview = () => {
   const [open, setOpen] = useState(false);
 
@@ -16,13 +17,13 @@ const RiverinParadisePreview = () => {
   return (
     <>
     {open ? (
-        <div className="main-page-space overflow-hidden">
+        <div className="main-page-space overflow-hidden project-img">
           <button className="close-button" onClick={handleClose}>X</button>
           <MainPageSection />
           <p>
-      <Link to="/projects/riverinparadise">
+      <a href="/projects/riverinparadise" id="riverinparadise">
         <button className="project-button">View Project Details</button>
-      </Link>
+      </a>
      </p>
 </div>
     ) : (
