@@ -20,7 +20,7 @@ const CandyCartPreview = () => {
           <button className="close-button" onClick={handleClose}>X</button>
           <MainPageSection />
           <p>
-      <Link to="/projects/candycart">
+      <Link to="/projects/candycart" id="candycart">
         <button className="project-button">View Project Details</button>
       </Link>
      </p>

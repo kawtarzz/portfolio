@@ -20,9 +20,9 @@ const SpiritualTeensPreview = () => {
           <button className="close-button" onClick={handleClose}>X</button>
           <MainPageSection />
           <p>
-      <Link to="/projects/spiritualteens">
+      <a href="/projects/spiritualteens" id="spiritualteens">
         <button className="project-button">View Project Details</button>
-      </Link>
+      </a>
      </p>
 </div>
     ) : (

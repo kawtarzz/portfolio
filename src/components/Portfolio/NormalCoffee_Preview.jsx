@@ -23,9 +23,9 @@ const NormalCoffeePreview = () => {
         <button className="close-button" onClick={handleClose}>X</button>
       <MainPageSection />
      <p> 
-      <Link to="/projects/normalcoffee">
+      <a href="/projects/normalcoffee">
         <button className="project-button">View Project Details</button>
-      </Link>
+      </a>
 
      </p>
 </div>

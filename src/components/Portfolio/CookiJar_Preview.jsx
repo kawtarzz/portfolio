@@ -23,9 +23,9 @@ const CookiJarPreview = () => {
         <button className="close-button" onClick={handleClose}>X</button>
       <MainPageSection />
      <p> 
-      <Link to="/projects/cookijar">
+      <a href="/projects/cookijar" id="cookijar">
         <button className="project-button">View Project Details</button>
-      </Link>
+      </a>
      </p>
 </div>
     ) : (

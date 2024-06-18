@@ -25,7 +25,7 @@ const MainPageSection = () => {
   }, []);
   return (
     <>
-      <div className="row top-img">
+      <div className="row top-img" id="candycart">
         <div className="col-xl-6 col-lg-6 col-md-12 p-0">
             <SlickImage />
           <div className="multiplication-frame-main">
