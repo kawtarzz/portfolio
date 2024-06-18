@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MainPageSection from "./spiritualTeens/MainPageSection.jsx"
 import { Link } from "react-router-dom";
-import SpiritualTeensImg from "../../assets/img/portfoliosection/spiritualTeens/Maamoul-covers-2_0000_Layer-13.png";
+import SpiritualTeensImg from "../../assets/img/portfoliosection/spiritualTeens/004.jpg"
 
 const SpiritualTeensPreview = () => {
   const [open, setOpen] = useState(false);

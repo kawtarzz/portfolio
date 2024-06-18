@@ -14,6 +14,7 @@ class ImageSlider extends React.Component {
       speed: 1000,
       fade: true,
       autoplay: true,
+      arrows: true,
     };
 
     return (

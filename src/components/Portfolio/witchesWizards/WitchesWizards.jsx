@@ -1,10 +1,11 @@
 import React from "react";
-import MainPageSection from "./WebDesign/shoptheblock/MainPageSection";
-import Marque from "./WebDesign/shoptheblock/MarqueSection";
-import ChallengeSection from "./WebDesign/shoptheblock/ChallengeSection";
-import SolutionSection from "./WebDesign/shoptheblock/SolutionSection";
+import MainPageSection from "./MainPageSection";
+import ChallengeSection from "./ChallengeSection"
+import SolutionSection from "./SolutionSection";
+import Marque from "./MarqueSection";
 
-const ShopTheBlock = () => {
+const WitchesWizards = () => {
+
   return (
     <>
       <div className="main-page-space overflow-hidden">
@@ -24,5 +25,4 @@ const ShopTheBlock = () => {
     </>
   );
 };
-
-export default ShopTheBlock;
+export default WitchesWizards;

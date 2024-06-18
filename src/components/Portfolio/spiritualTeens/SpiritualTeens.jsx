@@ -1,20 +1,15 @@
 import React from "react";
-import MainPageSection from "./WebDesign/cookijar/MainPageSection";
-import Marque from "./WebDesign/cookijar/MarqueSection";
-import ChallengeSection from "./WebDesign/cookijar/ChallengeSection";
-import SolutionSection from "./WebDesign/cookijar/SolutionSection";
+import MainPageSection from "./MainPageSection";
+import ChallengeSection from "./ChallengeSection"
+import SolutionSection from "./SolutionSection";
 
-
-const CookiJar = () => {
+const SpiritualTeens = () => {
 
   return (
     <>
       <div className="main-page-space overflow-hidden">
         <MainPageSection />
       </div>
-      <section>
-        <Marque />
-      </section>
       <section className="overflow-hidden">
         <ChallengeSection />
       </section>
@@ -26,4 +21,4 @@ const CookiJar = () => {
     </>
   );
 };
-export default CookiJar;
+export default SpiritualTeens;

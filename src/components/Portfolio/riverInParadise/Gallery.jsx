@@ -13,7 +13,7 @@ import ripImage14 from "../../../assets/img/portfoliosection/rip/IMG_00 (13).jpg
 
 
 
-const IMAGES = [
+const images = [
     {
         src: ripImage2,
         thumbnail: ripImage2,
@@ -108,7 +108,7 @@ const GallerySection = ({ rowHeight }) => {
     return (
         <div className="gallery-container">
 
-        <Gallery images={IMAGES}
+        <Gallery images={images}
             enableImageSelection={false}
             enableLightbox={true}
             margin={0}

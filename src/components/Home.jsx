@@ -6,7 +6,7 @@ import PortFolioSection from "./PortFolioSection";
 import SvgIcon from "../assets/img/svg/traingle-btn.svg";
 import FormSection from "./home/FormSection";
 import VideoModal from "./VideoModal";
-import GallerySection from "./ArtDesign/riverInParadise/Gallery";
+import GallerySection from "./Portfolio/riverInParadise/Gallery";
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

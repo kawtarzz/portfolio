@@ -1,11 +1,10 @@
 import React from "react";
-import MainPageSection from "./ArtDesign/witchesWizards/MainPageSection";
-import ChallengeSection from "./ArtDesign/witchesWizards/ChallengeSection"
-import SolutionSection from "./ArtDesign/witchesWizards/SolutionSection";
-import Marque from "./WebDesign/shoptheblock/MarqueSection";
+import MainPageSection from "./MainPageSection";
+import Marque from "./MarqueSection";
+import ChallengeSection from "./ChallengeSection";
+import SolutionSection from "./SolutionSection";
 
-const WitchesWizards = () => {
-
+const RiverinParadise = () => {
   return (
     <>
       <div className="main-page-space overflow-hidden">
@@ -25,4 +24,5 @@ const WitchesWizards = () => {
     </>
   );
 };
-export default WitchesWizards;
+
+export default RiverinParadise;

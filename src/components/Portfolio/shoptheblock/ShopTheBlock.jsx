@@ -1,10 +1,10 @@
 import React from "react";
-import MainPageSection from "./ArtDesign/riverInParadise/MainPageSection";
-import Marque from "./ArtDesign/riverInParadise/MarqueSection";
-import ChallengeSection from "./ArtDesign/riverInParadise/ChallengeSection";
-import SolutionSection from "./ArtDesign/riverInParadise/SolutionSection";
+import MainPageSection from "./MainPageSection";
+import Marque from "./MarqueSection";
+import ChallengeSection from "./ChallengeSection";
+import SolutionSection from "./SolutionSection";
 
-const RiverinParadise = () => {
+const ShopTheBlock = () => {
   return (
     <>
       <div className="main-page-space overflow-hidden">
@@ -25,4 +25,4 @@ const RiverinParadise = () => {
   );
 };
 
-export default RiverinParadise;
+export default ShopTheBlock;

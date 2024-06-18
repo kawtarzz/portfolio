@@ -30,10 +30,10 @@ const SolutionSection = () => {
           <div className="position-relative">
             <div className="yellow_circle"></div>
             <h2 className="about-text" data-aos="fade-up">
-              Solution
-            </h2>
+              Results
+              </h2>
             <p className="unconventional" data-aos="fade-up">
-              After a couple iterations of the storyboard, we landed on a treatment that lay between the literal and abstract options presented to the client. Keeping the story straight-forward with a little exaggerated humor in the service's amount of candy delivered to our main character. I highlighted the pink in their branding throughout the frames which gave us a consistent, clean style with enough whimsy to demonstrate the fun service being advertised.
+              <p>Coming soon</p>
             </p>
             <div className="solution-half-circle">
               <img

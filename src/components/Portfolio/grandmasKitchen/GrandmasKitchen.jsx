@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
-import MainPageSection from "./ArtDesign/normalcoffee/MainPageSection";
-import Marque from "./ArtDesign/normalcoffee/MarqueSection";
-import ChallengeSection from "./ArtDesign/normalcoffee/ChallengeSection";
-import SolutionSection from "./ArtDesign/normalcoffee/SolutionSection";
-import Loader from "./home/Loader";
+import MainPageSection from "./MainPageSection";
+import Marque from "./MarqueSection";
+import ChallengeSection from "./ChallengeSection";
+import SolutionSection from "./SolutionSection";
+import Loader from "../../home/Loader";
 
-const NormalCoffee = () => {
+
+const GrandmasKitchen = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     setTimeout(() => setLoading(false), 2000);
@@ -32,4 +33,8 @@ const NormalCoffee = () => {
     </>
   );
 };
-export default NormalCoffee;
+export default GrandmasKitchen;
+
+
+
+  
