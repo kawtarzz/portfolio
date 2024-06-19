@@ -66,7 +66,7 @@ const MainPageSection = () => {
             Candy Cart
             </h1>
             <p className="design_text project-second-main-text">
-              Candy Cart is a project that I worked on during my time at the School of Motion. The project was to create a brand identity for a new mobile delivery. I was responsible for developing the art direction, illustrating the storyboard and finalizing the style frames. The project was a great opportunity for me to showcase my skills as an illustrator and art director.
+              Brand identity & illustration for a Motion Graphics video promoting a new mobile delivery service called, Candy Cart! I was responsible for developing the storyboard based on a provided script, art direction, and illustrated style frames. The project was a great opportunity for me to showcase my skills as an illustrator for motion graphics projects.
             </p>
             <hr />
 

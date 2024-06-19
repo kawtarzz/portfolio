@@ -51,8 +51,7 @@ const ChallengeSection = () => {
                     <h3>
                       Client goals for this project:
                     </h3>
-                    <li> Create style frames and assets in preparation
-                      for an animated video that would be used to promote a witch & wizard themed summer camp for adults.</li>
+             
                     <li>
                       Set the concept & style that evokes an eerie, yet lighthearted mood. Feel free to include some mischief, but the overall ton should be fun and avoid sinister undertones.
                     </li>

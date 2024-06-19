@@ -15,19 +15,16 @@ import "./styles/news.css";
 import "./styles/style.css";
 import CookiJar from "./components/Portfolio/cookijar/CookiJar.jsx";
 import ShopTheBlock from "./components/Portfolio/shoptheblock/ShopTheBlock.jsx";
-import NormalCoffee from "./components/Portfolio/normalcoffee/NormalCoffee.jsx";
 import CandyCart from "./components/Portfolio/candyCart/CandyCart.jsx";
 import WitchesWizards from "./components/Portfolio/witchesWizards/WitchesWizards.jsx"
 import MenuSection from "./components/MenuSection.jsx";
 import FooterSection from "./components/FooterSection.jsx";
 import MinMenuSection from "./components/MinMenuSection.jsx";
 import Loader from "./components/home/Loader";
-import GrandmasKitchen from "./components/Portfolio/grandmasKitchen/GrandmasKitchen.jsx";
 import PortfolioSection from "./components/PortFolioSection.jsx";
 import RiverinParadise from "./components/Portfolio/riverInParadise/RiverinParadise.jsx";
 import PetalPushr from "./components/Portfolio/petalPushr/PetalPushr.jsx";
 import RocketMortgage from "./components/Portfolio/rocketMortgage/RocketMortgage.jsx";
-import SpiritualTeens from "./components/Portfolio/spiritualTeens/SpiritualTeens.jsx";
 
 
 
@@ -123,19 +120,13 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/projects/cookijar" element={<CookiJar />} />
             <Route path="/projects/shoptheblock" element={<ShopTheBlock />} />
-            <Route path="/projects/normalcoffee" element={<NormalCoffee />} />
-            <Route path="/projects/candycart" element={<CandyCart />} />
-            <Route path="/projects/witcheswizards" element={<WitchesWizards />} />
-            <Route path="/projects/grandmasKitchen" element={<GrandmasKitchen />} />
             <Route path="/projects" element={
               <PortfolioSection />} />
             <Route path="/projects/riverinparadise" element={<RiverinParadise />} />
+            <Route path="/projects/candycart" element={<CandyCart />} />
+            <Route path="/projects/witcheswizards" element={<WitchesWizards />} />
             <Route path="/projects/petalpushr" element={<PetalPushr />} />
             <Route path="/projects/rocketmortgage" element={<RocketMortgage />} />
-            <Route path="/projects/spiritualteens" element={<SpiritualTeens />} />
-
-            
-
           </Routes>
           <AnimCursor />
           <div className="dark-light-main">
@@ -157,7 +148,6 @@ function App() {
           </button>
           <FooterSection />
         </div>
-
       </div>
     </>
   );
