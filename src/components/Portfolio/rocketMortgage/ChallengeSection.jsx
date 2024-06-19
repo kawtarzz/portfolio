@@ -3,6 +3,7 @@ import BlackDotSvg from "../../../assets/img/svg/black-dots.svg";
 import YellowSquare from "../../../assets/img/svg/yellow-square-frame.svg";
 import YellowFrameSvg from "../../../assets/img/svg/traingle-yellow-frame.svg";
 import BlackFrameSvg from "../../../assets/img/svg/traingle-black-frame.svg";
+import Image01 from "../../../assets/img/portfoliosection/rocketMortgage/endzone.png";
 
 
 const ChallengeSection = () =>
@@ -14,7 +15,9 @@ const ChallengeSection = () =>
             <div className="challenge-spacer">
               <div className="position-relative">
                 <div className="yellow_circle"></div>
-               
+                <h2 className="about-text" data-aos="fade-up">
+                  Art Direction
+                </h2>
                 <div className="challenge-dots-square">
                   <img
                     className="challenge-black-dots"
@@ -28,10 +31,10 @@ const ChallengeSection = () =>
                   />
                 </div>
               </div>
-                 <h3 className="client">
-                   This section is under construction. Please check back later.
-                  </h3>
+            
+            
               <div className="row challenge-box">
+                  <img className="project_img1" src={Image01} alt="rocket-mortgage" />
                 <div className="col-xl-6" data-aos="fade-up">
                   <div className="skill-list">
                   </div>
