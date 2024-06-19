@@ -120,8 +120,7 @@ const AboutSection = () => {
                 <div className="badge">
                   <ul className="slideshow2">
                     <li>
-                      <span className="img-bg-slide">
-                        Image 01</span>
+                      <span className="img-bg-slide">Image 01</span>
                     </li>
                     <li>
                       <span className="img-bg-slide">Image 02</span>

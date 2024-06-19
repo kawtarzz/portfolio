@@ -168,11 +168,12 @@ ul {
 
 .project_img1 {
     position: relative;
-    margin: auto;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: 20px;
+    padding-right:20px;
+    margin: 0 auto;
 }
 
 .rotate-180 {
@@ -1192,21 +1193,21 @@ svg {
 }
 
 .slideshow2 li:nth-child(1) .img-bg-slide {
-    background-image: url('../assets/img/headshot-kawtar.jpeg');
+    background-image: url('../assets/img/about/headshot-kawtar.jpeg');
 }
 
 .slideshow2 li:nth-child(2) .img-bg-slide {
-    background-image: url('../assets/img/Kawtar-02.JPEG');
+    background-image: url('../assets/img/about/Kawtar-02.JPEG');
     animation-delay: 5s;
 }
 
 .slideshow2 li:nth-child(3) .img-bg-slide {
-    background-image: url('../assets/img/kawtar-03.png');
+    background-image: url('../assets/img/about/kawtar-03.png');
     animation-delay: 10s;
 }
 
 .slideshow2 li:nth-child(4) .img-bg-slide {
-    background-image: url('../assets/img/kawtar-04.jpg');
+    background-image: url('../assets/img/about/kawtar-04.jpg');
     animation-delay: 15s;
 }
 
