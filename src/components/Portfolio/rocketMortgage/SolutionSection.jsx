@@ -5,7 +5,9 @@ import HalfCircleBlack from "../../../assets/img/svg/black-half-circal.svg";
 import HalfCircleYellow from "../../../assets/img/svg/yellow-half-circle.svg";
 import heartSvg from "../../../assets/img/svg/heart-line.svg";
 import heartSvgActive from "../../../assets/img/svg/heart-fill.svg";
-
+import Image01 from "../../../assets/img/portfoliosection/rocketMortgage/EZ+01.gif";
+import Image02 from "../../../assets/img/portfoliosection/rocketMortgage/EZ+02_1.gif";
+import Image03 from "../../../assets/img/portfoliosection/rocketMortgage/EZ+03_1.gif";
 
 const SolutionSection = () => {
   const [likeCount, setLikeCount] = useState(8); // Initial like count
@@ -28,13 +30,42 @@ const SolutionSection = () => {
       <div className="container">
         <div className="solution-spacer">
           <div className="position-relative">
+            <h2 className="about-text">
+              Art Direction
+            </h2>
             <div className="yellow_circle"></div>
-            <h2 className="about-text" data-aos="fade-up">
-              Results
-              </h2>
-            <p className="unconventional" data-aos="fade-up">
-              <p>Coming soon</p>
+          
+              <div className="flex-grid">
+                <img
+                  className="col "
+                  src={Image01}
+                  alt="End Zone"
+                />
+                <img
+                  className="col"
+                  src={Image02}
+                  alt="End Zone"
+                />
+                <img
+                  className="col"
+                  src={Image03}
+                  alt="End Zone"
+                />
+              </div>
+              </div>
+              <hr />
+<div className="unconventional" data-aos="fade-up">
+            <h2 className="client" data-aos="fade-up"> <i> End Zone</i>
+            </h2>
+              <p>
+              End Zone was a social media campaign that was created to support Rocket Mortgage's partner campaign with NCAA Football.
+                With the news of EA Sports reviving the NCAA Football video game franchise, we seized the opportunity to create a campaign inspired by the classic 8-bit arcade game aesthetic. 
+                The campaign would engage with an older demographic of fans who grew up playing arcade games and connect with a younger demographic who are fans of the retro aesthetic. 
             </p>
+            <br />
+            <i> details to come....</i>
+            </div>
+   
             <div className="solution-half-circle">
               <img
                 className="half-circle-yellow-solution"
@@ -120,7 +151,6 @@ const SolutionSection = () => {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 };
