@@ -7,7 +7,7 @@ import { JobTitle } from "./JobTitle";
 export default function MainPageSection() {
   const myName = (
     <>
-    <div className="hello-box quicksand-heading">
+    <div className="hello-box">
       <span className="single-text hello-text">K</span>
       <span className="single-text hello-text">A</span>
       <span className="single-text hello-text">W</span>

@@ -10,12 +10,6 @@ const PortfolioSection = () => {
     <>
       <div className="all-page-border2">
         <div className="spacer">
-
-          <div className="content_box">
-            <GallerySection />
-          </div>
-        </div>
-        <div className="spacer">
           <div className="yellow_circle"></div>
           <h2 className="about-text" data-aos="fade-up">
             Portfolio
@@ -25,6 +19,12 @@ const PortfolioSection = () => {
       <div className="content_box">
         <ArtDesign />
       </div>
+        <div className="spacer">
+
+          <div className="content_box">
+            <GallerySection />
+          </div>
+        </div>
 
     </>
   );
