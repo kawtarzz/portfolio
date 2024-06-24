@@ -76,10 +76,6 @@
     height: 300px;
 }
 
-body.dark-mode .marquee-bg {
-    background-image: url(../assets/img/resume-bg-img.png);
-}
-
 .client-marquee-txt {
     color: hotpink;
     font-size: 20px;

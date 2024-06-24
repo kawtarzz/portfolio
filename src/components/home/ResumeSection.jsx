@@ -15,7 +15,7 @@ const ResumeSection = () => {
   return (
     <>
       <div className="all-page-border2">
-        <div className="all-page-border2 portfolio-bg">
+        <div className="all-page-border2">
           <div className="services-spacer">
             <h1 className="page-heading quicksand-heading" data-aos="fade-up">
               Resume
