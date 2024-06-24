@@ -3,8 +3,6 @@ import ripImage2 from "../../../assets/img/portfoliosection/rip/IMG_00 (14).jpg"
 import ripImage3 from "../../../assets/img/portfoliosection/rip/IMG_00 (2).jpg";
 import ripImage4 from "../../../assets/img/portfoliosection/rip/IMG_00 (3).jpg";
 import ripImage6 from "../../../assets/img/portfoliosection/rip/IMG_00 (5).jpg";
-import ripImage7 from "../../../assets/img/portfoliosection/rip/IMG_00 (6).jpg";
-import ripImage8 from "../../../assets/img/portfoliosection/rip/IMG_00 (7).jpg";
 import ripImage9 from "../../../assets/img/portfoliosection/rip/IMG_00 (8).jpg";
 import ripImage11 from "../../../assets/img/portfoliosection/rip/IMG_00 (10).jpg";
 import ripImage14 from "../../../assets/img/portfoliosection/rip/IMG_00 (13).jpg";
@@ -18,6 +16,7 @@ const images = [
         thumbnailWidth: 800,
         thumbnailHeight: 530,
         isSelected: false,
+        className:"gallery-image"
         
     },
     {
@@ -26,14 +25,7 @@ const images = [
         thumbnailWidth: 800,
         thumbnailHeight: 530,
         isSelected: false,
-        
-    },
-    {
-        src: ripImage8,
-        thumbnail: ripImage8,
-        thumbnailWidth: 800,
-        thumbnailHeight: 530,
-        isSelected: false,
+        className:"gallery-image"
         
     },
     {
@@ -42,14 +34,17 @@ const images = [
         thumbnailWidth: 800,
         thumbnailHeight: 530,
         isSelected: false,
+        className:"gallery-image"
         
     },
     {
         src: ripImage2,
         thumbnail: ripImage2,
         thumbnailWidth: 800,
-        thumbnailHeight: 522,
+        thumbnailHeight: 530,
         isSelected: false,
+        className:"gallery-image"
+
     },
     {
         src: ripImage11,
@@ -57,7 +52,8 @@ const images = [
         thumbnailWidth: 800,
         thumbnailHeight: 530,
         isSelected: false,
-
+        className:"gallery-image"
+        
     },
     {
         src: ripImage9,
@@ -65,6 +61,7 @@ const images = [
         thumbnailWidth: 800,
         thumbnailHeight: 530,
         isSelected: false,
+        className:"gallery-image"
 
     },
     {
@@ -73,23 +70,22 @@ const images = [
         thumbnailWidth: 800,
         thumbnailHeight: 530,
         isSelected: false,
+        className:"gallery-image"
 
     }
 ];
 
 const GallerySection = ({ rowHeight }) => {
     return (
-        <div className="gallery-container">
 
             <Gallery images={images}
                 enableImageSelection={false}
                 enableLightbox={true}
-                margin={0}
                 backdropClosesModal={true}
                 rowHeight={rowHeight}
                 currentImageWillChange={true}
             />
-        </div>
+
     )
 }
 

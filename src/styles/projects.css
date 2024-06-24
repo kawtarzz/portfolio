@@ -71,7 +71,6 @@
 
 /************************* 3.Marquee Section CSS **************************/
 .marquee-bg {
-    background-image: url(../assets/img/resume-bg-img.png);
     background-size: cover;
     animation: resume 10s linear infinite;
     height: 300px;
