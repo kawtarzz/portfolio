@@ -34,8 +34,7 @@ const ResumeSection = () => {
               <h4 className="d-none">hidden</h4>
               <h5 className="d-none">hidden</h5>
               <p className="resume-text" data-aos="fade-up">
-                With a foundation in design principles and animation production, I hold a Bachelor of Fine Arts from the School of the Art Institute of Chicago. I've furthered this education through courses in motion design and illustration from School of Motion.
-                More recently, I completed a Full-Stack Developer Certificate from Nashville Software School, where I honed my skills in React and Dot Net full-stack software and website development.
+                With a foundation in design principles and animation production, strengthened through technical training in web development, I bring a unique perspective to every project. My diverse skill set allows me to approach challenges with a creative and analytical mindset.
               </p>
               <div className="left-line">
                 <img
@@ -98,7 +97,7 @@ const ResumeSection = () => {
               <h4 className="d-none">hidden</h4>
               <h5 className="d-none">hidden</h5>
               <p className="resume-text" data-aos="fade-up">
-              Whether crafting engaging motion graphics or developing seamless web applications, I am driven by a passion for innovation and excellence. My multifaceted expertise positions me to tackle complex challenges and contribute to dynamic, cross-functional teams effectively.
+              Whether crafting engaging motion graphics or developing seamless web applications, I am driven by a passion for innovation and excellence.
               </p>
               <div className="left-line">
                 <img
